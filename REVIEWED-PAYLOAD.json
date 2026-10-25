@@ -1,0 +1,222 @@
+{
+  "schemaVersion": 1,
+  "sourceDate": "2026-10-21T08:07:09.530Z",
+  "files": [
+    {
+      "path": "tools/privacy-guides/runtime/app.js",
+      "sha256": "8249501852b07d62206a823b4baf38885a8cf65b8e665f3f95081dd646bbed3f",
+      "bytes": 1726712
+    },
+    {
+      "path": "tools/privacy-guides/runtime/app.css",
+      "sha256": "3993283924821d44d0cdfa8522a5b96fdaa86f67056a5e082348daeac465ac63",
+      "bytes": 70621
+    },
+    {
+      "path": "tools/privacy-guides/runtime/LICENSE.txt",
+      "sha256": "b02bce463bc2c9180e3086375aa24a943651bca267d6356a44dac72f63bf2253",
+      "bytes": 1114
+    },
+    {
+      "path": "tools/privacy-guides/runtime/THIRD-PARTY-LICENSES.txt",
+      "sha256": "d08ef37b237191e1710b883b751fb7ba57910c5375ce8d5b272326a0c401a3b2",
+      "bytes": 4374
+    },
+    {
+      "path": "assets/bending-machine-tile.svg",
+      "sha256": "085c987d5d4475b59e5dd2cb4d238957fe65e105f9c2624702b4a34bc87f403c",
+      "bytes": 1228
+    },
+    {
+      "path": "assets/bt-rounder-studies-source.png",
+      "sha256": "3280f11163c8fad0dfa361b5f6838b3680d1f0c9358d19602e4cc1d8a55db930",
+      "bytes": 1410466
+    },
+    {
+      "path": "assets/bt-soft-upright-01-rounded-favicon.svg",
+      "sha256": "baaf6b959be6b9adafcc69d522725c4888b7b9c845994dc3363996c909babbc1",
+      "bytes": 1881104
+    },
+    {
+      "path": "assets/desktop-book.svg",
+      "sha256": "3bbac02b975b62e65ed8663af619c69c246d352e212966e82cfb090f999a9c90",
+      "bytes": 679
+    },
+    {
+      "path": "assets/desktop-leaf.svg",
+      "sha256": "ab0caa6afa49ac4efaca59f7382c536a99d1ff3153ceecf3d275f5590cdd3205",
+      "bytes": 652
+    },
+    {
+      "path": "assets/nav-anatomy.svg",
+      "sha256": "28a8c9e4e9b860841f7bd91fdadd71680a0e2e65bf3c54bbf4ab2a962b1bcb40",
+      "bytes": 699
+    },
+    {
+      "path": "assets/nav-mechanica.svg",
+      "sha256": "199c2ca22019bc8d7e275ec84ebe998f4494d8c207bfb6f5521047a58d2f79e2",
+      "bytes": 609
+    },
+    {
+      "path": "assets/nav-popup-panic.svg",
+      "sha256": "6b43fc4005a9ec5ae0b8a6db8c00a8e705a427bb473676f52d0537ea358d7e78",
+      "bytes": 938
+    },
+    {
+      "path": "assets/nav-tools.svg",
+      "sha256": "070d47f2cebdbb7308889cd8ca7d1ddca89228b407177ab7bf27bb377493a1e8",
+      "bytes": 447
+    },
+    {
+      "path": "assets/nav-work-grid.svg",
+      "sha256": "55dd79279b5544af49a53ebc363020cbfcf6a3841402e74d95712f1c894c9517",
+      "bytes": 368
+    },
+    {
+      "path": "assets/paper-grain.svg",
+      "sha256": "6cb27c09602238289497ecaceff286a318e49b21d647732b9c334a703d66f524",
+      "bytes": 409
+    },
+    {
+      "path": "assets/phone-menu.svg",
+      "sha256": "22f0c458791b9982df3db149bbf3f58739cac7782975496ca5e59b350dee3864",
+      "bytes": 329
+    },
+    {
+      "path": "assets/work/comic-panels-cobalt.svg",
+      "sha256": "bb5aef89b84398975314b574644e91254442f57863db3736738c4fad618f502a",
+      "bytes": 526
+    },
+    {
+      "path": "assets/work/council.svg",
+      "sha256": "6a31b036f2327f7a1531e4d08ff655a3dcbbb861fff4bf26768ef2efe8c6ef8e",
+      "bytes": 376
+    },
+    {
+      "path": "assets/work/heading-strokes.svg",
+      "sha256": "e91c697741f5930933429791bacd4a2a766706c93de4d5c8678ef544f5099574",
+      "bytes": 377
+    },
+    {
+      "path": "assets/work/movie-posters-yellow.svg",
+      "sha256": "a37209f5b76ad034c6dd0a9ef9b657b22892374b444f77670237c53244330483",
+      "bytes": 423
+    },
+    {
+      "path": "assets/work/privacy-notice.svg",
+      "sha256": "d15ea88054a8c90130566c7548ec926f918f4cd7382c7eff3964a183eeab0793",
+      "bytes": 466
+    },
+    {
+      "path": "assets/work/redactorium.svg",
+      "sha256": "8ae08528f495d6de3fa735c687308739b29d520092fa59e1c44e55c5c5666679",
+      "bytes": 407
+    },
+    {
+      "path": "explanation-annotations.js",
+      "sha256": "36b24a00e814b241a15e05c033e1b1a007924ad92825c6aad6588afd398bd42c",
+      "bytes": 21751
+    },
+    {
+      "path": "explanations.css",
+      "sha256": "f3f2640a883e1db916046f1302be51536971aa3ce4499a6150f19705c8556a1d",
+      "bytes": 19849
+    },
+    {
+      "path": "fonts/barlow-400.ttf",
+      "sha256": "a35caa4687f434d66453c1fe423d7074cfa9fd7ab80c19b0780f3862887d2fc9",
+      "bytes": 82624
+    },
+    {
+      "path": "fonts/barlow-600.ttf",
+      "sha256": "c15439e7a03af5714282ec1780ff7b0214ec6a7db96300b54928dbcd2569ca0c",
+      "bytes": 85876
+    },
+    {
+      "path": "fonts/barlow-700.ttf",
+      "sha256": "74103fd6d41bc32c63aa2e6eb3db619ddb80ce9ca1b1420d5548a23b8ee5d154",
+      "bytes": 85776
+    },
+    {
+      "path": "fonts/barlow-900.ttf",
+      "sha256": "f02915c51cf58297cb4972449f81ae3ab68a1e7a8103a89689629ff01d8b9073",
+      "bytes": 88592
+    },
+    {
+      "path": "fonts/barlow-OFL.txt",
+      "sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
+      "bytes": 4377
+    },
+    {
+      "path": "fonts/barlow-semi-condensed-700.ttf",
+      "sha256": "6098b66ce7d608dcea8c6a2eeacfdeeee5416e0e0c12a2318595d3dd8c5babef",
+      "bytes": 88644
+    },
+    {
+      "path": "fonts/barlowsemicondensed-OFL.txt",
+      "sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
+      "bytes": 4377
+    },
+    {
+      "path": "fonts/ibm-plex-mono-500.ttf",
+      "sha256": "4fc14a73ca53ba9d32fd759ae1ca1a3133326035d0dd337862b3ee1633cc156e",
+      "bytes": 129916
+    },
+    {
+      "path": "fonts/ibmplexmono-OFL.txt",
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+      "bytes": 4456
+    },
+    {
+      "path": "landing.js",
+      "sha256": "d581c9975f7af544c2d22fc8f89b4276941ade5e6ceb40ee074b9f74f1318f3d",
+      "bytes": 7920
+    },
+    {
+      "path": "styles.css",
+      "sha256": "8daa6630a0259f9948cbfdee59212d4635d5a171f894ff3db2967100f6378a45",
+      "bytes": 25571
+    },
+    {
+      "path": "tools/privacy-guides/explanations.js",
+      "sha256": "ad45ae742b1175538f75089cdff4f67b0afee321069793989c56de204b7d889f",
+      "bytes": 253
+    },
+    {
+      "path": "tools/privacy-guides/index.html",
+      "sha256": "2c0d2361a6114bfa37c99560bf41588e94eb9a286b1344ab15ad65bcc240f703",
+      "bytes": 7463
+    },
+    {
+      "path": "tools/privacy-guides/privacy-guides.css",
+      "sha256": "0fa7c6661b139765d3ee1cb30e73e05e5d2555f0c34419cf5ad1e8019c53a0fb",
+      "bytes": 637
+    },
+    {
+      "path": "vendor/README.md",
+      "sha256": "7f59d3767b293e71ae75e50c62b5f4a838b420d634b664ea2bf67269f21486a2",
+      "bytes": 1866
+    },
+    {
+      "path": "vendor/nutshell/LICENSE.txt",
+      "sha256": "5537d4d10b76b81b6e8dfd8b644480a4b1efa332fbb0cdb61126c5be781ef7b4",
+      "bytes": 6554
+    },
+    {
+      "path": "vendor/nutshell/nutshell.js",
+      "sha256": "3f13933c917b57528d2fb78fe904c92a4b7b03d4cb78c999578bd599f6c505c2",
+      "bytes": 177434
+    },
+    {
+      "path": "vendor/rough-notation/LICENSE",
+      "sha256": "e9754a00aebde654e80f40bcf41dab667d6a41dfbbd2912bcf14fb07d468bf71",
+      "bytes": 1068
+    },
+    {
+      "path": "vendor/rough-notation/rough-notation.esm.js",
+      "sha256": "af346fb8433c55a08400d4c8d3edd2083b5e5d1f78980f20cc7151cdc8379687",
+      "bytes": 10691
+    }
+  ],
+  "kind": "sanitized-public-source-snapshot"
+}

@@ -1,0 +1,11 @@
+html:has(body.guides-page-shell) { overflow-anchor: none; }
+.guides-page-shell [hidden] { display: none !important; }
+.guides-page { justify-content: flex-start; gap: 0; }
+.guides-emblem { background: var(--bt-icon-council); }
+.guides-boundary { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 8px 24px; padding: 16px 20px; margin-bottom: 24px; border-radius: 8px; background: #edf0e9; font-size: 17px; }
+.guides-boundary p { margin: 0; }
+.guides-boundary > a { white-space: normal; }
+.guides-explanations { display: none; }
+@media (max-width: 600px) {
+  .guides-boundary { padding: 16px; }
+}

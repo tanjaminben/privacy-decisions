@@ -1,0 +1,1828 @@
+{
+  "schemaVersion": 1,
+  "kind": "sanitized-public-source-snapshot",
+  "sourceState": "Exported package source; original extraction receipts are not part of this snapshot.",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 119,
+      "importedSha256": "e0b0ad40a9a3a54a095e4fd00208eecd26fe9b86042b057c859636421978224f"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 28,
+      "importedSha256": "c0838aef83f682b2c901204a6cbe4c054757ed859b9bc63eea5ba036a30c39ff"
+    },
+    {
+      "path": "assets/legacy-favicon-32.png",
+      "bytes": 2916,
+      "importedSha256": "538043480984736028324d37ef244d629f470ca76a5180cb87fe896ff8d7d67a"
+    },
+    {
+      "path": "assets/lucide-static.txt",
+      "bytes": 3208,
+      "importedSha256": "b495047bd93a9b06913511076f504daba17d5bbeb3e0650f3bb53a4220329c57"
+    },
+    {
+      "path": "content/README.md",
+      "bytes": 5823,
+      "importedSha256": "927c7e6d7c5cac62d56415631e5563ecc9d403a43e59a3edc436fa8b2c3703bb"
+    },
+    {
+      "path": "content/registry.json",
+      "bytes": 1163,
+      "importedSha256": "f67fcf6089556b4bb5a9bc10c7eb6732f17649cc0114e91bcfee7db55bfe0f5c"
+    },
+    {
+      "path": "content/sources/eu/bdsg-38.json",
+      "bytes": 2592,
+      "importedSha256": "b17165c8d852994dbeda81329671e39da93ce80c8b9d945c5a989b210e611e49"
+    },
+    {
+      "path": "content/sources/eu/case-breyer.json",
+      "bytes": 1326,
+      "importedSha256": "8db077fa0fc364522cf4ee83c15c39eb9050d8f208d2a8c390ed9a43b5e1387a"
+    },
+    {
+      "path": "content/sources/eu/case-cnil-google-cookies.json",
+      "bytes": 1447,
+      "importedSha256": "f53a8d7a8a93b66c4844532bff0097f535a8db22b84fa32666ea00d23fe49efd"
+    },
+    {
+      "path": "content/sources/eu/case-dun-bradstreet.json",
+      "bytes": 2535,
+      "importedSha256": "2aeed576b14a7e48841b2c5beaf116a683a0d1f3e813b2ecaf82499d5e227bbf"
+    },
+    {
+      "path": "content/sources/eu/case-fashion-id.json",
+      "bytes": 1768,
+      "importedSha256": "e59078b218d8635650052ec01598eb9e860deaab17f84c216487a3476b31076b"
+    },
+    {
+      "path": "content/sources/eu/case-google-spain.json",
+      "bytes": 1481,
+      "importedSha256": "e489065096b68efbd3a595942dbe3f82eae628072beab6cff95ca5cd1a23f3b7"
+    },
+    {
+      "path": "content/sources/eu/case-iab-tcf.json",
+      "bytes": 1423,
+      "importedSha256": "d75f0070359442643cf3545e7815a1e3abb10590124596274752d4e259a3b65e"
+    },
+    {
+      "path": "content/sources/eu/case-knltb.json",
+      "bytes": 1976,
+      "importedSha256": "6b9d819cca50d307cb83d0be1e9adc30c6bbb075a95c20db6c59d886b8f73fee"
+    },
+    {
+      "path": "content/sources/eu/case-meta-bka.json",
+      "bytes": 2282,
+      "importedSha256": "3a31001129c116347b04a62c8213407a4b3f827e04f5165dcc3fc2c27ee8e129"
+    },
+    {
+      "path": "content/sources/eu/case-ot-c184-20.json",
+      "bytes": 3542,
+      "importedSha256": "5cb724f60d0df591a445eb648fb5dcc100fae4f8fb5f094d67c91011cac6cc7c"
+    },
+    {
+      "path": "content/sources/eu/case-planet49.json",
+      "bytes": 1503,
+      "importedSha256": "470966ab38c776f111789c741d082cf39f65dcb1e52dead8b9d5fe0efe36a456"
+    },
+    {
+      "path": "content/sources/eu/case-schrems-i.json",
+      "bytes": 1218,
+      "importedSha256": "2b3d8af28854c46b5c35989b5f00766878d59abb52b77e537cd62c2643134b55"
+    },
+    {
+      "path": "content/sources/eu/case-schrems-ii.json",
+      "bytes": 1980,
+      "importedSha256": "535023be173b58e3f21d86c5976dbbec9cbaa14136f0aabde05578780a708fd7"
+    },
+    {
+      "path": "content/sources/eu/case-schufa.json",
+      "bytes": 1570,
+      "importedSha256": "d532466558cf197b0e9c10cd5764d13bf21dda5f276d847aaa2151d47a623a23"
+    },
+    {
+      "path": "content/sources/eu/case-vb-nap.json",
+      "bytes": 1654,
+      "importedSha256": "10051f34fd3ec6a115feabba3e7d3c86e948921f1fe3faf1a5064756364da0ee"
+    },
+    {
+      "path": "content/sources/eu/case-x-fab.json",
+      "bytes": 1488,
+      "importedSha256": "6eba6b1882aee3f7f4ef385eae83a83afa742c0858ffb3529054a69dc2eb0320"
+    },
+    {
+      "path": "content/sources/eu/dsa-art-28.json",
+      "bytes": 1452,
+      "importedSha256": "095f556b8ddac9031a115a70e7cf3d3b30b7e2ee6ad0f900b49caf65e2a939c5"
+    },
+    {
+      "path": "content/sources/eu/enisa-severity-2013.json",
+      "bytes": 1521,
+      "importedSha256": "6f778455def82ba19a0f819724557cf7a3c9c779d3c719a53da351064617cc89"
+    },
+    {
+      "path": "content/sources/eu/eprivacy-art-5.json",
+      "bytes": 1448,
+      "importedSha256": "3b11908847dca65bc577381f71e568b5594cdf6ba4fa63cf8784f6cd2e347288"
+    },
+    {
+      "path": "content/sources/eu/eu-ai-act-annex-iii.json",
+      "bytes": 8478,
+      "importedSha256": "e1c7d28f2caf3f050c18354ccc5ecadee242a05da96b897540b42e338e9c0467"
+    },
+    {
+      "path": "content/sources/eu/eu-ai-act-art-111.json",
+      "bytes": 2116,
+      "importedSha256": "8d4d5f6cc75059f588b2f32244bb6dbdc3b589a1d59807b1da549899b40513df"
+    },
+    {
+      "path": "content/sources/eu/eu-ai-act-art-113.json",
+      "bytes": 2149,
+      "importedSha256": "7c1ba2cf45f618342d56378a184ab101399e7f7c05bba0f80bee51cce240c6e6"
+    },
+    {
+      "path": "content/sources/eu/eu-ai-act-art-16.json",
+      "bytes": 1958,
+      "importedSha256": "2809d903851a160059633e13fea5d8fa04cd07786a64a380e7461f234b2a440f"
+    },
+    {
+      "path": "content/sources/eu/eu-ai-act-art-2.json",
+      "bytes": 3080,
+      "importedSha256": "aebd0516404f936c698da70f708cb500930d89e9f52fa27b6af28389ae98f90c"
+    },
+    {
+      "path": "content/sources/eu/eu-ai-act-art-22.json",
+      "bytes": 2678,
+      "importedSha256": "2201e1d9ef56e565b02f15250882fd5445cfa39f4a0255482bc6dc325172ddb4"
+    },
+    {
+      "path": "content/sources/eu/eu-ai-act-art-23.json",
+      "bytes": 2387,
+      "importedSha256": "a522a23cb59a2a65ae44b778d629e5934ac3ef7421cf7c2c394c44e1027eafd6"
+    },
+    {
+      "path": "content/sources/eu/eu-ai-act-art-24.json",
+      "bytes": 2281,
+      "importedSha256": "94b129515d7d93c5ff0129ca793e44e1911e4801064126a354f2a72ab571c9a0"
+    },
+    {
+      "path": "content/sources/eu/eu-ai-act-art-25.json",
+      "bytes": 3937,
+      "importedSha256": "d4d31727b291129639456fce38b9adc35eee23d62217ba57a15d357349b867a0"
+    },
+    {
+      "path": "content/sources/eu/eu-ai-act-art-26.json",
+      "bytes": 2720,
+      "importedSha256": "e069d0eb754f04bfe7d5c9cffb68b4fbfbc4872a615072992fb02a183b03ece1"
+    },
+    {
+      "path": "content/sources/eu/eu-ai-act-art-27.json",
+      "bytes": 2060,
+      "importedSha256": "e5776e577bc2bff9d69432a66e2a1cf205b1d29f38216f9d34470025b3fa8a4e"
+    },
+    {
+      "path": "content/sources/eu/eu-ai-act-art-3-roles.json",
+      "bytes": 3378,
+      "importedSha256": "46b00311a7a7249a33a5548b706ef478e9c3318f6c5280baf45e14dbfc41ede8"
+    },
+    {
+      "path": "content/sources/eu/eu-ai-act-art-49.json",
+      "bytes": 1755,
+      "importedSha256": "02af315a08a08d946caf2b25359fd7ebc9de74bb661fc150a67e141e046faa43"
+    },
+    {
+      "path": "content/sources/eu/eu-ai-act-art-5.json",
+      "bytes": 4861,
+      "importedSha256": "41823282444f79b28913e776ebbc95678dc43030adbaf7f30146ae3359b939c4"
+    },
+    {
+      "path": "content/sources/eu/eu-ai-act-art-50.json",
+      "bytes": 2979,
+      "importedSha256": "1b3044a6fdb1c85ddaedb70f931e48aaee876435a40c73031e18c62127379721"
+    },
+    {
+      "path": "content/sources/eu/eu-ai-act-art-6.json",
+      "bytes": 3577,
+      "importedSha256": "d3da283aeb1d78a41fba33cc33d72e71cc7a8dcbe04cdd79cbc2cefa61c4d831"
+    },
+    {
+      "path": "content/sources/eu/eu-ai-act-art-99.json",
+      "bytes": 2370,
+      "importedSha256": "d5de3ba8feebfab80d0f6e46421fd516dfe89593d7a1262daa103b5bc93a8f39"
+    },
+    {
+      "path": "content/sources/eu/eu-ai-act-ch5-gpai.json",
+      "bytes": 3400,
+      "importedSha256": "7bc20c93d7a4e2a0048060707eb639be3f28aaf351e1cbeb15609347ca96ce9d"
+    },
+    {
+      "path": "content/sources/eu/eu-ai-act-omnibus-2026.json",
+      "bytes": 3198,
+      "importedSha256": "9404064a48e9c79599b7907a9e305f96d96cccb13b8457e36758286d65b8c0aa"
+    },
+    {
+      "path": "content/sources/eu/gdpr-art-13.json",
+      "bytes": 3898,
+      "importedSha256": "f2ed214b43af0b2b9ce996121fd4649480b2984ccf7c0a3eef58fd25afd9fd7e"
+    },
+    {
+      "path": "content/sources/eu/gdpr-art-15.json",
+      "bytes": 2227,
+      "importedSha256": "2eb0eb5f5fc5cdaffffca92c0ce49bf2559ff3f068e9b72df9c1eabb9692d486"
+    },
+    {
+      "path": "content/sources/eu/gdpr-art-16.json",
+      "bytes": 871,
+      "importedSha256": "0a9bd7e300cdda1d0ea6824ec699781ae1c61d95190ee77193140221b0458fd5"
+    },
+    {
+      "path": "content/sources/eu/gdpr-art-17.json",
+      "bytes": 2218,
+      "importedSha256": "3e16c791654b6c016f00c986edd0de5e1409f4ff0a0dcf3b3b3162864296905c"
+    },
+    {
+      "path": "content/sources/eu/gdpr-art-20.json",
+      "bytes": 1759,
+      "importedSha256": "60ac498d1fd206124b53c0b42c024eafa2b0f95b59d6d4cac3067d52468eca83"
+    },
+    {
+      "path": "content/sources/eu/gdpr-art-21.json",
+      "bytes": 2395,
+      "importedSha256": "8acd4975e51b4c4507aee9692ed41734a9d1b92291b9383e9e11a7f09c86e350"
+    },
+    {
+      "path": "content/sources/eu/gdpr-art-22.json",
+      "bytes": 1933,
+      "importedSha256": "9233f767626e1b6337143f959d41ae77a7d4e94abfbd3d52a34f131c4da90756"
+    },
+    {
+      "path": "content/sources/eu/gdpr-art-24.json",
+      "bytes": 1484,
+      "importedSha256": "b8cb66929b7610e502a714350a246d4e96483d3db8395544d86eb9b767592f48"
+    },
+    {
+      "path": "content/sources/eu/gdpr-art-26.json",
+      "bytes": 1736,
+      "importedSha256": "1382b4252df3776429159ee4ef627ec42080cfe1befdfd69c2f0d39dc553d619"
+    },
+    {
+      "path": "content/sources/eu/gdpr-art-28.json",
+      "bytes": 5319,
+      "importedSha256": "34862dd24654bb6948367c57cd3ff84f5eea496939442d0fb703b34e274465b4"
+    },
+    {
+      "path": "content/sources/eu/gdpr-art-30.json",
+      "bytes": 2329,
+      "importedSha256": "365fc61514c06eedbec95b0e525acafddc121c2fd0c7bfb6c71dc1bfba35f670"
+    },
+    {
+      "path": "content/sources/eu/gdpr-art-32.json",
+      "bytes": 1365,
+      "importedSha256": "4ac8565009c32e16a64b8e982e8c95e389193816d6e9c224143dcfcda7870e52"
+    },
+    {
+      "path": "content/sources/eu/gdpr-art-33.json",
+      "bytes": 2383,
+      "importedSha256": "80ccb7047ea9ccf87d23b6bc52eb1ba7f887b15d8664baf3ba4bb7593fdda552"
+    },
+    {
+      "path": "content/sources/eu/gdpr-art-34.json",
+      "bytes": 2255,
+      "importedSha256": "400bf2f5b5ac05796688aaa9bceaf00816d5dccedca4f8920b4d8779bde33166"
+    },
+    {
+      "path": "content/sources/eu/gdpr-art-35.json",
+      "bytes": 4489,
+      "importedSha256": "f673ad61a29548be963c9ca961da703877090274d8f90e3bffe02f1b90d3bcb5"
+    },
+    {
+      "path": "content/sources/eu/gdpr-art-36.json",
+      "bytes": 3460,
+      "importedSha256": "2b337e9ac4a86c4db77f7b0132653260a209c9614df21b6ad03f91496f38f662"
+    },
+    {
+      "path": "content/sources/eu/gdpr-art-37.json",
+      "bytes": 2721,
+      "importedSha256": "399708e202c9672f5e5630e0caadfce838c63cd526837f75eb592a9badf3ab84"
+    },
+    {
+      "path": "content/sources/eu/gdpr-art-38.json",
+      "bytes": 2161,
+      "importedSha256": "ac69974713218599fccf268bbe05574472eaaab36151a338f5da566f624dc90b"
+    },
+    {
+      "path": "content/sources/eu/gdpr-art-4.json",
+      "bytes": 2665,
+      "importedSha256": "528736a7724bf8a4f9c061bbe0c1b92ebe65c6c7cb4e444c2408ffdc2a1db067"
+    },
+    {
+      "path": "content/sources/eu/gdpr-art-44.json",
+      "bytes": 954,
+      "importedSha256": "0751a0a8dda0d427f2bc81aa6bcab2112e6ff43171ed4c0811c19036c7954a5b"
+    },
+    {
+      "path": "content/sources/eu/gdpr-art-45.json",
+      "bytes": 1151,
+      "importedSha256": "8434aee2b6132325c5cbe01f27b249ee960b4fee5e42448b7130901fdcbd123e"
+    },
+    {
+      "path": "content/sources/eu/gdpr-art-46.json",
+      "bytes": 1779,
+      "importedSha256": "0831e91e4d0ef6d859968c07836c8acc067db3afb71458534a7f062ef9cea4e2"
+    },
+    {
+      "path": "content/sources/eu/gdpr-art-48.json",
+      "bytes": 1046,
+      "importedSha256": "8ce1cfd3fc15a92c93f5b2d18392940a81c54d53e6c0ba9a5e7fe2cd12c577bf"
+    },
+    {
+      "path": "content/sources/eu/gdpr-art-49.json",
+      "bytes": 2537,
+      "importedSha256": "3b8a84b7a6b7838772ac8273cb82050859444dfa52ef6498eb85c8f62866c47b"
+    },
+    {
+      "path": "content/sources/eu/gdpr-art-5.json",
+      "bytes": 2603,
+      "importedSha256": "77fa1929f93cd481b579fbde5b420eae27bf0de9ddd22ea286c2885300e37e60"
+    },
+    {
+      "path": "content/sources/eu/gdpr-art-6-3.json",
+      "bytes": 2213,
+      "importedSha256": "724ab32ef41ae0b2cbdf515bef8468c419976519e7311a3b1edb07d1e912cb9f"
+    },
+    {
+      "path": "content/sources/eu/gdpr-art-6.json",
+      "bytes": 1961,
+      "importedSha256": "7e702bf692a1f85818a28df24a8e43fa1742a9bf29db14f4790f5b9ff1b77f1a"
+    },
+    {
+      "path": "content/sources/eu/gdpr-art-8.json",
+      "bytes": 1542,
+      "importedSha256": "908f3dff67f9cf54b2496f272be0d8a7953f86d3e6a7987173ddd048e479bad6"
+    },
+    {
+      "path": "content/sources/eu/gdpr-art-82.json",
+      "bytes": 2321,
+      "importedSha256": "b372cdc646a81f669e4c4de1e0798bef062a11c790f7f577630dcbd57005ecae"
+    },
+    {
+      "path": "content/sources/eu/gdpr-art-89.json",
+      "bytes": 2641,
+      "importedSha256": "7850707717a920938d8d8cece9b27fca15c5ef7afa78e5731661c710e633d343"
+    },
+    {
+      "path": "content/sources/eu/gdpr-art-9.json",
+      "bytes": 2854,
+      "importedSha256": "ee8331ee07ff804981b19db2367749e706d44554ff7ac716065670896f5bf854"
+    },
+    {
+      "path": "content/sources/eu/gdpr-recitals-75-76.json",
+      "bytes": 2300,
+      "importedSha256": "8d2c2df8f2a1b42549f5606bf3072cc9401787a1bca63d047003d25f5d37d7b2"
+    },
+    {
+      "path": "content/sources/eu/guide-edpb-01-2022-access.json",
+      "bytes": 1860,
+      "importedSha256": "e2bb85bc7424a105a38d8677198863831efcc63a9205a498fc57acf4c96fe5fb"
+    },
+    {
+      "path": "content/sources/eu/guide-edpb-07-2020-controller.json",
+      "bytes": 3167,
+      "importedSha256": "e7413cb27c9b8dfb86ff302587485bb1454b549656c53319b22f006e27a95570"
+    },
+    {
+      "path": "content/sources/eu/guide-edpb-1-2024.json",
+      "bytes": 2397,
+      "importedSha256": "d5bce31fbe0a4395710cbe70843833f40f1bc0dba857a8aec6ce14ebf9b3adf9"
+    },
+    {
+      "path": "content/sources/eu/guide-edpb-2-2019-art-6-1-b.json",
+      "bytes": 1619,
+      "importedSha256": "b7c0d66653a0831c0ddbcdcdfeba291bdf804a34ab21556ac6530bdcd4b63fda"
+    },
+    {
+      "path": "content/sources/eu/guide-edpb-2-2023-eprivacy.json",
+      "bytes": 1862,
+      "importedSha256": "d8c0ccb2734c6a6f42eebb82f780943003912626b340a2c0ea443b08fbec7911"
+    },
+    {
+      "path": "content/sources/eu/guide-edpb-3-2019-video.json",
+      "bytes": 1703,
+      "importedSha256": "7c0bc5ef20e05ab9b4f8287bd352254686c4d1d8138fddb0b81b34bb433242c8"
+    },
+    {
+      "path": "content/sources/eu/guide-edpb-9-2022-breach.json",
+      "bytes": 2665,
+      "importedSha256": "8447bf1bddee5fd6b253d7b885183afef2d46779246da9cc48e55ce45c2760a8"
+    },
+    {
+      "path": "content/sources/eu/guide-edpb-gl-05-2021.json",
+      "bytes": 3048,
+      "importedSha256": "e612a178f705d8ab05033b4098d48b7254230cacd7ea6508b2893cd56dfd3add"
+    },
+    {
+      "path": "content/sources/eu/guide-edpb-rec-01-2020.json",
+      "bytes": 2109,
+      "importedSha256": "2e598e1a12aa2c11c246f59887f149b8aa6467b720503eaa7bcb3807a58f5096"
+    },
+    {
+      "path": "content/sources/eu/guide-wp29-wp243-dpo.json",
+      "bytes": 1773,
+      "importedSha256": "53a5ca32e5e95ca6fd5ec06694aa8685b31906e785ea312dd9d74038b342ba3d"
+    },
+    {
+      "path": "content/sources/eu/guide-wp29-wp248-dpia.json",
+      "bytes": 1839,
+      "importedSha256": "ca15a980ac23c77b761f9480e2b81d6540307a83bc4ca19b68428c6528b1c97a"
+    },
+    {
+      "path": "content/sources/eu/guide-wp29-wp251-adm.json",
+      "bytes": 1886,
+      "importedSha256": "7cc82eae4341791d7a79b351d9af79494995bddf8ac4b73d53b2c2603b5a092b"
+    },
+    {
+      "path": "content/sources/eu/wp29-pp-art30-5.json",
+      "bytes": 2839,
+      "importedSha256": "085c01c1dba5fde90e7d0af26dbb01c0bff699b4fa3d0a63327c7eb4ab65329d"
+    },
+    {
+      "path": "content/sources/eu/wp29-wp194.json",
+      "bytes": 3305,
+      "importedSha256": "148cba6ab783fa808f640c00329e48793e0ad7fd29b849faa8734b08b6f1f0dd"
+    },
+    {
+      "path": "content/sources/intl/std-iso-27005.json",
+      "bytes": 961,
+      "importedSha256": "7956442fce02aaf5288c44f65c83094691572bbce933aa5a05f698718579c64a"
+    },
+    {
+      "path": "content/sources/uk/guide-ico-adm.json",
+      "bytes": 2208,
+      "importedSha256": "6487fe860801ce85c297e6b034f0bfc464dde7b404897f82d6ea56c5c4a9c6c0"
+    },
+    {
+      "path": "content/sources/uk/guide-ico-biometric.json",
+      "bytes": 2802,
+      "importedSha256": "fd8a7754f6ce8a9662541169afaa3964a540064121083b9b3b0585eef30d821f"
+    },
+    {
+      "path": "content/sources/uk/guide-ico-controllers-processors.json",
+      "bytes": 2528,
+      "importedSha256": "aed15a32857c09d312a9c9b02ee2f13b35d1445f56ebf0442254b1b76449d589"
+    },
+    {
+      "path": "content/sources/uk/guide-ico-cookies.json",
+      "bytes": 3066,
+      "importedSha256": "f637b609bad592c84a0d6de8918c4d556659818a6457058bba25cb3025691581"
+    },
+    {
+      "path": "content/sources/uk/guide-ico-dpia.json",
+      "bytes": 2981,
+      "importedSha256": "e3e87cd00b9f1ee09d3d3ca7cef93f3b9d6ee917db6b3121650908654c5d958e"
+    },
+    {
+      "path": "content/sources/uk/guide-ico-dpo.json",
+      "bytes": 2619,
+      "importedSha256": "8fd759b54f08946596946a065a89e38b5306b6993225a4cfe186ade8180ee69c"
+    },
+    {
+      "path": "content/sources/uk/guide-ico-lawful-basis.json",
+      "bytes": 3266,
+      "importedSha256": "02a4b7351be05383df944ad444f62cffac46f67a1f56eae003aa4bd5874b0fd2"
+    },
+    {
+      "path": "content/sources/uk/guide-ico-right-of-access.json",
+      "bytes": 2180,
+      "importedSha256": "a2aa244a413e6ad12a021555748710a2f43857b4c885eb0a5a3dec121828b676"
+    },
+    {
+      "path": "content/sources/uk/guide-ico-tra.json",
+      "bytes": 3487,
+      "importedSha256": "78e3b8c120ba191866a3ebf9532346f7481d466997195e14a6dfac035d11782e"
+    },
+    {
+      "path": "content/sources/uk/guide-ico-video.json",
+      "bytes": 2148,
+      "importedSha256": "716d14ecc10befb48eea8fea508d478b50f5f671e43ceb095393d4b8da07ac6b"
+    },
+    {
+      "path": "content/sources/uk/ico-aadc.json",
+      "bytes": 2804,
+      "importedSha256": "660eae351b95f21c40befe86cae6c1b469470969d08d224ed388ca69d8163ae6"
+    },
+    {
+      "path": "content/sources/uk/uk-dpa-2018-s10-sch1.json",
+      "bytes": 12004,
+      "importedSha256": "cc0a5694d599949469fb57b3a907b0e1d4acbb5d921a3ae3e7983819d1e1ecba"
+    },
+    {
+      "path": "content/sources/uk/uk-dpa-2018-s14.json",
+      "bytes": 3825,
+      "importedSha256": "34b001a263c743342f589075d2d31b92aa0ff449f5d89c70addae58d22126aa8"
+    },
+    {
+      "path": "content/sources/uk/uk-dpa-2018-s157.json",
+      "bytes": 2591,
+      "importedSha256": "df963cf24ae9d39759d73f759990a4edba4834f43f7e052a573741b4809c27d5"
+    },
+    {
+      "path": "content/sources/uk/uk-dpa-2018-s9.json",
+      "bytes": 3088,
+      "importedSha256": "8f50e3ee57a2e52ac98079710aaa4945f8b78099785fe35634db6a5fdf9a61d5"
+    },
+    {
+      "path": "content/sources/uk/uk-dpa-2018-sch2.json",
+      "bytes": 3383,
+      "importedSha256": "5be5150892b807c91c0027408a104904a3c13a748b21f575fa40c568d3e37035"
+    },
+    {
+      "path": "content/sources/uk/uk-dpa2018-s123.json",
+      "bytes": 3141,
+      "importedSha256": "7c86b55bf31679d926781d6223891b009618058179b3a591c8cb93008cd7d7c2"
+    },
+    {
+      "path": "content/sources/uk/uk-duaa-2025-sar.json",
+      "bytes": 4699,
+      "importedSha256": "53ccee1ca9f3bb7e25e8337c2a59b8bf198b9aece1052fb7bb4fa5a85059e481"
+    },
+    {
+      "path": "content/sources/uk/uk-duaa-2025.json",
+      "bytes": 17945,
+      "importedSha256": "a4a4cb6087368c0999e4d87df347fd53eeb4c1df105cdc82a2b56ff8582a472d"
+    },
+    {
+      "path": "content/sources/uk/uk-gdpr-art-22a-d.json",
+      "bytes": 4757,
+      "importedSha256": "0995f1be408d7904aad69ce62f3cf3972f4ba26c1dae9b592d0ed95e845b930b"
+    },
+    {
+      "path": "content/sources/uk/uk-gdpr-art-33.json",
+      "bytes": 2321,
+      "importedSha256": "b2c8fec3558c26d2ba783227d8e4f3325ccaf4ad155490785dc3c5ce1b88dca3"
+    },
+    {
+      "path": "content/sources/uk/uk-gdpr-art-34.json",
+      "bytes": 2280,
+      "importedSha256": "b7b72c5a74985511f334c4dadec45423b9f872f336c1f74218977fea721d4bf5"
+    },
+    {
+      "path": "content/sources/uk/uk-gdpr-art-35.json",
+      "bytes": 4410,
+      "importedSha256": "65f27bd4203bf6e7d579c58e71a05662ef3fa2893bb3b6603bb9a554d216217b"
+    },
+    {
+      "path": "content/sources/uk/uk-gdpr-art-36.json",
+      "bytes": 3721,
+      "importedSha256": "f3013dbb7ab81c035cf2efb1eb7912640541a54f2c676c901910c2e00d9c259c"
+    },
+    {
+      "path": "content/sources/uk/uk-gdpr-art-37.json",
+      "bytes": 2612,
+      "importedSha256": "9d0f22bd8598a2e765c042984d986a67f08539f56031e9ad1ed140abc11677cd"
+    },
+    {
+      "path": "content/sources/uk/uk-pecr-reg-6.json",
+      "bytes": 9149,
+      "importedSha256": "de326f3e1d45619687e1c8cc10d2db0abf8e8cf26af403d41e43a0cf8ac03f32"
+    },
+    {
+      "path": "content/sources/us-ca/ca-1798-82.json",
+      "bytes": 7268,
+      "importedSha256": "4b6b91c60ee8126bd8824beb896db50cbfd434b42d32b127f44bb3cc77c0f780"
+    },
+    {
+      "path": "content/sources/us-ca/ccpa-1798-105.json",
+      "bytes": 2112,
+      "importedSha256": "7caaa6b4a7c3ff25b9e47fd022abcf566dec1cc01b67d251c1aa597af48b44e1"
+    },
+    {
+      "path": "content/sources/us-ca/ccpa-1798-106.json",
+      "bytes": 1497,
+      "importedSha256": "0463cdfc79d1306cd857acf4d3c54d5f6409c8a3be4cbace9660db09290ca28b"
+    },
+    {
+      "path": "content/sources/us-ca/ccpa-1798-110.json",
+      "bytes": 2941,
+      "importedSha256": "260c67b930dbc00f499451c725b1cf99e09d1574a79b1ced9009173c8f11f1e5"
+    },
+    {
+      "path": "content/sources/us-ca/ccpa-1798-115.json",
+      "bytes": 2990,
+      "importedSha256": "b9f2209fe996c2bdf188be97fdad1354dff64bfa50aafb89b4c78bd692c37a02"
+    },
+    {
+      "path": "content/sources/us-ca/ccpa-1798-120.json",
+      "bytes": 1462,
+      "importedSha256": "00f3c1d9da2b10e760bdc7ae9ff21ff11c0bef640920c10de1f98d49ff8f7df2"
+    },
+    {
+      "path": "content/sources/us-ca/ccpa-1798-121.json",
+      "bytes": 3348,
+      "importedSha256": "df54422cf1ffb49977ab99349028e8645c42033942cabbf1a2bc0eab95ee7b65"
+    },
+    {
+      "path": "content/sources/us-ca/ccpa-1798-130.json",
+      "bytes": 3728,
+      "importedSha256": "1ba97e23513d4015a14b2cfb6997dd205134b62065fe2b865f3d1038d3cfd10f"
+    },
+    {
+      "path": "content/sources/us-ca/ccpa-1798-135.json",
+      "bytes": 1906,
+      "importedSha256": "4a6e0d07e4dec41ab737421e44eeb82473f090319e34b0ffc36dc6b566080429"
+    },
+    {
+      "path": "content/sources/us-ca/ccpa-1798-140.json",
+      "bytes": 3486,
+      "importedSha256": "85d460cf43f93a03cb88f6ac5d249c181e15c1fdba1911f0b896fd7adeda043f"
+    },
+    {
+      "path": "content/sources/us-ca/ccpa-1798-145.json",
+      "bytes": 2121,
+      "importedSha256": "e686378e59d631b153a1db0a484c108ff23a95996637454c3a6ec58963f285ba"
+    },
+    {
+      "path": "content/sources/us-ca/ccpa-1798-150.json",
+      "bytes": 1825,
+      "importedSha256": "f0f9c9c5e55fadf234311d40e98f154ba5915a1f0ca87daf92be27ca75e0a22d"
+    },
+    {
+      "path": "content/sources/us-ca/ccr-7025.json",
+      "bytes": 7275,
+      "importedSha256": "6a49fccf79c482bbe0e2fcd7b3c86b46b8ddf8c25ab5eb6a8e63347eac48723b"
+    },
+    {
+      "path": "content/sources/us-ca/ccr-7026.json",
+      "bytes": 6571,
+      "importedSha256": "901b0febf10aa13b617957449316145f56c7bc264f01ec0ecb92ea376584ab96"
+    },
+    {
+      "path": "content/sources/us-ca/ccr-7150.json",
+      "bytes": 7318,
+      "importedSha256": "211394ea6ec841655c38b22f4f49a06529868ca041443eefaff88106af7d7069"
+    },
+    {
+      "path": "content/sources/us-ca/ccr-threshold-adj.json",
+      "bytes": 3257,
+      "importedSha256": "399c63a07fec6c70d725bad2c8380bb814f01d79c4d6faf98233e9f70ec68759"
+    },
+    {
+      "path": "content/sources/us-ca/pwc-us-ca-duties-ads.json",
+      "bytes": 1210,
+      "importedSha256": "9565ecc67a273497eb98cd47481c4afc6e5e1718cc363c04f7e6967f43f9b0c0"
+    },
+    {
+      "path": "content/sources/us-ca/pwc-us-ca-duties-assessment.json",
+      "bytes": 1443,
+      "importedSha256": "eb90ef40078fb11ef6a1fa27c8ed24bd77e36bc0742aeab093da2461968a4f2f"
+    },
+    {
+      "path": "content/sources/us-ca/pwc-us-ca-duties-enforcement.json",
+      "bytes": 1399,
+      "importedSha256": "69bb03341ff7f43a57480b43627de046a0b0fbaacca0b773807205f7625605ca"
+    },
+    {
+      "path": "content/sources/us-ca/pwc-us-ca-duties-rights.json",
+      "bytes": 1458,
+      "importedSha256": "eff9041c7b467f1cc1b9e1119ddf1554b8047da111d668b2f8ba585368164973"
+    },
+    {
+      "path": "content/sources/us-ca/pwc-us-ca-duties-scope.json",
+      "bytes": 736,
+      "importedSha256": "11d3cf17003bca939d5a872d3be5eda12467d9e925d153be33ce21ab78cf8fb2"
+    },
+    {
+      "path": "content/sources/us-ca/pwc-us-ca-duties-sensitive.json",
+      "bytes": 1218,
+      "importedSha256": "7a2ffa43c41ca22598ef2d4df85089c7c252f20654c4bcc64803d4e687395e28"
+    },
+    {
+      "path": "content/sources/us-ca/pwc-us-ca-scope-adjustment.json",
+      "bytes": 1035,
+      "importedSha256": "53e8f84f44351195979832621d7364b870c70074b9228081c0bd0ae1cec3dd0c"
+    },
+    {
+      "path": "content/sources/us-ca/pwc-us-ca-scope-exemptions.json",
+      "bytes": 1439,
+      "importedSha256": "66827507f341198691571dac99ac324e39ca057fd558f8ba0c7bac433e6d25af"
+    },
+    {
+      "path": "content/sources/us-ca/pwc-us-ca-scope-related.json",
+      "bytes": 1198,
+      "importedSha256": "59aa05b2542eefaeb6814d4e8257924e3b3d5252a89cbb61831482bfb73a0bbe"
+    },
+    {
+      "path": "content/sources/us-ca/pwc-us-ca-scope.json",
+      "bytes": 1469,
+      "importedSha256": "e5116f1bfdf4bb805e38699bfecfe10b1fd161811e167d94713b0555114f3f6a"
+    },
+    {
+      "path": "content/sources/us-co/pwc-us-co-duties-ads.json",
+      "bytes": 1202,
+      "importedSha256": "f405c14fda37491a625a8be7234a5272177a4da70d3f8493005e80478104e8a8"
+    },
+    {
+      "path": "content/sources/us-co/pwc-us-co-duties-assessment.json",
+      "bytes": 1108,
+      "importedSha256": "b4ea9e83617cb3ac882d791ca9054d23b6b7fa8d1d6c407a35625c7f9fc044bf"
+    },
+    {
+      "path": "content/sources/us-co/pwc-us-co-duties-enforcement.json",
+      "bytes": 1278,
+      "importedSha256": "8e90c18853d5c912f04bfe81b609e3d8590a29e1dee28add67e0cc662d4a7106"
+    },
+    {
+      "path": "content/sources/us-co/pwc-us-co-duties-limited.json",
+      "bytes": 897,
+      "importedSha256": "13e964b83da8935767b5fc1f7dddbfff0b3225499ebe6755bd0dcbf18c70f8e5"
+    },
+    {
+      "path": "content/sources/us-co/pwc-us-co-duties-rights.json",
+      "bytes": 1107,
+      "importedSha256": "7c46765b1830c4da51a75963aa8c24fbba2973cff9ade6bdb596270bbdd5097e"
+    },
+    {
+      "path": "content/sources/us-co/pwc-us-co-duties-sensitive.json",
+      "bytes": 1125,
+      "importedSha256": "282c5464711258a76a8d3f3e88fd67e976e3433e8b99daa218b36295e11f81f1"
+    },
+    {
+      "path": "content/sources/us-co/pwc-us-co-scope-exemptions.json",
+      "bytes": 1268,
+      "importedSha256": "1293aed2ff31b5e42755e252d54e9168c1a6d37b9d05643dadfc9068deaf9361"
+    },
+    {
+      "path": "content/sources/us-co/pwc-us-co-scope-special.json",
+      "bytes": 1490,
+      "importedSha256": "b58c7eb0e9903492f3c9e65e7d15412f45caab30e047a7f5fc0895f1338807d3"
+    },
+    {
+      "path": "content/sources/us-co/pwc-us-co-scope.json",
+      "bytes": 1517,
+      "importedSha256": "15e326ccb6ad736a83c662e89a89400d0ee6344f3fd2ed464a92dac554f761df"
+    },
+    {
+      "path": "content/sources/us-ct/pwc-us-ct-duties-ads.json",
+      "bytes": 1176,
+      "importedSha256": "db93469bd9687e3349f61faf53ee9ec78162573d38f039065206c0fdfa6c2f0f"
+    },
+    {
+      "path": "content/sources/us-ct/pwc-us-ct-duties-assessment.json",
+      "bytes": 1408,
+      "importedSha256": "fa2bd8171f0b14ccbe3a8c486b548d86ebd957682f817ccfeee0e2e938eb9e80"
+    },
+    {
+      "path": "content/sources/us-ct/pwc-us-ct-duties-enforcement.json",
+      "bytes": 1238,
+      "importedSha256": "6f2e751d969ed2c05ff3b3af964944ef31a6a6b84dcf472f0d7346c793511fe3"
+    },
+    {
+      "path": "content/sources/us-ct/pwc-us-ct-duties-rights.json",
+      "bytes": 1405,
+      "importedSha256": "23e51460081120207fd83617c56012ac472354a105d9136c08c736ef0399dff6"
+    },
+    {
+      "path": "content/sources/us-ct/pwc-us-ct-duties-sensitive.json",
+      "bytes": 1132,
+      "importedSha256": "704c4ea63f3c59dff478e2e9f27aa6a5bf3259b801d890eb201ca37a5c29f470"
+    },
+    {
+      "path": "content/sources/us-ct/pwc-us-ct-scope-dot.json",
+      "bytes": 1115,
+      "importedSha256": "c80a113b658bdf6426ae0c7fb8b2a8ba067afc31e94f0100bac23aa8dd324dd0"
+    },
+    {
+      "path": "content/sources/us-ct/pwc-us-ct-scope-exemptions.json",
+      "bytes": 1639,
+      "importedSha256": "46728bbe5d7666f8e65684a7ba3a417a2e74947e037e02b5094c8b8486f2b773"
+    },
+    {
+      "path": "content/sources/us-ct/pwc-us-ct-scope.json",
+      "bytes": 1645,
+      "importedSha256": "47803e72a3676da992da9ef1774380b32fd2d9734ae94bfc62cf48dd387b0719"
+    },
+    {
+      "path": "content/sources/us-de/pwc-us-de-duties-ads.json",
+      "bytes": 1115,
+      "importedSha256": "4aba0c50db6acae78ccc5b5771d41e05d01df38fe46ec6d06753105563967f7f"
+    },
+    {
+      "path": "content/sources/us-de/pwc-us-de-duties-assessment.json",
+      "bytes": 1141,
+      "importedSha256": "fcb07851bf441d21a20dd2214b501b998301d5e2c7b63958d8ee3b96ac81a91b"
+    },
+    {
+      "path": "content/sources/us-de/pwc-us-de-duties-enforcement.json",
+      "bytes": 1345,
+      "importedSha256": "70590cfc2ff60ad73e19b1bf467016691d224bdad374c0396da65acca621d7b4"
+    },
+    {
+      "path": "content/sources/us-de/pwc-us-de-duties-rights.json",
+      "bytes": 1148,
+      "importedSha256": "0720e09bfa11f7ad6ff65f12f5c2750017aeba5f8fbfce70d4d36cb55882021f"
+    },
+    {
+      "path": "content/sources/us-de/pwc-us-de-duties-sensitive.json",
+      "bytes": 1077,
+      "importedSha256": "abe75e436f623545cf13c2b0cac0696164b1e85a24ca742feb9b71cf334e5e7d"
+    },
+    {
+      "path": "content/sources/us-de/pwc-us-de-scope-exemptions.json",
+      "bytes": 1404,
+      "importedSha256": "f59aff38262eaaf1c3cc6593087c6241d938f23378c23ec86416e4ebc0178084"
+    },
+    {
+      "path": "content/sources/us-de/pwc-us-de-scope.json",
+      "bytes": 1368,
+      "importedSha256": "b3fe58213a530c7020f3f9a582589b874721485d5f52aff45983b1bc260ab50d"
+    },
+    {
+      "path": "content/sources/us-federal/case-transunion-ramirez.json",
+      "bytes": 1317,
+      "importedSha256": "8c558cc0ef1d06cd19d9170d935d1ee0e4a41a9ed10f4c101c37e7fa0c435156"
+    },
+    {
+      "path": "content/sources/us-federal/coppa-6502.json",
+      "bytes": 2398,
+      "importedSha256": "7362d36ba4bdda5271e682cdec5745e2cfc5656b410ca26dd7876490925b6500"
+    },
+    {
+      "path": "content/sources/us-federal/coppa-rule-312.json",
+      "bytes": 15717,
+      "importedSha256": "270782e77441868cc853c304145c236b6a1ce245d123dca528ec4fc0d00a610a"
+    },
+    {
+      "path": "content/sources/us-federal/std-nist-800-30.json",
+      "bytes": 1133,
+      "importedSha256": "8f4d559768da93e8124f5dca4810871266bcba3b47f43fb31c80aa7087ee067c"
+    },
+    {
+      "path": "content/sources/us-fl/pwc-us-fl-duties-ads.json",
+      "bytes": 1139,
+      "importedSha256": "f1670ee5e2ba2dc2442a44c7afdf689f6a39931b5d964069ebbcc5be5803bbe6"
+    },
+    {
+      "path": "content/sources/us-fl/pwc-us-fl-duties-appeals.json",
+      "bytes": 691,
+      "importedSha256": "e007914fd48da51f56c8d63b7b1d5049f6ab37678d989674a2ecd6801ab3e51e"
+    },
+    {
+      "path": "content/sources/us-fl/pwc-us-fl-duties-assessment.json",
+      "bytes": 1094,
+      "importedSha256": "e072fba55a68fdb838545cc99a8d50ca588dbe5751a448fa5044df33b708d9c3"
+    },
+    {
+      "path": "content/sources/us-fl/pwc-us-fl-duties-enforcement.json",
+      "bytes": 1279,
+      "importedSha256": "f2158e7b699b93d904a7b4f3c293a852c3b53e355cd697d9439568f29cf6cf32"
+    },
+    {
+      "path": "content/sources/us-fl/pwc-us-fl-duties-limited.json",
+      "bytes": 993,
+      "importedSha256": "2815cc653d1245638f8560c84c82b5ae9f4d18187877f691803924bcc6229b84"
+    },
+    {
+      "path": "content/sources/us-fl/pwc-us-fl-duties-rights.json",
+      "bytes": 1125,
+      "importedSha256": "969c3e31a270f5843338368a6379a11ea4f3a1cade3d346560ae2e7b1415346a"
+    },
+    {
+      "path": "content/sources/us-fl/pwc-us-fl-duties-sensitive.json",
+      "bytes": 1070,
+      "importedSha256": "e156fd691be887716868eb181b11b58947a81c0cefc59ae238ce87e8fca58631"
+    },
+    {
+      "path": "content/sources/us-fl/pwc-us-fl-scope-data.json",
+      "bytes": 873,
+      "importedSha256": "1347e23309ae1a65a51829698222bc66442a7d6d7f697952d4bd4be337fb0c45"
+    },
+    {
+      "path": "content/sources/us-fl/pwc-us-fl-scope-exemptions.json",
+      "bytes": 1408,
+      "importedSha256": "5e97ad9fcd35e7b91740d149edceb0ee3585766f4ea9664f0d78b6409af6ddc8"
+    },
+    {
+      "path": "content/sources/us-fl/pwc-us-fl-scope-sensitive-sale.json",
+      "bytes": 1202,
+      "importedSha256": "2bb07261f1e4c23d8a1180289e88c8e9f0f265c13a55d532b3fa73c21b2609c4"
+    },
+    {
+      "path": "content/sources/us-fl/pwc-us-fl-scope.json",
+      "bytes": 1494,
+      "importedSha256": "185df30eb5177a4e1de1e43ae3c45213e66f0da2df0a17dc1336f75c806c4244"
+    },
+    {
+      "path": "content/sources/us-ia/pwc-us-ia-duties-ads.json",
+      "bytes": 1178,
+      "importedSha256": "7ccd7f706249129e7291d60abc37c3efffcbc464552c71f1f7299b17d3c721fc"
+    },
+    {
+      "path": "content/sources/us-ia/pwc-us-ia-duties-assessment.json",
+      "bytes": 1113,
+      "importedSha256": "a99e6cc1a19228f2008d7ba7463f43c6a71a6dc8f165ffd087e29888d54f58b9"
+    },
+    {
+      "path": "content/sources/us-ia/pwc-us-ia-duties-enforcement.json",
+      "bytes": 1275,
+      "importedSha256": "c6c6fa7612638aa29890edd98fef65a44cb364d7799f2de4b57096d0a7357ce0"
+    },
+    {
+      "path": "content/sources/us-ia/pwc-us-ia-duties-rights.json",
+      "bytes": 1102,
+      "importedSha256": "d586a59c24f7487e17a3c208c4729febe526368ce8a707c21ef74b9b8ba9d111"
+    },
+    {
+      "path": "content/sources/us-ia/pwc-us-ia-duties-sensitive.json",
+      "bytes": 1031,
+      "importedSha256": "b4b8d2bbf0d9bd96ab3e0aee1513ca74925312e2c464df0164fcf3bbe5869c17"
+    },
+    {
+      "path": "content/sources/us-ia/pwc-us-ia-scope-exemptions.json",
+      "bytes": 1259,
+      "importedSha256": "152921b2490b75f5ff25fa435cc482baaa5455631b36f3fda0f559c5a91c83c2"
+    },
+    {
+      "path": "content/sources/us-ia/pwc-us-ia-scope.json",
+      "bytes": 1187,
+      "importedSha256": "7f72643e65a89be902d1beedb8ec6db333561f0a3fc9e9636e205edeb7e52ff0"
+    },
+    {
+      "path": "content/sources/us-il/case-cothron-white-castle.json",
+      "bytes": 4332,
+      "importedSha256": "c1e2e2a1c32e3fcafe2893010df3fdab3f443331aeefba6896a0a5aa59362364"
+    },
+    {
+      "path": "content/sources/us-il/case-patel-facebook.json",
+      "bytes": 1272,
+      "importedSha256": "3e7b537835120b0472ec0f1459c09674ec2408f12053ee04d6c05bd0052137a7"
+    },
+    {
+      "path": "content/sources/us-il/il-bipa-15.json",
+      "bytes": 2026,
+      "importedSha256": "b08d1014d6dfa3caf6a72c3b0e742d85330b0bf2f6e08a1cdd4a9ddff77f7cfc"
+    },
+    {
+      "path": "content/sources/us-il/il-bipa-20.json",
+      "bytes": 2669,
+      "importedSha256": "b6e50664fd8003b4e7888ccedc3ab3a47f168ae5eb6f1bce92b39f93e7f4323a"
+    },
+    {
+      "path": "content/sources/us-il/il-pipa-10.json",
+      "bytes": 1533,
+      "importedSha256": "a6b3a5dc99c444b7cd226a2ce6ab4f3b347e70346bbf76d0727279ceb3b5f433"
+    },
+    {
+      "path": "content/sources/us-in/pwc-us-in-duties-ads.json",
+      "bytes": 1031,
+      "importedSha256": "8cbd258007563e28dce28fa3ae63508c7269f51a90d9b8337916bdbe2747e2ed"
+    },
+    {
+      "path": "content/sources/us-in/pwc-us-in-duties-assessment.json",
+      "bytes": 1067,
+      "importedSha256": "f04fb43b01f5a234066f0a6672c9a9555020cb337ae7088637502636f1fd23fd"
+    },
+    {
+      "path": "content/sources/us-in/pwc-us-in-duties-enforcement.json",
+      "bytes": 1331,
+      "importedSha256": "d96812516d4f03426571d48c546e5ad760c323154d787c8e10e703e830615d88"
+    },
+    {
+      "path": "content/sources/us-in/pwc-us-in-duties-rights.json",
+      "bytes": 1152,
+      "importedSha256": "5eee68280a720e0560cf0fed00561671c7c5e70a9733e0b9d7868fca89fd3e14"
+    },
+    {
+      "path": "content/sources/us-in/pwc-us-in-duties-sensitive.json",
+      "bytes": 1000,
+      "importedSha256": "f49d9da6bffe966c012c7e4c3b9cc3219ce26c011c63d3ded1a9b8831980d716"
+    },
+    {
+      "path": "content/sources/us-in/pwc-us-in-scope-exemptions.json",
+      "bytes": 1627,
+      "importedSha256": "6917b8bd3b8c0798c6b28d68c7abffce0fe3d0069c3feaaa60443a1573884814"
+    },
+    {
+      "path": "content/sources/us-in/pwc-us-in-scope.json",
+      "bytes": 1418,
+      "importedSha256": "bb86e91ba2010c22d410fbc3cd4fd8fb968675f61c2495cb2ef2e16f32509842"
+    },
+    {
+      "path": "content/sources/us-ky/pwc-us-ky-duties-ads.json",
+      "bytes": 1085,
+      "importedSha256": "a8fd838324586619084747ff882b5cb6864b69756a66854c5c179e04b5127f2f"
+    },
+    {
+      "path": "content/sources/us-ky/pwc-us-ky-duties-assessment.json",
+      "bytes": 1102,
+      "importedSha256": "c00ba18483098ff19ad9a256ffcb63e9f3cc4fc02bfe648df7209322500c16cd"
+    },
+    {
+      "path": "content/sources/us-ky/pwc-us-ky-duties-enforcement.json",
+      "bytes": 1328,
+      "importedSha256": "f8f76a8931d5496de91ae048d57ae946335c2e716366c34f56c10dafe5faeb9b"
+    },
+    {
+      "path": "content/sources/us-ky/pwc-us-ky-duties-rights.json",
+      "bytes": 1069,
+      "importedSha256": "18ac3e9869fc230d0b7f0adf2dbe2d40988e76e27bddcbd3035b07391b4fcaf0"
+    },
+    {
+      "path": "content/sources/us-ky/pwc-us-ky-duties-sensitive.json",
+      "bytes": 1039,
+      "importedSha256": "9b985abe8a60946f7a02f01d108249bcd1f39862965c4c5a17854c2b894929fc"
+    },
+    {
+      "path": "content/sources/us-ky/pwc-us-ky-scope-exemptions.json",
+      "bytes": 1384,
+      "importedSha256": "ade62d796483eb901afb87e744f0d59ff27663329a4ebb8b5fde15f887d67b12"
+    },
+    {
+      "path": "content/sources/us-ky/pwc-us-ky-scope.json",
+      "bytes": 1258,
+      "importedSha256": "4e82dfa2268ffa16c4e7eb4214c988642f3208a44ee4dfde636fcaf33ac4a830"
+    },
+    {
+      "path": "content/sources/us-md/pwc-us-md-duties-2026-amendment.json",
+      "bytes": 894,
+      "importedSha256": "c20b56ae3da6f1d6025ba4133742e1019268d5e3b338afc0f931fcecad1538e0"
+    },
+    {
+      "path": "content/sources/us-md/pwc-us-md-duties-ads.json",
+      "bytes": 1295,
+      "importedSha256": "caf6a60d61799da0f44d6214662917bb4cf26bb1262727dfea592f35dc93c664"
+    },
+    {
+      "path": "content/sources/us-md/pwc-us-md-duties-assessment.json",
+      "bytes": 1237,
+      "importedSha256": "4911203a8fa02e9f86ada67807caa82f7632ae4119aec203be1b4e54f4e4f292"
+    },
+    {
+      "path": "content/sources/us-md/pwc-us-md-duties-enforcement.json",
+      "bytes": 1437,
+      "importedSha256": "45ed57deb509dd15e9a471092c1ece9da7e1daef062ad2a546a6317c6d505a0b"
+    },
+    {
+      "path": "content/sources/us-md/pwc-us-md-duties-rights.json",
+      "bytes": 1110,
+      "importedSha256": "fe004d1eb4cfe6618a8a7e9b79ecf557a835e130838dfa8ab8225adb462f01fa"
+    },
+    {
+      "path": "content/sources/us-md/pwc-us-md-duties-sensitive.json",
+      "bytes": 1276,
+      "importedSha256": "7f5f62bb90ee5deaf8bd816a482f33c193fbb2ed4cb95be2ea530006af9bfb7d"
+    },
+    {
+      "path": "content/sources/us-md/pwc-us-md-scope-exemptions.json",
+      "bytes": 1409,
+      "importedSha256": "0b6dbfb59ed52ae3bbdd486b01025f8d13b089176bf3a79725b246be520473b1"
+    },
+    {
+      "path": "content/sources/us-md/pwc-us-md-scope.json",
+      "bytes": 1544,
+      "importedSha256": "dd8a6d5a1b03f8dab24f5e8e57e2538c58ecd12fca94a11eaf316456df6e43af"
+    },
+    {
+      "path": "content/sources/us-mn/pwc-us-mn-duties-ads.json",
+      "bytes": 1147,
+      "importedSha256": "d80c2a3bc426347f894c4d9846b530a06c16f4f922b29b848ae0b68a4d7766ec"
+    },
+    {
+      "path": "content/sources/us-mn/pwc-us-mn-duties-assessment.json",
+      "bytes": 1127,
+      "importedSha256": "5b3047ef33a67425af69f160aacc641beacf5ab5867d8c894466903f173cc2e2"
+    },
+    {
+      "path": "content/sources/us-mn/pwc-us-mn-duties-enforcement.json",
+      "bytes": 1344,
+      "importedSha256": "cf5f301e09e26eb7225eae7ac04d2aa0affd0e3b9a9e1188498d6940f2d03dbe"
+    },
+    {
+      "path": "content/sources/us-mn/pwc-us-mn-duties-limited.json",
+      "bytes": 927,
+      "importedSha256": "6bcd92d79e90d70714feba13579722ee98abe97b51d252bc4a09703dcbf2515b"
+    },
+    {
+      "path": "content/sources/us-mn/pwc-us-mn-duties-rights.json",
+      "bytes": 1395,
+      "importedSha256": "c898e8a1f30d9c5e2e6476ef162058be66f87549f06b83b798d68171b57cb566"
+    },
+    {
+      "path": "content/sources/us-mn/pwc-us-mn-duties-sensitive.json",
+      "bytes": 1038,
+      "importedSha256": "13e9d2a43ed942832e10d64752bbf47ce4fcb243533aa33ce68d2f4580b560be"
+    },
+    {
+      "path": "content/sources/us-mn/pwc-us-mn-scope-exemptions.json",
+      "bytes": 1394,
+      "importedSha256": "0ab7829bd3ce3208e6fe5f9d8300a1deb9d0c79ab13db692575df6c2718a18f1"
+    },
+    {
+      "path": "content/sources/us-mn/pwc-us-mn-scope-small-business.json",
+      "bytes": 1127,
+      "importedSha256": "436e77a40f6d953df55325714d17ef69f61ef70387aa8b89da5aac8f8f8dcbaf"
+    },
+    {
+      "path": "content/sources/us-mn/pwc-us-mn-scope.json",
+      "bytes": 1465,
+      "importedSha256": "c5fbe830fb7639e9f6ce117ca846e21f9f44c480edba03920cbce510a74f8045"
+    },
+    {
+      "path": "content/sources/us-mt/pwc-us-mt-duties-ads.json",
+      "bytes": 1258,
+      "importedSha256": "39b1a9d1aca2b724b3155242cfb7ca1e3d904c2ef5c6dd1562165e49a21b4c3b"
+    },
+    {
+      "path": "content/sources/us-mt/pwc-us-mt-duties-assessment.json",
+      "bytes": 1124,
+      "importedSha256": "52ed479ce65839c4f0688441ed2f71c93e2b98d681254d37a5a9af7cf4a97161"
+    },
+    {
+      "path": "content/sources/us-mt/pwc-us-mt-duties-enforcement.json",
+      "bytes": 1199,
+      "importedSha256": "acc59058476201c2f104f0fb07c63daef7895f22c5c1f62d657c523c48df0928"
+    },
+    {
+      "path": "content/sources/us-mt/pwc-us-mt-duties-limited.json",
+      "bytes": 1057,
+      "importedSha256": "ef08e6b841feb6394a6356cd6c69ff156fadb6261f954e5babb66bbe4c620e39"
+    },
+    {
+      "path": "content/sources/us-mt/pwc-us-mt-duties-minor.json",
+      "bytes": 900,
+      "importedSha256": "21883d5450ed293d3e13391eece7878f3b7186b3621cb9da0f5205443884a086"
+    },
+    {
+      "path": "content/sources/us-mt/pwc-us-mt-duties-rights.json",
+      "bytes": 1227,
+      "importedSha256": "ef4bbbd2359878ecafee46b67eff7551bdf3ed2c462030251298327954d92538"
+    },
+    {
+      "path": "content/sources/us-mt/pwc-us-mt-duties-sensitive.json",
+      "bytes": 1080,
+      "importedSha256": "6be4d9bffdde077c17c9053a43b2b59ff8010ff669c5aa7f78a7d7b3a9e28d7e"
+    },
+    {
+      "path": "content/sources/us-mt/pwc-us-mt-scope-exemptions.json",
+      "bytes": 1312,
+      "importedSha256": "84cbc5cb637c3fb20595581b5b62450fd2b0b35483b1045b2f2aa62a73ae7707"
+    },
+    {
+      "path": "content/sources/us-mt/pwc-us-mt-scope-minors-assessment.json",
+      "bytes": 1116,
+      "importedSha256": "2d74ebb91caacd238268199e88d530002d64fc8752ab15438c4ed3d1403330e7"
+    },
+    {
+      "path": "content/sources/us-mt/pwc-us-mt-scope-minors-processor.json",
+      "bytes": 918,
+      "importedSha256": "4eb03c1d9472b872de11b39573249aa4c5b302899de3575b24bd0d262be94d4f"
+    },
+    {
+      "path": "content/sources/us-mt/pwc-us-mt-scope-minors.json",
+      "bytes": 1183,
+      "importedSha256": "729621375cd0725b4f3b489827c27c63af387e1cad6f33b900404f3decde61b6"
+    },
+    {
+      "path": "content/sources/us-mt/pwc-us-mt-scope.json",
+      "bytes": 1425,
+      "importedSha256": "bb2d28ba89104c0d884bcb640ff6d3f74c4db34763050f626de2748e0e2040d3"
+    },
+    {
+      "path": "content/sources/us-ne/pwc-us-ne-duties-ads.json",
+      "bytes": 1144,
+      "importedSha256": "edf6abca1ecd7cbadc3252621df82ad185badd54ad83931334c356bab49fbf08"
+    },
+    {
+      "path": "content/sources/us-ne/pwc-us-ne-duties-assessment.json",
+      "bytes": 1069,
+      "importedSha256": "48e74e0c1bdde65fb1d4dc85ad24fb0e2800db7cfe36c795e7e07d0be573f584"
+    },
+    {
+      "path": "content/sources/us-ne/pwc-us-ne-duties-enforcement.json",
+      "bytes": 1542,
+      "importedSha256": "a527ebd6767181d61daafbf204b94613f1dc90f822701a17403b2034d8457a80"
+    },
+    {
+      "path": "content/sources/us-ne/pwc-us-ne-duties-limited.json",
+      "bytes": 909,
+      "importedSha256": "48868ecc6cf133ea072300ab57460b19b50fb326a3f5f6aa3d797225835d99ee"
+    },
+    {
+      "path": "content/sources/us-ne/pwc-us-ne-duties-rights.json",
+      "bytes": 1056,
+      "importedSha256": "9d02aebacde3e1e84f2bb62fcca63beb41a6fa2c29166fe1e9b6d7955651738b"
+    },
+    {
+      "path": "content/sources/us-ne/pwc-us-ne-duties-sensitive.json",
+      "bytes": 1049,
+      "importedSha256": "b235d8078128adb725e6f0016304b1e3d5f68219ebc8ae14fcfabfcdf8f6232c"
+    },
+    {
+      "path": "content/sources/us-ne/pwc-us-ne-scope-exemptions.json",
+      "bytes": 1240,
+      "importedSha256": "930cbfef347cd379b98ccc5b15ad744e9f8d8ddca6f105219057fd36ec9f0148"
+    },
+    {
+      "path": "content/sources/us-ne/pwc-us-ne-scope-small-business.json",
+      "bytes": 936,
+      "importedSha256": "c50de8e0bf8ff8a4ca402c2cd8a9878ed7e91089c5dd41be77c4daedefaee0fc"
+    },
+    {
+      "path": "content/sources/us-ne/pwc-us-ne-scope.json",
+      "bytes": 1292,
+      "importedSha256": "84282a6fb825dcdaf690548bae58b8b5477faedee9fb06266f6f623d02fed8cb"
+    },
+    {
+      "path": "content/sources/us-nh/pwc-us-nh-duties-ads.json",
+      "bytes": 1181,
+      "importedSha256": "333213f5b1b9c524fc4e364fe01505970a55bc31e43ea98bc163818e5c1fd8b9"
+    },
+    {
+      "path": "content/sources/us-nh/pwc-us-nh-duties-assessment.json",
+      "bytes": 1034,
+      "importedSha256": "0e7cf4d0690a4b7383382709ccaab329cba2e003fcb8ed3b710f1bb2590dfcde"
+    },
+    {
+      "path": "content/sources/us-nh/pwc-us-nh-duties-enforcement.json",
+      "bytes": 1349,
+      "importedSha256": "38cc6dfaae902b16a3830cda4fbf0005f9b9c060298ea0817e67fc3b97852aa4"
+    },
+    {
+      "path": "content/sources/us-nh/pwc-us-nh-duties-rights.json",
+      "bytes": 1026,
+      "importedSha256": "c876ac5655609a54ffda548b2b793990886e10c65c8e71144184b865be7da4da"
+    },
+    {
+      "path": "content/sources/us-nh/pwc-us-nh-duties-sensitive.json",
+      "bytes": 1035,
+      "importedSha256": "cf34fd759e2561e01d07f9f88e1784a4d32197e00da479c10bb345b2b8baf179"
+    },
+    {
+      "path": "content/sources/us-nh/pwc-us-nh-scope-exemptions.json",
+      "bytes": 1206,
+      "importedSha256": "be915bf0eed06640ddd54558a16eb28270fc0f89c0c4d43b6d655fa7a2c91502"
+    },
+    {
+      "path": "content/sources/us-nh/pwc-us-nh-scope.json",
+      "bytes": 1300,
+      "importedSha256": "93a64be5e5904482429cad8d25f7c8e6848b9f05d24f81990b16f8a86786992e"
+    },
+    {
+      "path": "content/sources/us-nj/pwc-us-nj-duties-ads.json",
+      "bytes": 1136,
+      "importedSha256": "f80d65818ab6ca75a701ce7e11bd1e8f519f78ab9e1f793ff5e4335a7a1790f5"
+    },
+    {
+      "path": "content/sources/us-nj/pwc-us-nj-duties-assessment.json",
+      "bytes": 1047,
+      "importedSha256": "6be2b59b1d5e62e55add370ab5d323a3893af886be685799987486ccf3653b68"
+    },
+    {
+      "path": "content/sources/us-nj/pwc-us-nj-duties-enforcement.json",
+      "bytes": 1496,
+      "importedSha256": "0ab2f15c690cb90d3bf7dba5b39350c278e7e7aa07a0fd0a370780c271b8b797"
+    },
+    {
+      "path": "content/sources/us-nj/pwc-us-nj-duties-rights.json",
+      "bytes": 1074,
+      "importedSha256": "4af7c9bc5b47560f8c6f5ab81443becaeddb8d3465143c9705af5ca311b9feac"
+    },
+    {
+      "path": "content/sources/us-nj/pwc-us-nj-duties-sensitive.json",
+      "bytes": 1005,
+      "importedSha256": "216c7b5ce8b510541d0cacbf4503c85974dc772de504075fd495cde80c3e7f72"
+    },
+    {
+      "path": "content/sources/us-nj/pwc-us-nj-scope-exemptions.json",
+      "bytes": 1262,
+      "importedSha256": "11f78b01fdd6180cbbd50543f639d1ee0589ac059f1054b4f7e57b9e64327708"
+    },
+    {
+      "path": "content/sources/us-nj/pwc-us-nj-scope.json",
+      "bytes": 1310,
+      "importedSha256": "9ac6fa97292c7b3cebb4b89f954411cd0abe0ebd778c6dfd157789ffe1b6513d"
+    },
+    {
+      "path": "content/sources/us-ny/ny-shield-aa.json",
+      "bytes": 5143,
+      "importedSha256": "bd554c28d4a7050af5bb507cfb16401badf39304dd04c422536b0fbf402ff306"
+    },
+    {
+      "path": "content/sources/us-ny/ny-shield-bb.json",
+      "bytes": 1928,
+      "importedSha256": "578dbd27f57672ed5c668d57f5cec89e885bb351a93d1e7b3249b4a1d160080e"
+    },
+    {
+      "path": "content/sources/us-ny/nydfs-500-17.json",
+      "bytes": 2732,
+      "importedSha256": "f6b5ded9d88b2b0d56e45532e38e2017da88e7ac6c22168fc189af1a759b645f"
+    },
+    {
+      "path": "content/sources/us-or/pwc-us-or-duties-ads.json",
+      "bytes": 1213,
+      "importedSha256": "20ba26a366f40a74adc096fecd2be6f59f3d0206ab420cf6f999f0a9a9b530dd"
+    },
+    {
+      "path": "content/sources/us-or/pwc-us-or-duties-assessment.json",
+      "bytes": 1081,
+      "importedSha256": "ec73e1b585400356da0011293cbf70555a4d981de67efe8cbc1f1e45476b38f3"
+    },
+    {
+      "path": "content/sources/us-or/pwc-us-or-duties-enforcement.json",
+      "bytes": 1453,
+      "importedSha256": "f246d337408e327d9354d90cb4b355b11d5d42f7f2c4102f1da55cdee2181893"
+    },
+    {
+      "path": "content/sources/us-or/pwc-us-or-duties-rights.json",
+      "bytes": 1125,
+      "importedSha256": "2f71665831c4f276666f8c811ffc3184c559844525382804d33b9bc9bc1d3113"
+    },
+    {
+      "path": "content/sources/us-or/pwc-us-or-duties-sensitive.json",
+      "bytes": 1127,
+      "importedSha256": "6785eb4900d045ab4cbcb860d664e9996497dd7d58cd3b310f3ba34e20b28d75"
+    },
+    {
+      "path": "content/sources/us-or/pwc-us-or-scope-exemptions.json",
+      "bytes": 1499,
+      "importedSha256": "26c380445b203cfe669b7a3848bfe81e40d153b278be95726e577494a08108a4"
+    },
+    {
+      "path": "content/sources/us-or/pwc-us-or-scope.json",
+      "bytes": 1351,
+      "importedSha256": "18bd1053b7a934b35aff8e91b7552009ed310622c1ecfa10dd75e0d65b939a12"
+    },
+    {
+      "path": "content/sources/us-ri/pwc-us-ri-duties-ads.json",
+      "bytes": 1160,
+      "importedSha256": "512d501d9adab4e409c40b2d19ccb9b205de8037142f630db1b8920782b0b42c"
+    },
+    {
+      "path": "content/sources/us-ri/pwc-us-ri-duties-assessment.json",
+      "bytes": 1113,
+      "importedSha256": "73c77d6e551aabeaf16f2921949c890822439cc688f3449785107aba69f48b09"
+    },
+    {
+      "path": "content/sources/us-ri/pwc-us-ri-duties-enforcement.json",
+      "bytes": 1253,
+      "importedSha256": "d8c4fa81948c0536ad4b153afb57b94b87f464291e66bb4ca46a9a9ccfd23253"
+    },
+    {
+      "path": "content/sources/us-ri/pwc-us-ri-duties-limited.json",
+      "bytes": 937,
+      "importedSha256": "e23739165a5ff6380f3a79a60be156d52974d93b0f90a565bb27440077e58250"
+    },
+    {
+      "path": "content/sources/us-ri/pwc-us-ri-duties-rights.json",
+      "bytes": 1057,
+      "importedSha256": "cb57eb6c73e7211a65c66a11ff54f95dca7ec062fa84388246beddff2a6da6e7"
+    },
+    {
+      "path": "content/sources/us-ri/pwc-us-ri-duties-sensitive.json",
+      "bytes": 1021,
+      "importedSha256": "f5f600309b4d1e69a6621271f740390d8da985be831b19765286658a4776180e"
+    },
+    {
+      "path": "content/sources/us-ri/pwc-us-ri-scope-exemptions.json",
+      "bytes": 1223,
+      "importedSha256": "0982a2dc0f1795b74a4970d3faa250bdbcc68bc2b974f4695af5ab501733f704"
+    },
+    {
+      "path": "content/sources/us-ri/pwc-us-ri-scope.json",
+      "bytes": 1416,
+      "importedSha256": "90e5b9f6016640cb70e03b54f0d31fe60b74897f86a1ce809e1a51c896d077a4"
+    },
+    {
+      "path": "content/sources/us-tn/pwc-us-tn-duties-ads.json",
+      "bytes": 1028,
+      "importedSha256": "5c3d891843cd796af6d968a1966151831e7279269d84b7468651165ed21ac4f9"
+    },
+    {
+      "path": "content/sources/us-tn/pwc-us-tn-duties-assessment.json",
+      "bytes": 1128,
+      "importedSha256": "9f3d3f518f4c43cbd06615ea043ee6a4f251ab297fbad7c6ca42513e9a9c79d0"
+    },
+    {
+      "path": "content/sources/us-tn/pwc-us-tn-duties-enforcement.json",
+      "bytes": 1457,
+      "importedSha256": "a905f888ca9fb46586953e6248b4fd2f93bb686ede2356e24a0dc18c1438484b"
+    },
+    {
+      "path": "content/sources/us-tn/pwc-us-tn-duties-rights.json",
+      "bytes": 1006,
+      "importedSha256": "22e73f4fecff8314c579fdc545514bfb46eaa20f2fab3f4051f63e65ca0702d7"
+    },
+    {
+      "path": "content/sources/us-tn/pwc-us-tn-duties-sensitive.json",
+      "bytes": 982,
+      "importedSha256": "b738c21926c004479ee0b15a65bb49d266ee9d3a8779f9573c9d4021a4567b61"
+    },
+    {
+      "path": "content/sources/us-tn/pwc-us-tn-scope-exemptions.json",
+      "bytes": 1386,
+      "importedSha256": "2f95a43ea4afdf9679dec7c4ff814b059b0a1c1a89caf57a681b8c6c087a940a"
+    },
+    {
+      "path": "content/sources/us-tn/pwc-us-tn-scope.json",
+      "bytes": 1626,
+      "importedSha256": "a03c4451fa90843a24640bf214cadad68e41300d7b9a759c0b851e724dbc4fcd"
+    },
+    {
+      "path": "content/sources/us-tx/pwc-us-tx-duties-ads.json",
+      "bytes": 1148,
+      "importedSha256": "f86bf0a9035f975ed6721b34884e3331a6aad6d3f813c016fbe616cc09f8f1b4"
+    },
+    {
+      "path": "content/sources/us-tx/pwc-us-tx-duties-assessment.json",
+      "bytes": 1109,
+      "importedSha256": "bf9f7f7f1e8e624b5caf0dbe4ef948be6511763cd2e21e758fc8f509b6837fd1"
+    },
+    {
+      "path": "content/sources/us-tx/pwc-us-tx-duties-enforcement.json",
+      "bytes": 1491,
+      "importedSha256": "6fd465cefeca45fc5bd4923ece8a9ebe1ac8d3c653b1ac8e7a1e536437060c5a"
+    },
+    {
+      "path": "content/sources/us-tx/pwc-us-tx-duties-limited.json",
+      "bytes": 896,
+      "importedSha256": "d383ed7cc41777217b163a9881ec7f97f90df91d4e6526433ce1f5cf4233bf17"
+    },
+    {
+      "path": "content/sources/us-tx/pwc-us-tx-duties-rights.json",
+      "bytes": 1067,
+      "importedSha256": "398ef0ebb361898d6eb64a08b2cac537f147f06ea2958a003d995df8f2f3c7e9"
+    },
+    {
+      "path": "content/sources/us-tx/pwc-us-tx-duties-sensitive.json",
+      "bytes": 1043,
+      "importedSha256": "4f8dd7f5c8f333f6dd1649494d13b7fc2497503a041c8e255044c3c4cdd12d1f"
+    },
+    {
+      "path": "content/sources/us-tx/pwc-us-tx-scope-exemptions.json",
+      "bytes": 1318,
+      "importedSha256": "118a3defd577851074cb1990d5776e9982ec9e81989fe45646433a6d072f63ad"
+    },
+    {
+      "path": "content/sources/us-tx/pwc-us-tx-scope.json",
+      "bytes": 1352,
+      "importedSha256": "b009c51bb764b23f052fa6b1286350f315af6b742642df8373e27368d769247d"
+    },
+    {
+      "path": "content/sources/us-ut/pwc-us-ut-duties-ads.json",
+      "bytes": 1136,
+      "importedSha256": "fe1aff87a4c7212846f79e0f8b98a6af41b1e8ab21dc4762beaa67df236e78d8"
+    },
+    {
+      "path": "content/sources/us-ut/pwc-us-ut-duties-assessment.json",
+      "bytes": 1154,
+      "importedSha256": "dfc740d05c1779aacc51748f3735f701f7d3ad8335779002c77c1a696578cd2d"
+    },
+    {
+      "path": "content/sources/us-ut/pwc-us-ut-duties-enforcement.json",
+      "bytes": 1570,
+      "importedSha256": "6cce933bda8f46d8d205610e79c76f8f40200b792543ff9b31fc3b20ec0e743b"
+    },
+    {
+      "path": "content/sources/us-ut/pwc-us-ut-duties-rights.json",
+      "bytes": 1318,
+      "importedSha256": "b5316815e94f2332c8dc836ea8c801995e1b1f92a9b2bde840689464e56862ad"
+    },
+    {
+      "path": "content/sources/us-ut/pwc-us-ut-duties-sensitive.json",
+      "bytes": 1047,
+      "importedSha256": "49b907ce48ed4caa90f98cf82780d8d4d425a68ca6df073980d98fa0bec38d8f"
+    },
+    {
+      "path": "content/sources/us-ut/pwc-us-ut-scope-exemptions.json",
+      "bytes": 1343,
+      "importedSha256": "24bf3bbddbdad6792ba3a98f4b382501e718d2297d92109ec9ec384206bee56e"
+    },
+    {
+      "path": "content/sources/us-ut/pwc-us-ut-scope.json",
+      "bytes": 1557,
+      "importedSha256": "c8802d9757d6e53026ed3e0c330be0289b28ad2218348675ff55837d4ec1b695"
+    },
+    {
+      "path": "content/sources/us-va/pwc-us-va-duties-ads.json",
+      "bytes": 1183,
+      "importedSha256": "a3fd8f1be116d14986bff253c76c1f487c74c719da3ab0ee2c70ef99be14a85d"
+    },
+    {
+      "path": "content/sources/us-va/pwc-us-va-duties-assessment.json",
+      "bytes": 1134,
+      "importedSha256": "15e416a3fa2795c69c99aa8acbcb40cb56d84594ac77253bccf5974444306e70"
+    },
+    {
+      "path": "content/sources/us-va/pwc-us-va-duties-enforcement.json",
+      "bytes": 1442,
+      "importedSha256": "80ab994f8bacd7c16e627c16a6e97428cc9db65fa4049b81cc54e2444543c1b6"
+    },
+    {
+      "path": "content/sources/us-va/pwc-us-va-duties-rights.json",
+      "bytes": 1042,
+      "importedSha256": "17d3e16e9949bb82f798a5e92685ae2370c50beb316b9083e3e0459fbee3533f"
+    },
+    {
+      "path": "content/sources/us-va/pwc-us-va-duties-sensitive.json",
+      "bytes": 1111,
+      "importedSha256": "45eb968dbd0aaf8043885c5f48304af90e69093ddd71cdce661da59bda294271"
+    },
+    {
+      "path": "content/sources/us-va/pwc-us-va-scope-exemptions.json",
+      "bytes": 1291,
+      "importedSha256": "88a54ae02a342780f1b8da6af6d8ddc978efa7f3a636c80122ae4b959e40ec64"
+    },
+    {
+      "path": "content/sources/us-va/pwc-us-va-scope.json",
+      "bytes": 1339,
+      "importedSha256": "ecc0e2a78a1640f2864b14c174912afa7f1bea19957539bb87be59cc3be5e4ae"
+    },
+    {
+      "path": "content/wizards/adm.json",
+      "bytes": 19805,
+      "importedSha256": "a719f4d9b9ebaf37856255045bf6e83fc812990fee4c0d69b57d813e21a611bb"
+    },
+    {
+      "path": "content/wizards/ai-risk.json",
+      "bytes": 38771,
+      "importedSha256": "f0bfb003cb24878636ffc507cfad69641265306fc0f41c0b130e2fafe7947b78"
+    },
+    {
+      "path": "content/wizards/ai-role.json",
+      "bytes": 40368,
+      "importedSha256": "ed9348e85918aafe427fe6d55670a82c17c21c882b3ee21970b73646f40bfa5d"
+    },
+    {
+      "path": "content/wizards/breach.json",
+      "bytes": 37483,
+      "importedSha256": "af49834a9fcc09904c830ba682195a7c166c18075bcdcc23869f112f439fb450"
+    },
+    {
+      "path": "content/wizards/children.json",
+      "bytes": 19571,
+      "importedSha256": "610ace3d80793fd131901a5708e6942d7eb3207456150e0aea68f8f55ad9e47b"
+    },
+    {
+      "path": "content/wizards/cookies.json",
+      "bytes": 17558,
+      "importedSha256": "7bcb1cbab4e9ebf3f6429e066252552814c48a7d8b8df77f291178f1fbe3f654"
+    },
+    {
+      "path": "content/wizards/dpia.json",
+      "bytes": 11488,
+      "importedSha256": "32e86046bc1812383563549ee206a27aae828dc2ec025e2bfb975d06890f6dec"
+    },
+    {
+      "path": "content/wizards/dpo.json",
+      "bytes": 8958,
+      "importedSha256": "5ce7756f3627bf3482ea182039300a41ba62497f789cc92e704f3a26be496117"
+    },
+    {
+      "path": "content/wizards/dsar.json",
+      "bytes": 26628,
+      "importedSha256": "fc555b3095e0834b4224b4da2218c78299c9a79fd802cfda8c2c04797c23907e"
+    },
+    {
+      "path": "content/wizards/legal-basis.json",
+      "bytes": 15840,
+      "importedSha256": "f9c5217fd63a9debf9931e2cfb07358f5c9b7cf460110dd6515fc21c6c8414dc"
+    },
+    {
+      "path": "content/wizards/role.json",
+      "bytes": 15455,
+      "importedSha256": "cbf255315a5fd34bcd5c351c6dc81eafb089701b99c212788d38e219826af3d4"
+    },
+    {
+      "path": "content/wizards/ropa.json",
+      "bytes": 5782,
+      "importedSha256": "6e1e5b6849dd27e1d214aa7456968fd8b1fe200442ce9800aa28b3b28a2cbd60"
+    },
+    {
+      "path": "content/wizards/sale-share.json",
+      "bytes": 17567,
+      "importedSha256": "9a13f3518f5b623b72328e7d39303b0e05c7d01a2e530a28c1cc4ec4897250cd"
+    },
+    {
+      "path": "content/wizards/severity.json",
+      "bytes": 34247,
+      "importedSha256": "87c49fc82692bbb739d69ef249e0690bfd000af427ed191a85f3376483c827c7"
+    },
+    {
+      "path": "content/wizards/special-category.json",
+      "bytes": 17459,
+      "importedSha256": "5196185b9d5cafec0754ee95198b0075c8547985ecc23597937cd65dee2e99a5"
+    },
+    {
+      "path": "content/wizards/transfer.json",
+      "bytes": 21812,
+      "importedSha256": "11bfced8eae5a3d71a8e8bd51f50d50d272f5fc2dbab33426780ae2217553e7e"
+    },
+    {
+      "path": "content/wizards/us-applicability.json",
+      "bytes": 233598,
+      "importedSha256": "6400c5a397de93aff4dde42d4e32b70b4f1764fbceb0e1f326be5b39cbe33119"
+    },
+    {
+      "path": "content/wizards/us-divergence.json",
+      "bytes": 216130,
+      "importedSha256": "b838ca8fd48865ceadbc602fc6fdf342b157c3aa83b2eca00df4d054a104ed2d"
+    },
+    {
+      "path": "index.html",
+      "bytes": 927,
+      "importedSha256": "bbe988340a9bf75497369db47dc4b555379c7e23e00f75106d6e4d88b3592f37"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1114,
+      "importedSha256": "b02bce463bc2c9180e3086375aa24a943651bca267d6356a44dac72f63bf2253"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 76769,
+      "importedSha256": "1df634fb1be3443988706f3d2810ef931caed630aefcb8b4aaafd626644d7917"
+    },
+    {
+      "path": "package.json",
+      "bytes": 739,
+      "importedSha256": "410a68ca8cbe03c9b40c17b6ca694f6fefe57273424e2230263e68aeaedfb570"
+    },
+    {
+      "path": "scripts/audit-style.mjs",
+      "bytes": 2472,
+      "importedSha256": "4a702e10d517201de08832e95daa7f88ff8b011ee9593eb8bd97d5a6b5013113"
+    },
+    {
+      "path": "scripts/build-singlefile.mjs",
+      "bytes": 1483,
+      "importedSha256": "45d6d9d2437ba0a2a1994a0cb6d36b43baac9f1cdde0d5dd232b500bab673881"
+    },
+    {
+      "path": "scripts/registry/content.mjs",
+      "bytes": 11853,
+      "importedSha256": "cb7b8dcae096559041283903c85615dd216b145a27f7892027176f50ec08bc25"
+    },
+    {
+      "path": "scripts/registry/generate.mjs",
+      "bytes": 2639,
+      "importedSha256": "83f725fd64404332cf174b8e65425e1f5624597d8bda54ee9aaf9e3ba30e77e6"
+    },
+    {
+      "path": "scripts/verify-artifact.mjs",
+      "bytes": 7920,
+      "importedSha256": "c3d4f7f160301cc7e98c4f72a6d923511b97c918aa335ef864bbbec05a901d96"
+    },
+    {
+      "path": "src/App.svelte",
+      "bytes": 27172,
+      "importedSha256": "cc0692fedb122ebc44829325bc74971094a498e2153e34bd12af1d31528e98eb"
+    },
+    {
+      "path": "src/lib/ActionChecklist.svelte",
+      "bytes": 823,
+      "importedSha256": "0548c760296860f4c0ce651ba6b63cddec7a7632bb3c1d4175bd8003ad582e07"
+    },
+    {
+      "path": "src/lib/data/categories.js",
+      "bytes": 649,
+      "importedSha256": "d564faf376fa9aebbdc4626f1f624880d331bdf390f5e830644a52e2afcfafed"
+    },
+    {
+      "path": "src/lib/data/changelog.js",
+      "bytes": 2588,
+      "importedSha256": "9438a65ed961313bbcc4b0a1da62373af41a977d1274d8c5d9c3057ed5fc4237"
+    },
+    {
+      "path": "src/lib/data/manifest.generated.js",
+      "bytes": 168229,
+      "importedSha256": "c085c838b17f1c0f0da568928c34ac4fd54ad46ed823b15804fa871836600e7c"
+    },
+    {
+      "path": "src/lib/data/mentions.js",
+      "bytes": 5023,
+      "importedSha256": "4bce170d050a5b4438c098bb0a3514d9c0afc56e84e8d304c58c2f2fc691e6d0"
+    },
+    {
+      "path": "src/lib/data/motion.js",
+      "bytes": 2754,
+      "importedSha256": "b33361e9bc2e5298a385d0250c27ea958739e2d897c9707b1f950b9ac396f7ab"
+    },
+    {
+      "path": "src/lib/data/registry.generated.js",
+      "bytes": 1300519,
+      "importedSha256": "c95ecd6523af692bdadf8f60dd9411b9ad5ff7c5880f0953477097d663276355"
+    },
+    {
+      "path": "src/lib/data/related.js",
+      "bytes": 840,
+      "importedSha256": "341c6386a6359ad1d58610a0a8474afaef29a89e2561fda1cfa66f70b0820df0"
+    },
+    {
+      "path": "src/lib/data/search.js",
+      "bytes": 3178,
+      "importedSha256": "93df18ffc191ae20dbef01407bbc9bc18fc46cbfe5185f0daf1103523a20bd8d"
+    },
+    {
+      "path": "src/lib/engine/cite-state.js",
+      "bytes": 162,
+      "importedSha256": "842c2f930e787b3a76378d098e4c79b2162c9b803f9ae02e8b22bb89dd04b98a"
+    },
+    {
+      "path": "src/lib/engine/council.js",
+      "bytes": 19802,
+      "importedSha256": "3b0f24d1f8135f4390387ab680fe633397e884014ab8f7d1b4caa73a8df38cf3"
+    },
+    {
+      "path": "src/lib/engine/jurisdiction-routes.js",
+      "bytes": 2322,
+      "importedSha256": "ed99412b39530c9afbfa7b54a0af970dd99a48d1495ba103e28da3f4d993d56b"
+    },
+    {
+      "path": "src/lib/engine/jurisdictions.js",
+      "bytes": 2955,
+      "importedSha256": "6a570dfe6b1597b0d6adcf540528e8877d3e1f960fc96862ac7c2243c6e83f7e"
+    },
+    {
+      "path": "src/lib/engine/mentions.js",
+      "bytes": 22285,
+      "importedSha256": "f7cf2563eef5e40f735be4588e60b3827beea40f4d64b959390903f5bae4b7f9"
+    },
+    {
+      "path": "src/lib/icons.js",
+      "bytes": 4726,
+      "importedSha256": "31be5070fd87d55fc921f7d2097c04d6c63a0a3a8a98a5691d019bf96bccbbff"
+    },
+    {
+      "path": "src/lib/JurisdictionRun.svelte",
+      "bytes": 12687,
+      "importedSha256": "e226c5e9ffa5820e7829d36d27bebf252769bc38257146ae196410fcb6d90685"
+    },
+    {
+      "path": "src/lib/Mentions.svelte",
+      "bytes": 7975,
+      "importedSha256": "be79dcac6aa868d377d0038a3268962fa4357e55e51793799380824bd45ffe3c"
+    },
+    {
+      "path": "src/lib/WizardRow.svelte",
+      "bytes": 862,
+      "importedSha256": "b16065e53abf6154467460bc7228f8e5d45fd4cb20f61b8f5d362d1046a5b224"
+    },
+    {
+      "path": "src/main.js",
+      "bytes": 790,
+      "importedSha256": "f51c99810151892da5ba908699901158940721c700ae28c3e0c4eac66fe679b8"
+    },
+    {
+      "path": "src/styles/app.css",
+      "bytes": 52323,
+      "importedSha256": "89ef7f0df1ba8ad3069ded8aa469a76052ec207f40aa54acce8129a03d6e9677"
+    },
+    {
+      "path": "src/styles/fonts.css",
+      "bytes": 237904,
+      "importedSha256": "fadacd4e82618695e2de24a7d2cfbb87a7f405c1431b79fe10619c91103af5c9"
+    },
+    {
+      "path": "tests/unit/council.test.js",
+      "bytes": 20337,
+      "importedSha256": "dd5a0c06eaab4bdc4aacab4c30b2df2aa13e17e71a782e7798f831e15ce318be"
+    },
+    {
+      "path": "tests/unit/jurisdictions.test.js",
+      "bytes": 4657,
+      "importedSha256": "937c61cdb043f6dab93972315688fefc1396c6fc3e6261f80b37beba75b240b4"
+    },
+    {
+      "path": "tests/unit/mentions.test.js",
+      "bytes": 13274,
+      "importedSha256": "7b2dfc7eabbd7b4f1991a2ab35db061c9cdde51426d2583a25b466b61e1c1c0c"
+    },
+    {
+      "path": "tests/unit/outcome-guidance.test.js",
+      "bytes": 4839,
+      "importedSha256": "34d445830f167b42361ce046820efd9402001ab946cc514cdaa43c1c622cc4bd"
+    },
+    {
+      "path": "tests/unit/registry.test.js",
+      "bytes": 7491,
+      "importedSha256": "8cf070add3f54b06cb2fea25697ba2dae056589c734caac12a16b706d7c568e3"
+    },
+    {
+      "path": "tests/unit/us-states.test.js",
+      "bytes": 5225,
+      "importedSha256": "af0d2e1379d4ac7c736988ae42e68cfab0f074d16abac277c83d9d27bc89f7b2"
+    },
+    {
+      "path": "vite.config.js",
+      "bytes": 845,
+      "importedSha256": "f191088482f3f2aab42b3e82f0b16f57764ca4d1b5d255e161ce45fd815aba5e"
+    },
+    {
+      "path": "wizards.html",
+      "bytes": 998970,
+      "importedSha256": "e32129889593442173ccf3dece18752c8a2624df3654f033756004988e31ed62"
+    }
+  ],
+  "supportFiles": []
+}
