@@ -30,6 +30,7 @@ it('selected_answer_guidance_appears_only_in_the_result_and_is_removed_when_the_
 it('a_general_question_does_not_change_the_final_uk_citation_context', () => {
   const breach = WIZARDS.breach;
   let state = answerQuestion(breach, breach.start, 0);
+  state = answerQuestion(breach, state.currentNodeId, 0, state.history);
   state = answerQuestion(breach, state.currentNodeId, 1, state.history);
   state = answerQuestion(breach, state.currentNodeId, 1, state.history);
   const result = outcomeForState(breach, state.history, state.outcomeId);
@@ -64,10 +65,12 @@ it('a_real_unknown_answer_exports_its_provisional_reasoning_with_the_outcome_and
 
 it('the_suspected_breach_answer_is_factual_and_its_result_preserves_investigation_advice', () => {
   const breach = WIZARDS.breach;
-  const index = breach.nodes[breach.start].opts.findIndex(option => option.label.startsWith('Suspected'));
-  const option = breach.nodes[breach.start].opts[index];
+  const ours = answerQuestion(breach, breach.start, 0);
+  const incident = breach.nodes[ours.currentNodeId];
+  const index = incident.opts.findIndex(option => option.label.startsWith('Suspected'));
+  const option = incident.opts[index];
   expect(option.desc).toBeUndefined();
-  const state = answerQuestion(breach, breach.start, index);
+  const state = answerQuestion(breach, ours.currentNodeId, index, ours.history);
   const result = outcomeForState(breach, state.history, state.outcomeId);
   expect(result.actions.some(action => /investigation|incident response/i.test(action))).toBe(true);
   expect(result.summary).toMatch(/Suspicion alone does not establish/);

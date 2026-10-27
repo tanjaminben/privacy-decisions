@@ -1540,8 +1540,9 @@
     },
     {
       "path": "content/wizards/adm.json",
-      "bytes": 19805,
-      "importedSha256": "a719f4d9b9ebaf37856255045bf6e83fc812990fee4c0d69b57d813e21a611bb"
+      "bytes": 21106,
+      "importedSha256": "fad3c23d7f12d8a5a7dbfcedf6ac7d760f8e5d96fc59d3b190eb01602807d502",
+      "supersedesSha256": "a719f4d9b9ebaf37856255045bf6e83fc812990fee4c0d69b57d813e21a611bb"
     },
     {
       "path": "content/wizards/ai-risk.json",
@@ -1555,13 +1556,15 @@
     },
     {
       "path": "content/wizards/breach.json",
-      "bytes": 37483,
-      "importedSha256": "af49834a9fcc09904c830ba682195a7c166c18075bcdcc23869f112f439fb450"
+      "bytes": 40783,
+      "importedSha256": "92f9135240d6d244e1dec01c70e9456c690ec2c17ecaa9c5649697be30915b2b",
+      "supersedesSha256": "af49834a9fcc09904c830ba682195a7c166c18075bcdcc23869f112f439fb450"
     },
     {
       "path": "content/wizards/children.json",
-      "bytes": 19571,
-      "importedSha256": "610ace3d80793fd131901a5708e6942d7eb3207456150e0aea68f8f55ad9e47b"
+      "bytes": 19018,
+      "importedSha256": "95a9bbff6c4b9bf563ea5e0c3f1f320d4338fa57ca9acad559c7eb132245dbee",
+      "supersedesSha256": "610ace3d80793fd131901a5708e6942d7eb3207456150e0aea68f8f55ad9e47b"
     },
     {
       "path": "content/wizards/cookies.json",
@@ -1570,8 +1573,9 @@
     },
     {
       "path": "content/wizards/dpia.json",
-      "bytes": 11488,
-      "importedSha256": "32e86046bc1812383563549ee206a27aae828dc2ec025e2bfb975d06890f6dec"
+      "bytes": 12499,
+      "importedSha256": "958dd409b523467a8cd9da77fe41b164a25f8ea96f61d50261510f3693bdc886",
+      "supersedesSha256": "32e86046bc1812383563549ee206a27aae828dc2ec025e2bfb975d06890f6dec"
     },
     {
       "path": "content/wizards/dpo.json",
@@ -1585,13 +1589,15 @@
     },
     {
       "path": "content/wizards/legal-basis.json",
-      "bytes": 15840,
-      "importedSha256": "f9c5217fd63a9debf9931e2cfb07358f5c9b7cf460110dd6515fc21c6c8414dc"
+      "bytes": 16751,
+      "importedSha256": "1aee6561f8aac517b38859f59721b2eebe8c415ed0a703191e4ec8167d1dd626",
+      "supersedesSha256": "f9c5217fd63a9debf9931e2cfb07358f5c9b7cf460110dd6515fc21c6c8414dc"
     },
     {
       "path": "content/wizards/role.json",
-      "bytes": 15455,
-      "importedSha256": "cbf255315a5fd34bcd5c351c6dc81eafb089701b99c212788d38e219826af3d4"
+      "bytes": 15996,
+      "importedSha256": "4755105e6b9bf0f0435b7e9b41b9e01ef4401cb08d58e748be6b7361584331be",
+      "supersedesSha256": "cbf255315a5fd34bcd5c351c6dc81eafb089701b99c212788d38e219826af3d4"
     },
     {
       "path": "content/wizards/ropa.json",
@@ -1600,8 +1606,9 @@
     },
     {
       "path": "content/wizards/sale-share.json",
-      "bytes": 17567,
-      "importedSha256": "9a13f3518f5b623b72328e7d39303b0e05c7d01a2e530a28c1cc4ec4897250cd"
+      "bytes": 18016,
+      "importedSha256": "4400ec4b0b357d6547b1edb86d173d64f6df8f0c3244236bba9ea9eb2a28ebff",
+      "supersedesSha256": "9a13f3518f5b623b72328e7d39303b0e05c7d01a2e530a28c1cc4ec4897250cd"
     },
     {
       "path": "content/wizards/severity.json",
@@ -1610,8 +1617,9 @@
     },
     {
       "path": "content/wizards/special-category.json",
-      "bytes": 17459,
-      "importedSha256": "5196185b9d5cafec0754ee95198b0075c8547985ecc23597937cd65dee2e99a5"
+      "bytes": 20881,
+      "importedSha256": "d1390f8dc81c7c2167c1c7fdc7374c782f3b160e72e5d3153c7cc44e121ac677",
+      "supersedesSha256": "5196185b9d5cafec0754ee95198b0075c8547985ecc23597937cd65dee2e99a5"
     },
     {
       "path": "content/wizards/transfer.json",
@@ -1695,8 +1703,9 @@
     },
     {
       "path": "src/lib/data/manifest.generated.js",
-      "bytes": 168229,
-      "importedSha256": "c085c838b17f1c0f0da568928c34ac4fd54ad46ed823b15804fa871836600e7c"
+      "bytes": 168250,
+      "importedSha256": "98c394c367af6444bdbeb422ebd95d3f098eb60e929c5b278a9ed37ad78b202e",
+      "supersedesSha256": "c085c838b17f1c0f0da568928c34ac4fd54ad46ed823b15804fa871836600e7c"
     },
     {
       "path": "src/lib/data/mentions.js",
@@ -1710,8 +1719,9 @@
     },
     {
       "path": "src/lib/data/registry.generated.js",
-      "bytes": 1300519,
-      "importedSha256": "c95ecd6523af692bdadf8f60dd9411b9ad5ff7c5880f0953477097d663276355"
+      "bytes": 1310298,
+      "importedSha256": "f53a823a7f4f876af7115217912d379c6b9aa3153cec66d096c04625e7e00b40",
+      "supersedesSha256": "c95ecd6523af692bdadf8f60dd9411b9ad5ff7c5880f0953477097d663276355"
     },
     {
       "path": "src/lib/data/related.js",
@@ -1800,8 +1810,9 @@
     },
     {
       "path": "tests/unit/outcome-guidance.test.js",
-      "bytes": 4839,
-      "importedSha256": "34d445830f167b42361ce046820efd9402001ab946cc514cdaa43c1c622cc4bd"
+      "bytes": 5005,
+      "importedSha256": "ff6cf2994c6923df7b707b7bde49215af64e44c102b1b24d771691c1b565a263",
+      "supersedesSha256": "34d445830f167b42361ce046820efd9402001ab946cc514cdaa43c1c622cc4bd"
     },
     {
       "path": "tests/unit/registry.test.js",
@@ -1824,5 +1835,26 @@
       "importedSha256": "e32129889593442173ccf3dece18752c8a2624df3654f033756004988e31ed62"
     }
   ],
-  "supportFiles": []
+  "supportFiles": [],
+  "revisions": [
+    {
+      "date": "2026-10-26",
+      "branch": "phase0-correctness",
+      "kind": "reviewed-routing-correction",
+      "note": "Package unfrozen at the owner's direction for Phase 0 routing fixes from docs/review/2026-10-26-adversarial-review.md. Decision graphs changed: special-category (all ten Article 9(2) conditions reachable; new outcomes o-9-2-c, o-9-2-d), legal-basis (new start q-special; o-art-9-route removed), dpia (q-sa-list split so the risk-factor count is asked once), adm (Both runs a UK question then the EU path), children (UK Children's code path continues to the age-13 question; o-uk-aadc folded into option actions), breach (new start q-holder and outcome o-holder-notify for data held for others; NY good-faith employee access moved into the NY branch), sale-share (o-internal replaced by o-third-other), role (vendor standard-service option). One test updated for the new breach start. Each changed file keeps its previous hash in supersedesSha256. Legal text checked against primary sources on 2026-10-26; not practitioner-reviewed.",
+      "files": [
+        "content/wizards/adm.json",
+        "content/wizards/breach.json",
+        "content/wizards/children.json",
+        "content/wizards/dpia.json",
+        "content/wizards/legal-basis.json",
+        "content/wizards/role.json",
+        "content/wizards/sale-share.json",
+        "content/wizards/special-category.json",
+        "src/lib/data/manifest.generated.js",
+        "src/lib/data/registry.generated.js",
+        "tests/unit/outcome-guidance.test.js"
+      ]
+    }
+  ]
 }

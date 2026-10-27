@@ -1,0 +1,210 @@
+{
+  "schemaVersion": 1,
+  "note": "Verbatim statutory and regulatory text, copied from the official online publication. Each extract was checked byte for byte against a SHA-256 computed in the browser on the source page (extractSha256). Text only; formatting and emphasis are not reproduced.",
+  "sources": {
+    "ccpa-1798-140": {
+      "label": "California Civil Code section 1798.140",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1798.140.",
+      "retrieved": "2026-10-26",
+      "subdivisions": {
+        "(d)": [
+          "(d) “Business” means:",
+          "(1) A sole proprietorship, partnership, limited liability company, corporation, association, or other legal entity that is organized or operated for the profit or financial benefit of its shareholders or other owners, that collects consumers’ personal information, or on the behalf of which such information is collected and that alone, or jointly with others, determines the purposes and means of the processing of consumers’ personal information, that does business in the State of California, and that satisfies one or more of the following thresholds:",
+          "(A) As of January 1 of the calendar year, had annual gross revenues in excess of twenty-five million dollars ($25,000,000) in the preceding calendar year, as adjusted pursuant to subdivision (d) of Section 1798.199.95.",
+          "(B) Alone or in combination, annually buys, sells, or shares the personal information of 100,000 or more consumers or households.",
+          "(C) Derives 50 percent or more of its annual revenues from selling or sharing consumers’ personal information.",
+          "(2) Any entity that controls or is controlled by a business, as defined in paragraph (1), and that shares common branding with the business and with whom the business shares consumers’ personal information. “Control” or “controlled” means ownership of, or the power to vote, more than 50 percent of the outstanding shares of any class of voting security of a business; control in any manner over the election of a majority of the directors, or of individuals exercising similar functions; or the power to exercise a controlling influence over the management of a company. “Common branding” means a shared name, servicemark, or trademark that the average consumer would understand that two or more entities are commonly owned.",
+          "(3) A joint venture or partnership composed of businesses in which each business has at least a 40 percent interest. For purposes of this title, the joint venture or partnership and each business that composes the joint venture or partnership shall separately be considered a single business, except that personal information in the possession of each business and disclosed to the joint venture or partnership shall not be shared with the other business.",
+          "(4) A person that does business in California, that is not covered by paragraph (1), (2), or (3), and that voluntarily certifies to the California Privacy Protection Agency that it is in compliance with, and agrees to be bound by, this title."
+        ],
+        "(e)": [
+          "(e) “Business purpose” means the use of personal information for the business’ operational purposes, or other notified purposes, or for the service provider or contractor’s operational purposes, as defined by regulations adopted pursuant to paragraph (10) of subdivision (a) of Section 1798.185, provided that the use of personal information shall be reasonably necessary and proportionate to achieve the purpose for which the personal information was collected or processed or for another purpose that is compatible with the context in which the personal information was collected. Business purposes are:",
+          "(1) Auditing related to counting ad impressions to unique visitors, verifying positioning and quality of ad impressions, and auditing compliance with this specification and other standards.",
+          "(2) Helping to ensure security and integrity to the extent the use of the consumer’s personal information is reasonably necessary and proportionate for these purposes.",
+          "(3) Debugging to identify and repair errors that impair existing intended functionality.",
+          "(4) Short-term, transient use, including, but not limited to, nonpersonalized advertising shown as part of a consumer’s current interaction with the business, provided that the consumer’s personal information is not disclosed to another third party and is not used to build a profile about the consumer or otherwise alter the consumer’s experience outside the current interaction with the business.",
+          "(5) Performing services on behalf of the business, including maintaining or servicing accounts, providing customer service, processing or fulfilling orders and transactions, verifying customer information, processing payments, providing financing, providing analytic services, providing storage, or providing similar services on behalf of the business.",
+          "(6) Providing advertising and marketing services, except for cross-context behavioral advertising, to the consumer provided that, for the purpose of advertising and marketing, a service provider or contractor shall not combine the personal information of opted-out consumers that the service provider or contractor receives from, or on behalf of, the business with personal information that the service provider or contractor receives from, or on behalf of, another person or persons or collects from its own interaction with consumers.",
+          "(7) Undertaking internal research for technological development and demonstration.",
+          "(8) Undertaking activities to verify or maintain the quality or safety of a service or device that is owned, manufactured, manufactured for, or controlled by the business, and to improve, upgrade, or enhance the service or device that is owned, manufactured, manufactured for, or controlled by the business."
+        ],
+        "(h)": [
+          "(h) “Consent” means any freely given, specific, informed, and unambiguous indication of the consumer’s wishes by which the consumer, or the consumer’s legal guardian, a person who has power of attorney, or a person acting as a conservator for the consumer, including by a statement or by a clear affirmative action, signifies agreement to the processing of personal information relating to the consumer for a narrowly defined particular purpose. Acceptance of a general or broad terms of use, or similar document, that contains descriptions of personal information processing along with other, unrelated information, does not constitute consent. Hovering over, muting, pausing, or closing a given piece of content does not constitute consent. Likewise, agreement obtained through use of dark patterns does not constitute consent."
+        ],
+        "(j)": [
+          "(j) (1) “Contractor” means a person to whom the business makes available a consumer’s personal information for a business purpose, pursuant to a written contract with the business, provided that the contract:",
+          "(A) Prohibits the contractor from:",
+          "(i) Selling or sharing the personal information.",
+          "(ii) Retaining, using, or disclosing the personal information for any purpose other than for the business purposes specified in the contract, including retaining, using, or disclosing the personal information for a commercial purpose other than the business purposes specified in the contract, or as otherwise permitted by this title.",
+          "(iii) Retaining, using, or disclosing the information outside of the direct business relationship between the contractor and the business.",
+          "(iv) Combining the personal information that the contractor receives pursuant to a written contract with the business with personal information that it receives from or on behalf of another person or persons, or collects from its own interaction with the consumer, provided that the contractor may combine personal information to perform any business purpose as defined in regulations adopted pursuant to paragraph (9) of subdivision (a) of Section 1798.185, except as provided for in paragraph (6) of subdivision (e) and in regulations adopted by the California Privacy Protection Agency.",
+          "(B) Includes a certification made by the contractor that the contractor understands the restrictions in subparagraph (A) and will comply with them.",
+          "(C) Permits, subject to agreement with the contractor, the business to monitor the contractor’s compliance with the contract through measures, including, but not limited to, ongoing manual reviews and automated scans and regular assessments, audits, or other technical and operational testing at least once every 12 months.",
+          "(2) If a contractor engages any other person to assist it in processing personal information for a business purpose on behalf of the business, or if any other person engaged by the contractor engages another person to assist in processing personal information for that business purpose, it shall notify the business of that engagement, and the engagement shall be pursuant to a written contract binding the other person to observe all the requirements set forth in paragraph (1)."
+        ],
+        "(s)": [
+          "(s) “Intentionally interacts” means when the consumer intends to interact with a person, or disclose personal information to a person, via one or more deliberate interactions, including visiting the person’s internet website or purchasing a good or service from the person. Hovering over, muting, pausing, or closing a given piece of content does not constitute a consumer’s intent to interact with a person."
+        ],
+        "(ad)": [
+          "(ad) (1) “Sell,” “selling,” “sale,” or “sold,’’ means selling, renting, releasing, disclosing, disseminating, making available, transferring, or otherwise communicating orally, in writing, or by electronic or other means, a consumer’s personal information by the business to a third party for monetary or other valuable consideration.",
+          "(2) For purposes of this title, a business does not sell personal information when:",
+          "(A) A consumer uses or directs the business to intentionally:",
+          "(i) Disclose personal information.",
+          "(ii) Interact with one or more third parties.",
+          "(B) The business uses or shares an identifier for a consumer who has opted out of the sale of the consumer’s personal information or limited the use of the consumer’s sensitive personal information for the purposes of alerting persons that the consumer has opted out of the sale of the consumer’s personal information or limited the use of the consumer’s sensitive personal information.",
+          "(C) The business transfers to a third party the personal information of a consumer as an asset that is part of a merger, acquisition, bankruptcy, or other transaction in which the third party assumes control of all or part of the business, provided that information is used or shared consistently with this title. If a third party materially alters how it uses or shares the personal information of a consumer in a manner that is materially inconsistent with the promises made at the time of collection, it shall provide prior notice of the new or changed practice to the consumer. The notice shall be sufficiently prominent and robust to ensure that existing consumers can easily exercise their choices consistently with this title. This subparagraph does not authorize a business to make material, retroactive privacy policy changes or make other changes in their privacy policy in a manner that would violate the Unfair and Deceptive Practices Act (Chapter 5 (commencing with Section 17200) of Part 2 of Division 7 of the Business and Professions Code)."
+        ],
+        "(ag)": [
+          "(ag) (1) “Service provider” means a person that processes personal information on behalf of a business and that receives from or on behalf of the business consumer’s personal information for a business purpose pursuant to a written contract, provided that the contract prohibits the person from:",
+          "(A) Selling or sharing the personal information.",
+          "(B) Retaining, using, or disclosing the personal information for any purpose other than for the business purposes specified in the contract for the business, including retaining, using, or disclosing the personal information for a commercial purpose other than the business purposes specified in the contract with the business, or as otherwise permitted by this title.",
+          "(C) Retaining, using, or disclosing the information outside of the direct business relationship between the service provider and the business.",
+          "(D) Combining the personal information that the service provider receives from, or on behalf of, the business with personal information that it receives from, or on behalf of, another person or persons, or collects from its own interaction with the consumer, provided that the service provider may combine personal information to perform any business purpose as defined in regulations adopted pursuant to paragraph (9) of subdivision (a) of Section 1798.185, except as provided for in paragraph (6) of subdivision (e) of this section and in regulations adopted by the California Privacy Protection Agency. The contract may, subject to agreement with the service provider, permit the business to monitor the service provider’s compliance with the contract through measures, including, but not limited to, ongoing manual reviews and automated scans and regular assessments, audits, or other technical and operational testing at least once every 12 months.",
+          "(2) If a service provider engages any other person to assist it in processing personal information for a business purpose on behalf of the business, or if any other person engaged by the service provider engages another person to assist in processing personal information for that business purpose, it shall notify the business of that engagement, and the engagement shall be pursuant to a written contract binding the other person to observe all the requirements set forth in paragraph (1)."
+        ],
+        "(ah)": [
+          "(ah) (1) “Share,” “shared,” or “sharing” means sharing, renting, releasing, disclosing, disseminating, making available, transferring, or otherwise communicating orally, in writing, or by electronic or other means, a consumer’s personal information by the business to a third party for cross-context behavioral advertising, whether or not for monetary or other valuable consideration, including transactions between a business and a third party for cross-context behavioral advertising for the benefit of a business in which no money is exchanged.",
+          "(2) For purposes of this title, a business does not share personal information when:",
+          "(A) A consumer uses or directs the business to intentionally disclose personal information or intentionally interact with one or more third parties.",
+          "(B) The business uses or shares an identifier for a consumer who has opted out of the sharing of the consumer’s personal information or limited the use of the consumer’s sensitive personal information for the purposes of alerting persons that the consumer has opted out of the sharing of the consumer’s personal information or limited the use of the consumer’s sensitive personal information.",
+          "(C) The business transfers to a third party the personal information of a consumer as an asset that is part of a merger, acquisition, bankruptcy, or other transaction in which the third party assumes control of all or part of the business, provided that information is used or shared consistently with this title. If a third party materially alters how it uses or shares the personal information of a consumer in a manner that is materially inconsistent with the promises made at the time of collection, it shall provide prior notice of the new or changed practice to the consumer. The notice shall be sufficiently prominent and robust to ensure that existing consumers can easily exercise their choices consistently with this title. This subparagraph does not authorize a business to make material, retroactive privacy policy changes or make other changes in their privacy policy in a manner that would violate the Unfair and Deceptive Practices Act (Chapter 5 (commencing with Section 17200) of Part 2 of Division 7 of the Business and Professions Code)."
+        ],
+        "(ai)": [
+          "(ai) “Third party” means a person who is not any of the following:",
+          "(1) The business with whom the consumer intentionally interacts and that collects personal information from the consumer as part of the consumer’s current interaction with the business under this title.",
+          "(2) A service provider to the business.",
+          "(3) A contractor."
+        ],
+        "(ae)": [
+          "(ae) “Sensitive personal information” means:",
+          "(1) Personal information that reveals:",
+          "(A) A consumer’s social security, driver’s license, state identification card, or passport number.",
+          "(B) A consumer’s account log-in, financial account, debit card, or credit card number in combination with any required security or access code, password, or credentials allowing access to an account.",
+          "(C) A consumer’s precise geolocation.",
+          "(D) A consumer’s racial or ethnic origin, citizenship or immigration status, religious or philosophical beliefs, or union membership.",
+          "(E) The contents of a consumer’s mail, email, and text messages unless the business is the intended recipient of the communication.",
+          "(F) A consumer’s genetic data.",
+          "(G) (i) A consumer’s neural data.",
+          "(ii) “Neural data” means information that is generated by measuring the activity of a consumer’s central or peripheral nervous system, and that is not inferred from nonneural information.",
+          "(2) (A) The processing of biometric information for the purpose of uniquely identifying a consumer.",
+          "(B) Personal information collected and analyzed concerning a consumer’s health.",
+          "(C) Personal information collected and analyzed concerning a consumer’s sex life or sexual orientation.",
+          "(3) Sensitive personal information that is “publicly available” pursuant to paragraph (2) of subdivision (v) shall not be considered sensitive personal information or personal information."
+        ],
+        "(ak)": [
+          "(ak) “Verifiable consumer request” means a request that is made by a consumer, by a consumer on behalf of the consumer’s minor child, by a natural person or a person registered with the Secretary of State, authorized by the consumer to act on the consumer’s behalf, or by a person who has power of attorney or is acting as a conservator for the consumer, and that the business can verify, using commercially reasonable methods, pursuant to regulations adopted by the Attorney General pursuant to paragraph (6) of subdivision (a) of Section 1798.185 to be the consumer about whom the business has collected personal information. A business is not obligated to provide information to the consumer pursuant to Sections 1798.110 and 1798.115, to delete personal information pursuant to Section 1798.105, or to correct inaccurate personal information pursuant to Section 1798.106, if the business cannot verify, pursuant to this subdivision and regulations adopted by the Attorney General pursuant to paragraph (6) of subdivision (a) of Section 1798.185, that the consumer making the request is the consumer about whom the business has collected information or is a person authorized by the consumer to act on such consumer’s behalf."
+        ]
+      },
+      "extractSha256": [
+        "3d196212278d5b635a82fc70c5e67c8f68c254392540af7319de60c8c6b9e167",
+        "8090da98c179df181367b6c6885ac4be046155cf52b711bcc539c3efa2f4808d"
+      ]
+    },
+    "ccpa-1798-120": {
+      "label": "California Civil Code section 1798.120",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1798.120.",
+      "retrieved": "2026-10-26",
+      "subdivisions": {
+        "(a)": [
+          "(a) (1) A consumer shall have the right, at any time, to direct a business that sells or shares personal information about the consumer to third parties not to sell or share the consumer’s personal information. This right may be referred to as the right to opt out of sale or sharing.",
+          "(2) A business to which another business transfers the personal information of a consumer as an asset that is part of a merger, acquisition, bankruptcy, or other transaction in which the transferee assumes control of all of, or part of, the transferor shall comply with a consumer’s direction to the transferor made pursuant to this subdivision."
+        ],
+        "(c)": [
+          "(c) Notwithstanding subdivision (a), a business shall not sell or share the personal information of consumers if the business has actual knowledge that the consumer is less than 16 years of age, unless the consumer, in the case of consumers at least 13 years of age and less than 16 years of age, or the consumer’s parent or guardian, in the case of consumers who are less than 13 years of age, has affirmatively authorized the sale or sharing of the consumer’s personal information. A business that willfully disregards the consumer’s age shall be deemed to have had actual knowledge of the consumer’s age."
+        ]
+      },
+      "extractSha256": [
+        "b3d63819526463a0e529c36c9819addbfb677204002f749f1959a73144d5224f"
+      ]
+    },
+    "ccpa-1798-135": {
+      "label": "California Civil Code section 1798.135",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1798.135.",
+      "retrieved": "2026-10-26",
+      "subdivisions": {
+        "(a)": [
+          "(a) A business that sells or shares consumers’ personal information or uses or discloses consumers’ sensitive personal information for purposes other than those authorized by subdivision (a) of Section 1798.121 shall, in a form that is reasonably accessible to consumers:",
+          "(1) Provide a clear and conspicuous link on the business’ internet homepages, titled “Do Not Sell or Share My Personal Information,” to an internet web page that enables a consumer, or a person authorized by the consumer, to opt out of the sale or sharing of the consumer’s personal information.",
+          "(2) Provide a clear and conspicuous link on the business’ internet homepages, titled “Limit the Use of My Sensitive Personal Information,” that enables a consumer, or a person authorized by the consumer, to limit the use or disclosure of the consumer’s sensitive personal information to those uses authorized by subdivision (a) of Section 1798.121.",
+          "(3) At the business’ discretion, utilize a single, clearly labeled link on the business’ internet homepages, in lieu of complying with paragraphs (1) and (2), if that link easily allows a consumer to opt out of the sale or sharing of the consumer’s personal information and to limit the use or disclosure of the consumer’s sensitive personal information.",
+          "(4) In the event that a business responds to opt-out requests received pursuant to paragraph (1), (2), or (3) by informing the consumer of a charge for the use of any product or service, present the terms of any financial incentive offered pursuant to subdivision (b) of Section 1798.125 for the retention, use, sale, or sharing of the consumer’s personal information."
+        ],
+        "(c)": [
+          "(c) A business that is subject to this section shall:",
+          "(1) Not require a consumer to create an account or provide additional information beyond what is necessary in order to direct the business not to sell or share the consumer’s personal information or to limit use or disclosure of the consumer’s sensitive personal information.",
+          "(2) Include a description of a consumer’s rights pursuant to Sections 1798.120 and 1798.121, along with a separate link to the “Do Not Sell or Share My Personal Information” internet web page and a separate link to the “Limit the Use of My Sensitive Personal Information” internet web page, if applicable, or a single link to both choices, or a statement that the business responds to and abides by opt-out preference signals sent by a platform, technology, or mechanism in accordance with subdivision (b), in:",
+          "(A) Its online privacy policy or policies if the business has an online privacy policy or policies.",
+          "(B) Any California-specific description of consumers’ privacy rights.",
+          "(3) Ensure that all individuals responsible for handling consumer inquiries about the business’ privacy practices or the business’ compliance with this title are informed of all requirements in Sections 1798.120, 1798.121, and this section and how to direct consumers to exercise their rights under those sections.",
+          "(4) For consumers who exercise their right to opt out of the sale or sharing of their personal information or limit the use or disclosure of their sensitive personal information, refrain from selling or sharing the consumer’s personal information or using or disclosing the consumer’s sensitive personal information and wait for at least 12 months before requesting that the consumer authorize the sale or sharing of the consumer’s personal information or the use and disclosure of the consumer’s sensitive personal information for additional purposes, or as authorized by regulations.",
+          "(5) For consumers under 16 years of age who do not consent to the sale or sharing of their personal information, refrain from selling or sharing the personal information of the consumer under 16 years of age and wait for at least 12 months before requesting the consumer’s consent again, or as authorized by regulations or until the consumer attains 16 years of age.",
+          "(6) Use any personal information collected from the consumer in connection with the submission of the consumer’s opt-out request solely for the purposes of complying with the opt-out request."
+        ],
+        "(b)": [
+          "(b) (1) A business shall not be required to comply with subdivision (a) if the business allows consumers to opt out of the sale or sharing of their personal information and to limit the use of their sensitive personal information through an opt-out preference signal sent with the consumer’s consent by a platform, technology, or mechanism, based on technical specifications set forth in regulations adopted pursuant to paragraph (19) of subdivision (a) of Section 1798.185, to the business indicating the consumer’s intent to opt out of the business’ sale or sharing of the consumer’s personal information or to limit the use or disclosure of the consumer’s sensitive personal information, or both.",
+          "(2) A business that allows consumers to opt out of the sale or sharing of their personal information and to limit the use of their sensitive personal information pursuant to paragraph (1) may provide a link to a web page that enables the consumer to consent to the business ignoring the opt-out preference signal with respect to that business’ sale or sharing of the consumer’s personal information or the use of the consumer’s sensitive personal information for additional purposes provided that:",
+          "(A) The consent web page also allows the consumer or a person authorized by the consumer to revoke the consent as easily as it is affirmatively provided.",
+          "(B) The link to the web page does not degrade the consumer’s experience on the web page the consumer intends to visit and has a similar look, feel, and size relative to other links on the same web page.",
+          "(C) The consent web page complies with technical specifications set forth in regulations adopted pursuant to paragraph (19) of subdivision (a) of Section 1798.185.",
+          "(3) A business that complies with subdivision (a) is not required to comply with subdivision (b). For the purposes of clarity, a business may elect whether to comply with subdivision (a) or subdivision (b)."
+        ]
+      },
+      "extractSha256": [
+        "ce9464f56923550529fbbb1fa777fbe73e764b10f996ab6102b9c399ca5250aa",
+        "bfc7edb3d92df14480d6184dfbe428e1a651c33ada033ba63b5e4e2329e5e0a0"
+      ]
+    },
+    "ccr-7025": {
+      "label": "California Code of Regulations, title 11, section 7025",
+      "url": "https://govt.westlaw.com/calregs/Document/I9786D7609E0F11F09EBEE9819175B1F8",
+      "retrieved": "2026-10-26",
+      "subdivisions": {
+        "(b)": [
+          "(b) A business that sells or shares personal information shall process any opt-out preference signal that meets the following requirements as a valid request to opt-out of sale/sharing:",
+          "(1) The signal shall be in a format commonly used and recognized by businesses. An example would be an HTTP header field or JavaScript object.",
+          "(2) The platform, technology, or mechanism that sends the opt-out preference signal shall make clear to the consumer, whether in its configuration or in disclosures to the public, that the use of the signal is meant to have the effect of opting the consumer out of the sale and sharing of their personal information. The configuration or disclosure does not need to be tailored only to California or to refer to California."
+        ],
+        "(f)": [
+          "(f) Except as allowed by these regulations, processing an opt-out preference signal in a frictionless manner as required by Civil Code section 1798.135, subdivision (b)(1), means that the business shall not:",
+          "(1) Charge a fee or require any valuable consideration if the consumer uses an opt-out preference signal.",
+          "(2) Change the consumer's experience with the product or service offered by the business. For example, the consumer who uses an opt-out preference signal shall have the same experience with regard to how the business's product or service functions compared to a consumer who does not use an opt-out preference signal.",
+          "(3) Display a notification, pop-up, text, graphic, animation, sound, video, or any interstitial content in response to the opt-out preference signal. However, a business's display of whether the consumer visiting their website has opted out of the sale or sharing their personal information shall not be considered a violation of this regulation. The business may also provide a link to a privacy settings page, menu, or similar interface that enables the consumer to consent to the business ignoring the opt-out preference signal with respect to the business's sale or sharing of the consumer's personal information provided that it complies with subsections (f)(1)-(3)."
+        ]
+      },
+      "extractSha256": [
+        "8530282cc025fd03f70636ea2603c7cc9dc59a19f8cc61b997d1ba21ea50ff3c"
+      ]
+    },
+    "ccr-7026": {
+      "label": "California Code of Regulations, title 11, section 7026",
+      "url": "https://govt.westlaw.com/calregs/Document/I7ADC20709E0F11F08716FB2DCD583363",
+      "retrieved": "2026-10-26",
+      "subdivisions": {
+        "(f)": [
+          "(f) A business shall comply with a request to opt-out of sale/sharing by:",
+          "(1) Ceasing to sell to and/or share with third parties the consumer's personal information as soon as feasibly possible, but no later than 15 business days from the date the business receives the request. Service providers or contractors collecting personal information pursuant to the written contract with the business required by the CCPA and these regulations does not constitute a sale or sharing of personal information.",
+          "(2) Notifying all third parties to whom the business has sold or shared the consumer's personal information, after the consumer submits the request to opt-out of sale/sharing and before the business complies with that request, that the consumer has made a request to opt-out of sale/sharing and directing them to comply with the consumer's request and forward the request to any other person to whom the third party has made the personal information available during that time period.",
+          "(3) Illustrative examples follow.",
+          "(A) Business U uses programmatic advertising technology on its website that instantaneously sells and shares personal information of consumers viewing its website through real-time bidding. Business U can restrict the transfer of personal information instantaneously, and thus, stop the sale and sharing personal information immediately. Accordingly, when Maya visits Business U's website and submits a request to opt-out of sale/sharing through the “Do Not Sell or Share My Personal Information” link, Business U shall immediately comply with Maya's request by ceasing to sell or share Maya's personal information with any third parties. Business U shall not take 15 business days to comply with Maya's request because it is feasibly possible to comply with the request sooner.",
+          "(B) Business V is a marketing company that discloses consumers' personal information to its clients via a batched upload every Friday. Business V's disclosure of personal information is a sale because it receives valuable consideration in exchange for the information. Siobhan submits a request to opt-out of sale/sharing to Business V through the mail, which Business V receives on Thursday. Business V finishes processing Siobhan's request on Tuesday because it requires a few days to update all internal systems and databases with Siobhan's request. Accordingly, Siobhan's personal information was not removed from the disclosure that occurred on the first Friday after receiving her request, though it was removed from the disclosure that occurred on the second Friday. Business V must notify all its clients that received Siobhan's information on the first Friday after Siobhan made her request to opt-out of sale/sharing and direct them to comply with her request and forward the request to any other person to whom they made Siobhan's personal information available."
+        ]
+      },
+      "extractSha256": [
+        "e2445dca53aaccc0bf97605bd1d027d18d52907be5724d6a74c4d533e778af1d"
+      ]
+    },
+    "ccr-7150": {
+      "label": "California Code of Regulations, title 11, section 7150",
+      "url": "https://govt.westlaw.com/calregs/Document/I00657B009FAB11F08837960D0A0033B1",
+      "retrieved": "2026-10-26",
+      "subdivisions": {
+        "(a)": [
+          "(a) Every business whose processing of consumers' personal information presents significant risk to consumers' privacy as set forth in subsection (b) must conduct a risk assessment before initiating that processing."
+        ]
+      },
+      "extractSha256": [
+        "2ca38e129d756d6ded5d99cef193050a38398f78bb0589bf0833a5d1de6cc72b"
+      ]
+    }
+  }
+}

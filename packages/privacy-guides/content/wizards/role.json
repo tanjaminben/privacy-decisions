@@ -59,6 +59,16 @@
           "resultNotes": [
             "You determine purposes; deciding essential means is itself controller-level influence (EDPB 07/2020). Two parties each exerting controller-level influence over the same processing points to joint controllership — not a controller-processor relationship."
           ]
+        },
+        {
+          "label": "A vendor’s standard service sets these, and the vendor uses the data only on our behalf",
+          "goto": "o-controller",
+          "cites": [
+            "guide-edpb-07-2020-controller"
+          ],
+          "resultNotes": [
+            "Accepting a vendor’s standard terms still makes you the controller; the vendor is your processor if it uses the data only on your behalf (European Data Protection Board Guidelines 07/2020, paragraph 30). Put an Article 28 contract in place."
+          ]
         }
       ]
     },

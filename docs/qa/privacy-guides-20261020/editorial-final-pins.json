@@ -4,14 +4,34 @@
   "scope": "Exported presentation input pins; original review receipts are outside this snapshot.",
   "files": [
     {
+      "path": "docs/qa/privacy-guides-20261020/editorial-check.mjs",
+      "sha256": "e99671738ec9a22786195c6018cb521b090ba7d8972443d894fdf8e2cb55e6df",
+      "bytes": 6871
+    },
+    {
+      "path": "integrations/privacy-guides/Mentions.svelte",
+      "sha256": "461b53808a3504aa4cfa3271cbe228c10ac4820b2354fcd66900aec8883ff2f6",
+      "bytes": 1526
+    },
+    {
+      "path": "integrations/privacy-guides/OfficialSourceLinks.svelte",
+      "sha256": "9ff88bf4b2acc815d6958eb2d2973ef98e48284294acf2888939e050d41678d6",
+      "bytes": 326
+    },
+    {
+      "path": "integrations/privacy-guides/QuestionExplanation.svelte",
+      "sha256": "dc79a03d2c7f9198d41ca9606d9dd62078c25345325141f6f7505f1e5e29f3bd",
+      "bytes": 3296
+    },
+    {
       "path": "integrations/privacy-guides/copy-result.js",
       "sha256": "1129ae905ac786da4c24011d338f99d03f414a307b02f9fc70e4b95d78240390",
       "bytes": 3035
     },
     {
       "path": "integrations/privacy-guides/editorial-copy.js",
-      "sha256": "5e615b3a21f600acb485a0a69bc8734eb4176fc071b134486c3d4b6e81d35725",
-      "bytes": 14796
+      "sha256": "0cdc5cb2883ff5189312baab300c4d58ec787f0f774ec0a2cdb8d6bb8968909e",
+      "bytes": 14923
     },
     {
       "path": "integrations/privacy-guides/editorial-mentions.js",
@@ -25,8 +45,8 @@
     },
     {
       "path": "integrations/privacy-guides/editorial-overrides.json",
-      "sha256": "19e09a7104fcc7edb8f120f5673285ae73113935118dafd50b3e85ff7cee6805",
-      "bytes": 275127
+      "sha256": "4bb7e82b89046e8215f5058934bf625f7966a6eef9fe5cf49c9097cc69700736",
+      "bytes": 295707
     },
     {
       "path": "integrations/privacy-guides/entry.js",
@@ -44,14 +64,19 @@
       "bytes": 4992
     },
     {
-      "path": "integrations/privacy-guides/Mentions.svelte",
-      "sha256": "086a3ca918aa99976163d352138c99875b0a9359d700f160fec2b8603ebe6429",
-      "bytes": 879
+      "path": "integrations/privacy-guides/law-quotes.js",
+      "sha256": "deae0d3b2cc181854d764b6c92678db986593a6c00a98f7d0e85144ca0253e69",
+      "bytes": 2834
+    },
+    {
+      "path": "integrations/privacy-guides/law-quotes.json",
+      "sha256": "19f81ce02ba80acc39a9c6e530ab47b23d04ad720846b937727b8f683a94d158",
+      "bytes": 35504
     },
     {
       "path": "integrations/privacy-guides/portfolio.css",
-      "sha256": "344371127fd8c411cd601170a720f35dc1bfba28dee3805d5682e4e49d4a7728",
-      "bytes": 6780
+      "sha256": "c97a1baad0aabadc7dc4b54a52b4ba2badf41e9f798f7b80d6793e6adbd804f6",
+      "bytes": 9420
     },
     {
       "path": "integrations/privacy-guides/presentation-registry.js",
@@ -59,19 +84,54 @@
       "bytes": 402
     },
     {
-      "path": "integrations/privacy-guides/QuestionExplanation.svelte",
-      "sha256": "bd206e4d52e5b76e6fbe1003cefb472625a426aa98f63e56410fd7f37e6e5a14",
-      "bytes": 2856
+      "path": "integrations/privacy-guides/source-links.js",
+      "sha256": "8e5600d196f87924b731b3347b23bfdfc494b2c483fdcfab47f99904f114160f",
+      "bytes": 1878
+    },
+    {
+      "path": "integrations/privacy-guides/source-links.test.mjs",
+      "sha256": "e5560d2a23b5e07fcc09cf825ddacdfd164dd381852de2ac1dc8f45bd6240393",
+      "bytes": 2146
+    },
+    {
+      "path": "packages/privacy-guides/IMPORT-MANIFEST.json",
+      "sha256": "70a31fb403a90e8d407390c817b2364f0f6b3b00d6319054e39f50f584206577",
+      "bytes": 72010
+    },
+    {
+      "path": "packages/privacy-guides/src/lib/data/manifest.generated.js",
+      "sha256": "98c394c367af6444bdbeb422ebd95d3f098eb60e929c5b278a9ed37ad78b202e",
+      "bytes": 168250
+    },
+    {
+      "path": "packages/privacy-guides/src/lib/data/registry.generated.js",
+      "sha256": "f53a823a7f4f876af7115217912d379c6b9aa3153cec66d096c04625e7e00b40",
+      "bytes": 1310298
     },
     {
       "path": "scripts/prepare-privacy-guides.mjs",
-      "sha256": "0ba7032775b5e9acb89fada9836d3b2923c780a1da3ba652dd87c8ef2bc8b60e",
-      "bytes": 11905
+      "sha256": "1a41283f45effc3b4e7bccd63e03696a29b8a5d7f44fd73ee068fa11ddec86f3",
+      "bytes": 13570
     },
     {
-      "path": "docs/qa/privacy-guides-20261020/editorial-check.mjs",
-      "sha256": "e99671738ec9a22786195c6018cb521b090ba7d8972443d894fdf8e2cb55e6df",
-      "bytes": 6871
+      "path": "site/explanation-annotations.js",
+      "sha256": "36b24a00e814b241a15e05c033e1b1a007924ad92825c6aad6588afd398bd42c",
+      "bytes": 21751
+    },
+    {
+      "path": "site/explanations.css",
+      "sha256": "f3f2640a883e1db916046f1302be51536971aa3ce4499a6150f19705c8556a1d",
+      "bytes": 19849
+    },
+    {
+      "path": "site/styles.css",
+      "sha256": "8daa6630a0259f9948cbfdee59212d4635d5a171f894ff3db2967100f6378a45",
+      "bytes": 25571
+    },
+    {
+      "path": "site/tools/privacy-guides/explanations.js",
+      "sha256": "ad45ae742b1175538f75089cdff4f67b0afee321069793989c56de204b7d889f",
+      "bytes": 253
     },
     {
       "path": "site/tools/privacy-guides/index.html",
@@ -84,59 +144,9 @@
       "bytes": 637
     },
     {
-      "path": "site/tools/privacy-guides/explanations.js",
-      "sha256": "ad45ae742b1175538f75089cdff4f67b0afee321069793989c56de204b7d889f",
-      "bytes": 253
-    },
-    {
-      "path": "site/styles.css",
-      "sha256": "8daa6630a0259f9948cbfdee59212d4635d5a171f894ff3db2967100f6378a45",
-      "bytes": 25571
-    },
-    {
-      "path": "site/explanations.css",
-      "sha256": "f3f2640a883e1db916046f1302be51536971aa3ce4499a6150f19705c8556a1d",
-      "bytes": 19849
-    },
-    {
-      "path": "site/explanation-annotations.js",
-      "sha256": "36b24a00e814b241a15e05c033e1b1a007924ad92825c6aad6588afd398bd42c",
-      "bytes": 21751
-    },
-    {
       "path": "site/vendor/nutshell/nutshell.js",
       "sha256": "3f13933c917b57528d2fb78fe904c92a4b7b03d4cb78c999578bd599f6c505c2",
       "bytes": 177434
-    },
-    {
-      "path": "packages/privacy-guides/IMPORT-MANIFEST.json",
-      "sha256": "9ed755444d21823ae241c0c200ca1be9a1bac0161754626ac77269f517c346c8",
-      "bytes": 69361
-    },
-    {
-      "path": "packages/privacy-guides/src/lib/data/registry.generated.js",
-      "sha256": "c95ecd6523af692bdadf8f60dd9411b9ad5ff7c5880f0953477097d663276355",
-      "bytes": 1300519
-    },
-    {
-      "path": "packages/privacy-guides/src/lib/data/manifest.generated.js",
-      "sha256": "c085c838b17f1c0f0da568928c34ac4fd54ad46ed823b15804fa871836600e7c",
-      "bytes": 168229
-    },
-    {
-      "path": "integrations/privacy-guides/OfficialSourceLinks.svelte",
-      "sha256": "9ff88bf4b2acc815d6958eb2d2973ef98e48284294acf2888939e050d41678d6",
-      "bytes": 326
-    },
-    {
-      "path": "integrations/privacy-guides/source-links.js",
-      "sha256": "8e5600d196f87924b731b3347b23bfdfc494b2c483fdcfab47f99904f114160f",
-      "bytes": 1878
-    },
-    {
-      "path": "integrations/privacy-guides/source-links.test.mjs",
-      "sha256": "e5560d2a23b5e07fcc09cf825ddacdfd164dd381852de2ac1dc8f45bd6240393",
-      "bytes": 2146
     }
   ]
 }
