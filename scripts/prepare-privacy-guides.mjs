@@ -47,6 +47,8 @@ await build({
       if (id === 'portfolio-guides:editorial-copy') return path.join(adapter, 'editorial-copy.js');
       if (id === 'portfolio-guides:source-links') return path.join(adapter, 'source-links.js');
       if (id === 'portfolio-guides:official-source-links') return path.join(adapter, 'OfficialSourceLinks.svelte');
+      if (id === 'portfolio-guides:law-panel') return path.join(adapter, 'LawPanel.svelte');
+      if (id === 'portfolio-guides:law-toggle') return path.join(adapter, 'LawToggle.svelte');
       if (importer?.replaceAll('\\', '/').includes('/packages/privacy-guides/src/')) {
         if (id.endsWith('/registry.generated.js')) return path.join(adapter, 'presentation-registry.js');
         if (id.endsWith('/data/motion.js') || id === '../data/motion.js') return path.join(adapter, 'editorial-motion.js');
@@ -63,7 +65,7 @@ await build({
         code = exact(code, '<script>', "<script>\n  import OfficialSourceLinks from 'portfolio-guides:official-source-links';\n  import { primarySourceUrl } from 'portfolio-guides:source-links';");
         code = exact(code, '<li><a href={SOURCES[id].provenance}', '<li><a href={primarySourceUrl(id, SOURCES[id])}');
         code = exact(code, '<a class="official-link" href={SOURCES[id].provenance} target="_blank" rel="noopener noreferrer">Open the official text ↗</a>', '<OfficialSourceLinks {id} source={SOURCES[id]} />');
-        code = exact(code, "  import { tick } from 'svelte';", "  import { tick } from 'svelte';\n  import { stateResultsText } from 'portfolio-guides:copy-result';\n  import QuestionExplanation from 'portfolio-guides:question-explanation';\n  import { plainLegalCopy } from 'portfolio-guides:editorial-copy';");
+        code = exact(code, "  import { tick } from 'svelte';", "  import { tick } from 'svelte';\n  import { stateResultsText } from 'portfolio-guides:copy-result';\n  import QuestionExplanation from 'portfolio-guides:question-explanation';\n  import LawToggle from 'portfolio-guides:law-toggle';\n  import { plainLegalCopy } from 'portfolio-guides:editorial-copy';");
         code = exact(code, 'beginJurisdictions, buildJurisdictionRecord, editJurisdiction', 'beginJurisdictions, editJurisdiction');
         code = between(code, '  function record() {', '  async function copy() {');
         code = exact(code, '    const text = record();', '    const text = stateResultsText({ wizardId, runs });');
@@ -72,12 +74,15 @@ await build({
         code = exact(code, '      <button type="button" class="button primary" on:click={download}>Download all state results</button>\n', '');
         code = exact(code, '<button type="button" class="button secondary" on:click={copy}>Copy record</button>', '<button type="button" class="button primary" on:click={copy}>Copy results</button>');
         code = exact(code, '        <details class="disclosure">\n          <summary>Why this question?</summary>\n          <p class="disclosure-body"><Mentions text={node.help} {context} /></p>\n        </details>', '        {#key wizardId + run.currentNodeId}<QuestionExplanation {wizardId} nodeId={run.currentNodeId} />{/key}');
+        // Citations in an answer stay text inside its label; the cited law opens in the side panel.
+        code = exact(code, '<span><strong>{option.label}</strong>{#if option.desc}<small>{option.desc}</small>{/if}</span>', '<span><strong>{option.label}</strong>{#if option.desc}<small><Mentions text={option.desc} {context} inert /></small>{/if}</span>');
+        code = exact(code, '<button type="button" class="text-button" on:click={back}>Back</button>\n      </div>', '<button type="button" class="text-button" on:click={back}>Back</button>\n        <LawToggle />\n      </div>');
         return interfaceCopy(code, 'JurisdictionRun.svelte');
       }
       if (!id.replaceAll('\\', '/').endsWith('/privacy-guides/src/App.svelte')) return;
       code = exact(code, '<script>', "<script>\n  import OfficialSourceLinks from 'portfolio-guides:official-source-links';");
       code = exact(code, '{#if item.source.provenance || item.source.url}<a class="official-link" href={item.source.provenance || item.source.url} target="_blank" rel="noopener noreferrer">Open the official text ↗</a>{/if}', '<OfficialSourceLinks id={item.id} source={item.source} />');
-      code = exact(code, "  import { onMount, tick } from 'svelte';", "  import { onMount, tick } from 'svelte';\n  import { resultText } from 'portfolio-guides:copy-result';\n  import QuestionExplanation from 'portfolio-guides:question-explanation';\n  import { plainLegalCopy } from 'portfolio-guides:editorial-copy';");
+      code = exact(code, "  import { onMount, tick } from 'svelte';", "  import { onMount, tick } from 'svelte';\n  import { resultText } from 'portfolio-guides:copy-result';\n  import QuestionExplanation from 'portfolio-guides:question-explanation';\n  import LawPanel from 'portfolio-guides:law-panel';\n  import LawToggle from 'portfolio-guides:law-toggle';\n  import { plainLegalCopy } from 'portfolio-guides:editorial-copy';");
       code = exact(code, '    buildRecord,\n', '');
       code = between(code, '  function downloadRecord() {', '  function selectCategory(id) {', "  function copyResult() {\n    copyText(resultText({ wizardId: selectedWizardId, history, outcomeId }), 'Result');\n  }\n\n");
       code = exact(code, 'on:click={downloadRecord}>Download determination', 'on:click={copyResult}>Copy result');
@@ -87,12 +92,15 @@ await build({
       code = exact(code, '        {#if !wizard.jurisdictionRoutes}<div class={`legal-status status-${reviewState.status}`}><span>{sourceStatusLabel(reviewState.status)}</span><small>{reviewState.practitionerReviewed ? `Legal sources reviewed through ${reviewState.reviewedThrough}` : \'Published aid · not counsel-reviewed\'}</small></div>{/if}\n', '');
       code = exact(code, '                    <details class="disclosure" bind:open={helpExpanded}>\n                      <summary>Why this question?</summary>\n                      <p class="disclosure-body"><Mentions text={helpRest} context={citeState.context} scope={citeState.help} /></p>\n                    </details>', '                    {#key selectedWizardId + currentNodeId}<QuestionExplanation wizardId={selectedWizardId} nodeId={currentNodeId} />{/key}');
       code = exact(code, "const EMBED = new URLSearchParams(location.search).has('embed');", 'const EMBED = false;');
+      // Citations in an answer stay text inside its button; the cited law opens in the side panel.
+      code = exact(code, '<span><strong>{option.label}</strong>{#if option.desc}<small>{option.desc}</small>{/if}</span>', '<span><strong>{option.label}</strong>{#if option.desc}<small><Mentions text={option.desc} context={citeState.context} inert /></small>{/if}</span>');
+      code = exact(code, '<button type="button" class="text-button" on:click={stepBack}>Back</button>\n                </div>', '<button type="button" class="text-button" on:click={stepBack}>Back</button>\n                  <LawToggle />\n                </div>');
       const chromeStart = code.indexOf('{#if !EMBED}\n<header class="site-bar">');
       const mainStart = code.indexOf('<main class:is-embed={EMBED}>');
       const contentStart = code.indexOf('  {#if !graph.ok}');
       const mainEnd = code.lastIndexOf('</main>');
       if (chromeStart < 0 || mainStart < chromeStart || contentStart < mainStart || mainEnd < contentStart) throw Error('Guide chrome boundaries changed.');
-      code = code.slice(0, chromeStart) + '<div class="guide-engine">\n<QuestionExplanation sources />\n' + code.slice(contentStart, mainEnd) + '</div>\n';
+      code = code.slice(0, chromeStart) + '<div class="guide-engine">\n<QuestionExplanation sources />\n<div class="guide-layout">\n<div class="guide-main">\n' + code.slice(contentStart, mainEnd) + '</div>\n<LawPanel />\n</div>\n</div>\n';
       code = code.replace(/      <section class="intro-steps"[\s\S]*?<\/section>\n/, '');
       code = exact(code, '<h2 id="finder-heading" class="sr-only">Find a determination</h2>', '<h2 id="finder-heading" class="guide-finder-title">What are you trying to decide?</h2>');
       return interfaceCopy(code, 'App.svelte');

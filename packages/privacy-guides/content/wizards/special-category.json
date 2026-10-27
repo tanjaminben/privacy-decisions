@@ -199,6 +199,18 @@
           "goto": "o-9-2-a"
         },
         {
+          "label": "Employment, social security or social protection law obligations or rights — Art. 9(2)(b)",
+          "goto": "o-9-2-b"
+        },
+        {
+          "label": "Protecting someone’s vital interests when the person cannot consent — Art. 9(2)(c)",
+          "goto": "o-9-2-c"
+        },
+        {
+          "label": "A not-for-profit body with a political, philosophical, religious or trade union aim, using its members’ data — Art. 9(2)(d)",
+          "goto": "o-9-2-d"
+        },
+        {
           "label": "Data manifestly made public by the subject — Art. 9(2)(e)",
           "goto": "o-9-2-e"
         },
@@ -209,6 +221,18 @@
         {
           "label": "Substantial public interest under Union/MS law — Art. 9(2)(g)",
           "goto": "o-9-2-g"
+        },
+        {
+          "label": "Health or social care, preventive or occupational medicine, under a professional secrecy duty — Art. 9(2)(h)",
+          "goto": "o-9-2-h"
+        },
+        {
+          "label": "Public health, such as serious cross-border health threats — Art. 9(2)(i)",
+          "goto": "o-9-2-i"
+        },
+        {
+          "label": "Archiving in the public interest, scientific or historical research, or statistics, with Art. 89(1) safeguards — Art. 9(2)(j)",
+          "goto": "o-9-2-j"
         },
         {
           "label": "None of the above",
@@ -231,6 +255,42 @@
       "cites": [
         "gdpr-art-9",
         "gdpr-art-6"
+      ]
+    },
+    "o-9-2-c": {
+      "type": "outcome",
+      "tier": "warn",
+      "title": "Article 9(2)(c): vital interests when the person cannot consent",
+      "summary": "Article 9(2)(c) applies only where the processing is necessary to protect the vital interests of the person or of another individual, and the person is physically or legally incapable of giving consent. It is meant for emergencies, such as giving medical information to responders when the person is unconscious. If the person can consent, this condition is not available.",
+      "actions": [
+        "Record the emergency and why the person could not consent.",
+        "Rely on this condition only while the emergency lasts; then use another condition or stop.",
+        "Identify the separate Article 6 legal ground, usually Article 6(1)(d).",
+        "UK: the same condition applies directly under UK GDPR Article 9(2)(c); no Data Protection Act 2018 Schedule 1 condition is needed."
+      ],
+      "cites": [
+        "gdpr-art-9",
+        "gdpr-art-6",
+        "uk-dpa-2018-s10-sch1"
+      ]
+    },
+    "o-9-2-d": {
+      "type": "outcome",
+      "tier": "warn",
+      "title": "Article 9(2)(d): a not-for-profit body using its members’ data",
+      "summary": "Article 9(2)(d) lets a foundation, association or other not-for-profit body with a political, philosophical, religious or trade union aim use special category data in the course of its legitimate activities, with appropriate safeguards. The data must relate only to members, former members or people in regular contact with the body in connection with its purposes, and must not be disclosed outside the body without those people’s consent.",
+      "actions": [
+        "Confirm the body is not-for-profit and has a political, philosophical, religious or trade union aim.",
+        "Limit the processing to members, former members and people in regular contact with the body for its purposes.",
+        "Get the people’s consent before disclosing the data outside the body.",
+        "Document the safeguards you apply.",
+        "Identify the separate Article 6 legal ground.",
+        "UK: the same condition applies directly under UK GDPR Article 9(2)(d); no Data Protection Act 2018 Schedule 1 condition is needed."
+      ],
+      "cites": [
+        "gdpr-art-9",
+        "gdpr-art-6",
+        "uk-dpa-2018-s10-sch1"
       ]
     },
     "o-9-2-e": {

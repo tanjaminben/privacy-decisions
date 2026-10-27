@@ -10,8 +10,62 @@
     "US-NY",
     "US-IL"
   ],
-  "start": "q-incident",
+  "start": "q-holder",
   "nodes": {
+    "q-holder": {
+      "type": "question",
+      "q": "Whose data is affected: yours, or data you hold for another organization?",
+      "help": "An organization that holds or processes data for someone else (a processor, service provider or vendor) must tell the data owner quickly. The owner then decides on notice to regulators and individuals. GDPR Article 33(2), California Civil Code section 1798.82(b), New York General Business Law section 899-aa(3) and Illinois Personal Information Protection Act section 10(b) each set this duty.",
+      "cites": [
+        "gdpr-art-33",
+        "ca-1798-82",
+        "ny-shield-aa",
+        "il-pipa-10"
+      ],
+      "opts": [
+        {
+          "label": "Ours — we decided to collect it for our own purposes",
+          "goto": "q-incident"
+        },
+        {
+          "label": "A customer’s or client’s — we hold or process it for them under a contract",
+          "goto": "o-holder-notify"
+        },
+        {
+          "label": "Both — some affected data is ours and some we hold for customers",
+          "goto": "q-incident",
+          "cites": [
+            "gdpr-art-33",
+            "ca-1798-82",
+            "ny-shield-aa",
+            "il-pipa-10"
+          ],
+          "resultActions": [
+            "For the customer data you hold, tell each affected customer immediately: GDPR Article 33(2) (without undue delay), California Civil Code section 1798.82(b) and Illinois Personal Information Protection Act section 10(b) (immediately following discovery), and New York General Business Law section 899-aa(3) (immediately, and within 30 days at the latest)."
+          ]
+        }
+      ]
+    },
+    "o-holder-notify": {
+      "type": "outcome",
+      "tier": "required",
+      "title": "Tell the data owner immediately; it decides on wider notice",
+      "summary": "When you hold or process personal data for another organization, your first duty is to tell that organization. GDPR Article 33(2): without undue delay after becoming aware. California Civil Code section 1798.82(b) and Illinois Personal Information Protection Act section 10(b): immediately following discovery, where the information was, or is reasonably believed to have been, acquired by an unauthorized person. New York General Business Law section 899-aa(3): immediately, and within 30 days of discovery at the latest, where private information was, or is reasonably believed to have been, accessed or acquired without valid authorization. These duties do not wait for a risk assessment.",
+      "actions": [
+        "Tell each affected customer what you know now, and send further details as they emerge.",
+        "Check your contract or data processing agreement for a shorter deadline, required contents and reporting channel.",
+        "Cooperate with the owner’s investigation; Illinois section 10(b) requires it.",
+        "Record when you discovered the incident and when you notified each owner.",
+        "If any affected data is yours, also run this guide for that data as its owner."
+      ],
+      "cites": [
+        "gdpr-art-33",
+        "ca-1798-82",
+        "ny-shield-aa",
+        "il-pipa-10",
+        "guide-edpb-9-2022-breach"
+      ]
+    },
     "q-incident": {
       "type": "question",
       "q": "Is this a personal-data breach?",
@@ -33,10 +87,6 @@
         {
           "label": "No — this is a system outage, no personal data affected",
           "goto": "o-no-breach"
-        },
-        {
-          "label": "An employee with authorized access disclosed it internally by accident, and nothing was misused",
-          "goto": "o-internal-good-faith"
         }
       ]
     },
@@ -46,9 +96,9 @@
       "title": "Likely an internal good-faith access — but document it",
       "summary": "GDPR Art. 4(12) still includes 'unauthorised disclosure of, or access to' personal data, so an employee accessing data beyond their role is still a breach. NY §899-aa explicitly carves out good-faith access by an authorized employee where information isn't misused. If the access stayed within the employee's role and nothing was misused, the EU analysis will usually land at 'unlikely to result in a risk', and New York's carve-out applies — but you must still document the analysis in both cases.",
       "actions": [
-        "Record the facts, scope, and reasoning under GDPR Art. 33(5) — required whether or not you notify.",
-        "If NY private information was exposed to >500 NY residents, send the written 'no misuse' determination to the NY AG within 10 days (§899-aa(2)(a)).",
-        "Retain the determination for at least 5 years (NY)."
+        "Record the facts: who accessed what, why, and the evidence that nothing was used or disclosed further.",
+        "If the access went beyond the employee’s role, or the information was used or disclosed further, treat it as a breach and choose another answer.",
+        "Keep the record with your incident log. If EU or UK data is affected, GDPR Article 33(5) also requires documenting the breach."
       ],
       "cites": [
         "gdpr-art-4",
@@ -481,6 +531,10 @@
         {
           "label": "No — unauthorized access or likely harm",
           "goto": "o-ny-notify"
+        },
+        {
+          "label": "An employee or agent accessed it in good faith for business purposes, and it was not used or further disclosed",
+          "goto": "o-internal-good-faith"
         }
       ]
     },

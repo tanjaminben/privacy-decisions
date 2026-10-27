@@ -7,8 +7,45 @@
     "EU",
     "UK"
   ],
-  "start": "q-purpose",
+  "start": "q-special",
   "nodes": {
+    "q-special": {
+      "type": "question",
+      "q": "Does the activity use special category data?",
+      "help": "Special category data means health, genetic data, biometric data used to identify people, racial or ethnic origin, political opinions, religious or philosophical beliefs, trade union membership, and sex life or sexual orientation (Article 9(1)). It also covers data from which those facts can be inferred. Using it needs both an Article 6 legal ground, which this guide finds, and an Article 9(2) condition, which the sensitive personal data guide finds.",
+      "cites": [
+        "gdpr-art-9",
+        "gdpr-art-6",
+        "case-ot-c184-20"
+      ],
+      "opts": [
+        {
+          "label": "Yes — it uses or reveals special category data",
+          "goto": "q-purpose",
+          "cites": [
+            "gdpr-art-9"
+          ],
+          "resultActions": [
+            "Use the sensitive personal data guide to identify an Article 9(2) condition. Article 9 does not replace Article 6: you need both.",
+            "Document both the Article 6 legal ground and the Article 9 condition in the record of processing activities and the Article 13/14 notice."
+          ]
+        },
+        {
+          "label": "No — ordinary personal data only",
+          "goto": "q-purpose"
+        },
+        {
+          "label": "Not sure",
+          "goto": "q-purpose",
+          "cites": [
+            "case-ot-c184-20"
+          ],
+          "resultActions": [
+            "Ask the data owner whether any field reveals, or allows someone to infer, health, sexuality, religion, politics or another Article 9 category; inferred data counts (OT, C-184/20). If it does, also use the sensitive personal data guide."
+          ]
+        }
+      ]
+    },
     "q-purpose": {
       "type": "question",
       "q": "What's the primary driver of the processing?",
@@ -36,10 +73,6 @@
         {
           "label": "Marketing/analytics/profiling/non-essential — we want to do it for our own reasons",
           "goto": "q-li-or-consent"
-        },
-        {
-          "label": "Special category data (Art. 9) involved",
-          "goto": "o-art-9-route"
         }
       ]
     },
@@ -206,21 +239,6 @@
         "case-cnil-google-cookies",
         "uk-dpa-2018-s9",
         "uk-pecr-reg-6"
-      ]
-    },
-    "o-art-9-route": {
-      "type": "outcome",
-      "tier": "warn",
-      "title": "Special category data — pick both an Art. 6 basis and an Art. 9 condition",
-      "summary": "Art. 9 doesn't replace Art. 6; you need both an Art. 6 basis and an Art. 9(2) exception simultaneously. The default Art. 9(1) prohibition lifts only under one of the 9(2)(a)–(j) exceptions.",
-      "actions": [
-        "Run the Special Category Data wizard to identify an Art. 9(2) exception",
-        "Then come back here to lock in the parallel Art. 6 basis",
-        "Document both bases in the Art. 30 record of processing activities (ROPA) and the Art. 13/14 notice"
-      ],
-      "cites": [
-        "gdpr-art-6",
-        "gdpr-art-9"
       ]
     }
   },

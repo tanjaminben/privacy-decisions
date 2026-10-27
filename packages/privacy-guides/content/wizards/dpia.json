@@ -95,7 +95,7 @@
         },
         {
           "label": "None apply",
-          "goto": "q-sa-list"
+          "goto": "q-sa-list-none"
         }
       ]
     },
@@ -114,11 +114,27 @@
           "goto": "o-dpia-required"
         },
         {
-          "label": "No — and exactly one WP248 criterion applied",
+          "label": "No — the activity is not on the list",
           "goto": "o-dpia-recommended"
+        }
+      ]
+    },
+    "q-sa-list-none": {
+      "type": "question",
+      "q": "Is the activity on the supervisory authority's Art. 35(4) mandatory-DPIA list (in the UK, the ICO's 'examples of processing likely to result in high risk' list)?",
+      "help": "SAs publish Art. 35(4) lists of operations that always require a DPIA. Several entries apply to a single activity type regardless of how many WP248 criteria are met — e.g. the ICO's list includes data matching / combining datasets and the targeting of children or other vulnerable individuals as standalone triggers, and several EU SA lists (CNIL, DSK members) have comparable items. The lists change — check the current local SA list and the ICO's DPIA guidance before relying on this answer.",
+      "cites": [
+        "gdpr-art-35",
+        "uk-gdpr-art-35",
+        "guide-ico-dpia"
+      ],
+      "opts": [
+        {
+          "label": "Yes — the activity appears on the applicable mandatory list",
+          "goto": "o-dpia-required"
         },
         {
-          "label": "No — and no WP248 criteria applied",
+          "label": "No — the activity is not on the list",
           "goto": "o-dpia-not-required"
         }
       ]
