@@ -677,7 +677,7 @@
       "type": "outcome",
       "tier": "info",
       "title": "Connecticut: sensitive data",
-      "summary": "On your confirmed full-law coverage basis: The July 2026 text requires both reasonable necessity for sensitive processing and consumer consent. Sensitive-data sale also requires consent.",
+      "summary": "On your confirmed full-law coverage basis: Sensitive-data processing requires reasonable necessity and consent. Selling precise geolocation data is prohibited; consent does not override that prohibition. Other sensitive-data sales require consent.",
       "actions": [
         "Check the expanded sensitive-data definition and document why the processing is reasonably necessary.",
         "Obtain valid consent, use COPPA-compliant treatment for known children, and implement the consent-revocation mechanism."
@@ -709,7 +709,7 @@
       "type": "outcome",
       "tier": "info",
       "title": "Connecticut: consumer rights",
-      "summary": "On your confirmed full-law coverage basis: Alongside access, correction, deletion, portability and opt-outs, the July 2026 law adds access to inferences, third-party sale-recipient lists and specific profiling-review rights.",
+      "summary": "On your confirmed full-law coverage basis: Rights include access to inferences, sale-recipient lists, and specified profiling review. Since October 1, 2026, deletion also covers publicly available information compiled into public consumer profiles or offered for sale, and inferences from that information.",
       "actions": [
         "Provide the consumer-specific sale-recipient list or, if not maintained, all sale recipients, subject to the trade-secret limit.",
         "For significant automated profiling, provide the feasible questioning, reasons and data-review rights. Housing decisions also have the specified correction and re-evaluation right.",
@@ -744,9 +744,9 @@
       "title": "Connecticut: changes across the selected uses",
       "summary": "On your confirmed full-law coverage basis, these are the main differences in CTDPA. Conditions and future dates remain part of each item.",
       "actions": [
-        "Sensitive data: The July 2026 text requires both reasonable necessity for sensitive processing and consumer consent. Sensitive-data sale also requires consent.",
+        "Sensitive data: Sensitive-data processing requires reasonable necessity and consent. Selling precise geolocation data is prohibited; consent does not override that prohibition. Other sensitive-data sales require consent.",
         "Sale and targeted advertising: Sale/targeted advertising opt-outs and qualifying universal opt-out signals apply. The current text prohibits sale and targeted advertising for known or willfully disregarded consumers aged 13–17.",
-        "Consumer rights: Alongside access, correction, deletion, portability and opt-outs, the July 2026 law adds access to inferences, third-party sale-recipient lists and specific profiling-review rights.",
+        "Consumer rights: Rights include access to inferences, sale-recipient lists, and specified profiling review. Since October 1, 2026, deletion also covers publicly available information compiled into public consumer profiles or offered for sale, and inferences from that information.",
         "Risk assessments: In addition to data protection assessments for specified high-risk processing, significant-decision profiling has a separate impact-assessment requirement for activities created or generated on or after August 1, 2026.",
         "Cure and enforcement: The Attorney General enforces the act. Cure opportunities have been discretionary since January 1, 2025; current law does not guarantee the former 60-day window."
       ],

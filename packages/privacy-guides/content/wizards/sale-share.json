@@ -104,7 +104,7 @@
       "type": "outcome",
       "tier": "ok",
       "title": "Not a sale and not a share — service provider / contractor exception applies",
-      "summary": "Disclosure of PI to a properly contracted service provider (SP)/contractor for a business purpose is not a 'sale' under §1798.140(ad) and not a 'share' under §1798.140(ah). Make sure the contract is robust, the limitations are observed in practice, and the SP/contractor is genuinely operating on your behalf — not for its own ends.",
+      "summary": "Disclosure of PI to a properly contracted service provider (SP)/contractor for a business purpose is not a 'sale' under §1798.140(ad) and not a 'share' under §1798.140(ah). Check that the contract contains the required restrictions and that the service provider or contractor follows them in practice and acts on your behalf.",
       "actions": [
         "Confirm the SP/contractor agreement contains all four §1798.140(ag)(1)/(j)(1) prohibitions",
         "Consider negotiating contract rights to monitor/audit SP/contractor compliance — § 1798.140(ag)(1) permits the contract, subject to agreement with the service provider, to allow monitoring including audits at least once every 12 months (this is permissive contract language, not a statutory duty)",

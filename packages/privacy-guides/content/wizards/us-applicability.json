@@ -453,7 +453,7 @@
     "co-threshold": {
       "type": "question",
       "q": "During a calendar year, does it control or process personal data of at least 100,000 consumers; OR does it control or process at least 25,000 consumers’ personal data AND derive any revenue or receive any discount from selling personal data?",
-      "help": "Colorado residents acting individually or as a household; ordinary consumer counts exclude commercial and employment roles. Biometric and minors provisions require separate checks. 100,000 limb: during a calendar year. The 25,000-plus-sale limb does not separately state a lookback; do not silently substitute preceding calendar year. Use this state's sale definition and its exceptions; advertising disclosure or a vendor contract is not automatically a statutory sale.",
+      "help": "Colorado residents acting individually or as a household; ordinary consumer counts exclude commercial and employment roles. Biometric and minors provisions require separate checks. 100,000-consumer threshold: during a calendar year. The 25,000-plus-sale limb does not separately state a lookback; do not silently substitute preceding calendar year. Use this state's sale definition and its exceptions; advertising disclosure or a vendor contract is not automatically a statutory sale.",
       "cites": [
         "pwc-us-co-scope"
       ],
@@ -563,7 +563,7 @@
     "ct-nexus": {
       "type": "question",
       "q": "Does the assessment involve personal data of Connecticut consumers?",
-      "help": "A consumer is a Connecticut resident acting in an individual or household context. Since July 1, 2026, sensitive-data processing and offering consumer data for sale are separate scope routes without a minimum count; the business/targeting condition appears in the 35,000 route.",
+      "help": "A consumer is a Connecticut resident acting in an individual or household context. Since July 1, 2026, sensitive-data processing and offering consumer data for sale are separate scope routes without a minimum count; the business/targeting condition appears in the 35,000 route. Apply the October 1, 2026 definitions; publicly accessible information is not automatically excluded.",
       "cites": [
         "pwc-us-ct-scope"
       ],
@@ -1709,7 +1709,7 @@
     "ky-nexus": {
       "type": "question",
       "q": "Does it conduct business in Kentucky OR produce products or services targeted to Kentucky residents?",
-      "help": "Kentucky residents acting in an individual context, excluding employment and commercial roles. No payment-only deduction in the 100,000 limb. Use the actual entity and processing in this assessment; a website being technically reachable is not by itself proof of the stated business or targeting test.",
+      "help": "Kentucky residents acting in an individual context, excluding employment and commercial roles. No payment-only deduction in the 100,000-consumer threshold. Use the actual entity and processing in this assessment; a website being technically reachable is not by itself proof of the stated business or targeting test.",
       "cites": [
         "pwc-us-ky-scope"
       ],
@@ -1832,7 +1832,7 @@
     "ky-threshold": {
       "type": "question",
       "q": "During a calendar year, does it control or process personal data of at least 100,000 consumers; OR at least 25,000 consumers AND derive strictly more than 50% of gross revenue from selling personal data?",
-      "help": "Kentucky residents acting in an individual context, excluding employment and commercial roles. No payment-only deduction in the 100,000 limb. During a calendar year. Use this state's sale definition and its exceptions; advertising disclosure or a vendor contract is not automatically a statutory sale.",
+      "help": "Kentucky residents acting in an individual context, excluding employment and commercial roles. No payment-only deduction in the 100,000-consumer threshold. During a calendar year. Use this state's sale definition and its exceptions; advertising disclosure or a vendor contract is not automatically a statutory sale.",
       "cites": [
         "pwc-us-ky-scope"
       ],
@@ -2169,7 +2169,7 @@
     "mn-nexus": {
       "type": "question",
       "q": "Does the legal entity conduct business in Minnesota OR produce products or services targeted to Minnesota residents?",
-      "help": "Minnesota residents acting in an individual/household context, excluding commercial or employment roles. Deduct payment-only data from the 100,000 limb. Use the actual entity and processing in this assessment; a website being technically reachable is not by itself proof of the stated business or targeting test.",
+      "help": "Minnesota residents acting in an individual/household context, excluding commercial or employment roles. Deduct payment-only data from the 100,000-consumer threshold. Use the actual entity and processing in this assessment; a website being technically reachable is not by itself proof of the stated business or targeting test.",
       "cites": [
         "pwc-us-mn-scope"
       ],
@@ -2292,7 +2292,7 @@
     "mn-threshold": {
       "type": "question",
       "q": "Does it control or process at least 100,000 consumers’ personal data during a calendar year (excluding payment-only data); OR control or process at least 25,000 consumers’ personal data AND derive strictly more than 25% of gross revenue from selling personal data?",
-      "help": "Minnesota residents acting in an individual/household context, excluding commercial or employment roles. Deduct payment-only data from the 100,000 limb. 100,000 limb: during a calendar year. The 25,000-plus-sale limb does not separately state a measuring period. Use this state's sale definition and its exceptions; advertising disclosure or a vendor contract is not automatically a statutory sale.",
+      "help": "Minnesota residents acting in an individual/household context, excluding commercial or employment roles. Deduct payment-only data from the 100,000-consumer threshold. 100,000-consumer threshold: during a calendar year. The 25,000-plus-sale limb does not separately state a measuring period. Use this state's sale definition and its exceptions; advertising disclosure or a vendor contract is not automatically a statutory sale.",
       "cites": [
         "pwc-us-mn-scope"
       ],
@@ -3035,7 +3035,7 @@
     "nj-nexus": {
       "type": "question",
       "q": "Does the controller conduct business in New Jersey OR produce products or services targeted to New Jersey residents?",
-      "help": "New Jersey residents acting only in an individual/household context, excluding commercial and employment roles. Deduct payment-only data from the 100,000 limb. Use the actual entity and processing in this assessment; a website being technically reachable is not by itself proof of the stated business or targeting test.",
+      "help": "New Jersey residents acting only in an individual/household context, excluding commercial and employment roles. Deduct payment-only data from the 100,000-consumer threshold. Use the actual entity and processing in this assessment; a website being technically reachable is not by itself proof of the stated business or targeting test.",
       "cites": [
         "pwc-us-nj-scope"
       ],
@@ -3158,7 +3158,7 @@
     "nj-threshold": {
       "type": "question",
       "q": "During a calendar year, does it control or process personal data of at least 100,000 consumers (excluding payment-only data); OR at least 25,000 consumers AND derive any revenue or receive any discount from selling personal data?",
-      "help": "New Jersey residents acting only in an individual/household context, excluding commercial and employment roles. Deduct payment-only data from the 100,000 limb. During a calendar year. Use this state's sale definition and its exceptions; advertising disclosure or a vendor contract is not automatically a statutory sale.",
+      "help": "New Jersey residents acting only in an individual/household context, excluding commercial and employment roles. Deduct payment-only data from the 100,000-consumer threshold. During a calendar year. Use this state's sale definition and its exceptions; advertising disclosure or a vendor contract is not automatically a statutory sale.",
       "cites": [
         "pwc-us-nj-scope"
       ],
@@ -3265,7 +3265,7 @@
     "or-nexus": {
       "type": "question",
       "q": "Does it conduct business in Oregon OR provide products or services to Oregon residents?",
-      "help": "Oregon residents acting individually or as a household, excluding commercial or employment roles. Deduct payment-only data from the 100,000 limb. Use the actual entity and processing in this assessment; a website being technically reachable is not by itself proof of the stated business or targeting test.",
+      "help": "Oregon residents acting individually or as a household, excluding commercial or employment roles. Deduct payment-only data from the 100,000-consumer threshold. Use the actual entity and processing in this assessment; a website being technically reachable is not by itself proof of the stated business or targeting test.",
       "cites": [
         "pwc-us-or-scope"
       ],
@@ -3388,7 +3388,7 @@
     "or-threshold": {
       "type": "question",
       "q": "During a calendar year, does it control or process personal data of at least 100,000 consumers (excluding payment-only data); OR at least 25,000 consumers while deriving at least 25% of annual gross revenue from selling personal data?",
-      "help": "Oregon residents acting individually or as a household, excluding commercial or employment roles. Deduct payment-only data from the 100,000 limb. During a calendar year; sale limb uses annual gross revenue. Use this state's sale definition and its exceptions; advertising disclosure or a vendor contract is not automatically a statutory sale.",
+      "help": "Oregon residents acting individually or as a household, excluding commercial or employment roles. Deduct payment-only data from the 100,000-consumer threshold. During a calendar year; sale limb uses annual gross revenue. Use this state's sale definition and its exceptions; advertising disclosure or a vendor contract is not automatically a statutory sale.",
       "cites": [
         "pwc-us-or-scope"
       ],
@@ -4124,7 +4124,7 @@
     "ut-nexus": {
       "type": "question",
       "q": "Does the controller or processor conduct business in Utah OR produce a product or service targeted to consumers who are Utah residents?",
-      "help": "Utah consumers acting individually or as a household, excluding commercial and employment roles. No payment-only deduction in the 100,000 limb. Use the actual entity and processing in this assessment; a website being technically reachable is not by itself proof of the stated business or targeting test.",
+      "help": "Utah consumers acting individually or as a household, excluding commercial and employment roles. No payment-only deduction in the 100,000-consumer threshold. Use the actual entity and processing in this assessment; a website being technically reachable is not by itself proof of the stated business or targeting test.",
       "cites": [
         "pwc-us-ut-scope"
       ],
@@ -4247,7 +4247,7 @@
     "ut-threshold": {
       "type": "question",
       "q": "Is annual revenue at least $25 million AND does at least one limb hold: it controls or processes at least 100,000 consumers’ personal data during a calendar year; OR it controls or processes at least 25,000 consumers’ personal data AND derives strictly more than 50% of gross revenue from selling personal data?",
-      "help": "Utah consumers acting individually or as a household, excluding commercial and employment roles. No payment-only deduction in the 100,000 limb. Revenue is annual; 100,000 limb is during a calendar year. The 25,000-plus-sale limb does not separately state a lookback. Use this state's sale definition and its exceptions; advertising disclosure or a vendor contract is not automatically a statutory sale.",
+      "help": "Utah consumers acting individually or as a household, excluding commercial and employment roles. No payment-only deduction in the 100,000-consumer threshold. Revenue is annual; 100,000-consumer threshold is during a calendar year. The 25,000-plus-sale limb does not separately state a lookback. Use this state's sale definition and its exceptions; advertising disclosure or a vendor contract is not automatically a statutory sale.",
       "cites": [
         "pwc-us-ut-scope"
       ],
@@ -4354,7 +4354,7 @@
     "va-nexus": {
       "type": "question",
       "q": "Does it conduct business in Virginia OR produce products or services targeted to Virginia residents?",
-      "help": "Virginia consumers acting individually or as a household, excluding employment and commercial roles. No payment-only deduction in the 100,000 limb. Use the actual entity and processing in this assessment; a website being technically reachable is not by itself proof of the stated business or targeting test.",
+      "help": "Virginia consumers acting individually or as a household, excluding employment and commercial roles. No payment-only deduction in the 100,000-consumer threshold. Use the actual entity and processing in this assessment; a website being technically reachable is not by itself proof of the stated business or targeting test.",
       "cites": [
         "pwc-us-va-scope"
       ],
@@ -4477,7 +4477,7 @@
     "va-threshold": {
       "type": "question",
       "q": "Does it control or process at least 100,000 consumers’ personal data during a calendar year; OR control or process at least 25,000 consumers’ personal data AND derive strictly more than 50% of gross revenue from selling personal data?",
-      "help": "Virginia consumers acting individually or as a household, excluding employment and commercial roles. No payment-only deduction in the 100,000 limb. 100,000 limb: during a calendar year. The 25,000-plus-sale limb does not separately state a measuring period. Use this state's sale definition and its exceptions; advertising disclosure or a vendor contract is not automatically a statutory sale.",
+      "help": "Virginia consumers acting individually or as a household, excluding employment and commercial roles. No payment-only deduction in the 100,000-consumer threshold. 100,000-consumer threshold: during a calendar year. The 25,000-plus-sale limb does not separately state a measuring period. Use this state's sale definition and its exceptions; advertising disclosure or a vendor contract is not automatically a statutory sale.",
       "cites": [
         "pwc-us-va-scope"
       ],

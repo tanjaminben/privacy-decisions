@@ -2,18 +2,18 @@
   "kind": "statute",
   "juris": "US-CT",
   "label": "Connecticut: consumer rights",
-  "citation": "Conn. Gen. Stat. §42-518(a)–(f), effective July 1, 2026",
+  "citation": "Conn. Gen. Stat. §42-518(a)–(f); subsection (a) amended by PA26-64 §13, effective October 1, 2026",
   "provenance": "https://www.cga.ct.gov/2026/sup/chap_743jj.htm",
-  "note": "Editorial summary and operational implications of the cited primary provisions, not a verbatim statutory extract. Candidate checked against primary material retrieved on September 22, 2026; independent legal-panel review and practitioner review are separate.",
+  "note": "Editorial summary checked against the 2026 statutory supplement and PA26-64 on October 26, 2026. Practitioner legal review is not recorded.",
   "body": [
-    "<p>Alongside access, correction, deletion, portability and opt-outs, the July 2026 law adds access to inferences, third-party sale-recipient lists and specific profiling-review rights.</p>",
+    "<p>Rights include access to inferences, sale-recipient lists, and specified profiling review. Since October 1, 2026, deletion also covers publicly available information compiled into public consumer profiles or offered for sale, and inferences from that information.</p>",
     "<p>Provide the consumer-specific sale-recipient list or, if not maintained, all sale recipients, subject to the trade-secret limit.</p>",
     "<p>For significant automated profiling, provide the feasible questioning, reasons and data-review rights. Housing decisions also have the specified correction and re-evaluation right.</p>",
     "<p>Respond within 45 days, with a reasonably necessary 45-day extension on timely notice; decide an internal appeal within 60 days.</p>"
   ],
   "review": {
     "status": "automated-check-only",
-    "retrievedDate": "2026-09-22",
+    "retrievedDate": "2026-10-26",
     "effectiveOrPublicationDate": "2026-07-01",
     "reviewDate": null,
     "reviewer": null,

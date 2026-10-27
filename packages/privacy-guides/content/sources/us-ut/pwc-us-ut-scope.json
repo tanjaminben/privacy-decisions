@@ -8,8 +8,8 @@
   "body": [
     "<p>Does the controller or processor conduct business in Utah OR produce a product or service targeted to consumers who are Utah residents?</p>",
     "<p>Is annual revenue at least $25 million AND does at least one limb hold: it controls or processes at least 100,000 consumers’ personal data during a calendar year; OR it controls or processes at least 25,000 consumers’ personal data AND derives strictly more than 50% of gross revenue from selling personal data?</p>",
-    "<p>Utah consumers acting individually or as a household, excluding commercial and employment roles. No payment-only deduction in the 100,000 limb.</p>",
-    "<p>Measuring period: Revenue is annual; 100,000 limb is during a calendar year. The 25,000-plus-sale limb does not separately state a lookback.</p>"
+    "<p>Utah consumers acting individually or as a household, excluding commercial and employment roles. No payment-only deduction in the 100,000-consumer threshold.</p>",
+    "<p>Measuring period: Revenue is annual; 100,000-consumer threshold is during a calendar year. The 25,000-plus-sale limb does not separately state a lookback.</p>"
   ],
   "review": {
     "status": "automated-check-only",

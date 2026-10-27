@@ -456,7 +456,7 @@
         "Run 'AI Act: What risk tier?' on the system — an in-house credit-scoring, recruitment or fraud-scoring build is exactly the profile that lands in Annex III.",
         "If high-risk: the FULL provider stack is yours — Section 2 requirements, QMS, conformity assessment, EU declaration, CE marking, Art. 49(1) registration — from 2 Dec 2027 (Annex III) / 2 Aug 2028 (Annex I), AND the Art. 26 deployer duties plus any Art. 27 FRIA trigger, since you also use it.",
         "If it talks to people or generates content: the Art. 50 provider duties (disclosure, machine-readable marking) apply from 2 Aug 2026 regardless of tier.",
-        "Watch the vendor boundary: heavily customising a vendor system can be the Art. 25(1) flip instead — the practical difference is the initial provider's cooperation duties (documentation, known limitations, technical access) that Art. 25(2) gives you; a true greenfield build has no one to lean on.",
+        "Watch the vendor boundary: heavily customizing a vendor system can be the Art. 25(1) flip instead — the practical difference is the initial provider's cooperation duties (documentation, known limitations, technical access) that Art. 25(2) gives you; a true greenfield build has no one to lean on.",
         "Building on someone else's general-purpose AI model? The downstream lane's items stack: demand the Art. 53(1)(b) documentation package from the model provider and paper the Art. 25(4) written agreement with the model supplier if the system is high-risk.",
         "Prohibitions and AI literacy already apply (Art. 5 since 2 Feb 2025; Art. 4 since 2 Feb 2025)."
       ],
