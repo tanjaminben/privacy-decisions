@@ -4,8 +4,8 @@
   "files": [
     {
       "path": "tools/privacy-guides/runtime/app.js",
-      "sha256": "4b75793efe3bc5573afbed95b54110b33625cac1f2cd91efda20ee22a1fd48e0",
-      "bytes": 1797755
+      "sha256": "7dfcb6e2f7bed9694932b97c4997e8fa7775e7a6ebe596ae7edf1d74ae91d5fd",
+      "bytes": 1799382
     },
     {
       "path": "tools/privacy-guides/runtime/app.css",
@@ -218,5 +218,6 @@
       "bytes": 10691
     }
   ],
-  "kind": "sanitized-public-source-snapshot"
+  "kind": "sanitized-public-source-snapshot",
+  "reviewId": "ben-tan-prose-20261026-33459e7e"
 }
