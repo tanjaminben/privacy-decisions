@@ -8,8 +8,8 @@
   "body": [
     "<p>Does it conduct business in Virginia OR produce products or services targeted to Virginia residents?</p>",
     "<p>Does it control or process at least 100,000 consumers’ personal data during a calendar year; OR control or process at least 25,000 consumers’ personal data AND derive strictly more than 50% of gross revenue from selling personal data?</p>",
-    "<p>Virginia consumers acting individually or as a household, excluding employment and commercial roles. No payment-only deduction in the 100,000 limb.</p>",
-    "<p>Measuring period: 100,000 limb: during a calendar year. The 25,000-plus-sale limb does not separately state a measuring period.</p>"
+    "<p>Virginia consumers acting individually or as a household, excluding employment and commercial roles. No payment-only deduction in the 100,000-consumer threshold.</p>",
+    "<p>Measuring period: 100,000-consumer threshold: during a calendar year. The 25,000-plus-sale limb does not separately state a measuring period.</p>"
   ],
   "review": {
     "status": "automated-check-only",

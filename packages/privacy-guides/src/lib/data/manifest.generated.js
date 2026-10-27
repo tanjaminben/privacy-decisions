@@ -2,7 +2,7 @@
 // Enabled means a published aid, not practitioner review.
 
 export const MANIFEST_VERSION = "af-pwc-vnext-2026-09-22";
-export const MANIFEST_SHA256 = "b6b18abfdc6aa7ce643200cd21883f397208bfd61c497ab89ef58370a4985775";
+export const MANIFEST_SHA256 = "aa4650404e0aeb1f0940a09e53f1d387cee72fdbbca843d96d81530cc486ec5b";
 export const SOURCE_MANIFEST = {
   "bdsg-38": {
     "id": "bdsg-38",
@@ -2258,7 +2258,7 @@ export const SOURCE_MANIFEST = {
     "reviewer": null,
     "reviewerRole": null,
     "status": "automated-check-only",
-    "contentSha256": "0b494892f35058d39a5990956099b513908c4b24cb38d1af0ce3b0641d44bbe9",
+    "contentSha256": "e7bac83a9410656de16228d2a15f92ac3dd97d7aca8f24d36a7487512b37d9fe",
     "affectedWizards": [
       "us-applicability"
     ]
@@ -2349,12 +2349,12 @@ export const SOURCE_MANIFEST = {
     "sourceType": "statute",
     "officialUrl": "https://www.cga.ct.gov/2026/sup/chap_743jj.htm",
     "effectiveOrPublicationDate": "2026-07-01",
-    "retrievedDate": "2026-09-22",
+    "retrievedDate": "2026-10-26",
     "reviewDate": null,
     "reviewer": null,
     "reviewerRole": null,
     "status": "automated-check-only",
-    "contentSha256": "191803d199a95ffd7869e12073d9240556361435347c7e71c88829d00d0fbc15",
+    "contentSha256": "7a6cc7f3cc6846684b9a92aff624042c2f7a71722035c3a018bad9b5dff857dc",
     "affectedWizards": [
       "us-divergence"
     ]
@@ -2365,12 +2365,12 @@ export const SOURCE_MANIFEST = {
     "sourceType": "statute",
     "officialUrl": "https://www.cga.ct.gov/2026/sup/chap_743jj.htm",
     "effectiveOrPublicationDate": null,
-    "retrievedDate": "2026-09-22",
+    "retrievedDate": "2026-10-26",
     "reviewDate": null,
     "reviewer": null,
     "reviewerRole": null,
     "status": "automated-check-only",
-    "contentSha256": "4a4c1ba5aa7b8d762e2558609714690f40b2d0e25fb61c9f795e6239586d008b",
+    "contentSha256": "66899a53dd9c854dff9fdcf57a4eb9ad444b0eecd58a5fcc417bcb3bbbc52b84",
     "affectedWizards": [
       "us-divergence"
     ]
@@ -2381,12 +2381,12 @@ export const SOURCE_MANIFEST = {
     "sourceType": "statute",
     "officialUrl": "https://cga.ct.gov/2026/sup/chap_743jj.htm",
     "effectiveOrPublicationDate": null,
-    "retrievedDate": "2026-09-22",
+    "retrievedDate": "2026-10-26",
     "reviewDate": null,
     "reviewer": null,
     "reviewerRole": null,
     "status": "automated-check-only",
-    "contentSha256": "4615f79e36e1c455fa0e16776f89a100d231a51bfe8fd8713ab3614fbe037496",
+    "contentSha256": "e78565b901700f37ff625b52606a0a15306eb68494d23c6de1fa992e3f01781f",
     "affectedWizards": [
       "us-applicability"
     ]
@@ -3026,7 +3026,7 @@ export const SOURCE_MANIFEST = {
     "reviewer": null,
     "reviewerRole": null,
     "status": "automated-check-only",
-    "contentSha256": "fd6d5ee69a344d3cc5c2dc68a6a0320fcfa29127d2e3ca52ba10626cced30f96",
+    "contentSha256": "dc3d34b28bf02fa012bde46215c6c3782258c0ce4a3501250056fdf31237f76c",
     "affectedWizards": [
       "us-applicability"
     ]
@@ -3282,7 +3282,7 @@ export const SOURCE_MANIFEST = {
     "reviewer": null,
     "reviewerRole": null,
     "status": "automated-check-only",
-    "contentSha256": "0ab034375e03b88030ff0103fd8526bd854f7be2b4de2ec4d8f9f6716ae003e8",
+    "contentSha256": "82fdaf6a5ac44eca7859e44af20c0f6d0704b7ba61799b1cea9191ba6cd36955",
     "affectedWizards": [
       "us-applicability"
     ]
@@ -3858,7 +3858,7 @@ export const SOURCE_MANIFEST = {
     "reviewer": null,
     "reviewerRole": null,
     "status": "automated-check-only",
-    "contentSha256": "009b6de36d612277ec28ad6aada2b3aa6c83062645f1940f4b269d5a39689954",
+    "contentSha256": "02a7d26b7d4c98203ca6ca59713a41c26b456f230ad3dc9473f46674203b8f7e",
     "affectedWizards": [
       "us-applicability"
     ]
@@ -3970,7 +3970,7 @@ export const SOURCE_MANIFEST = {
     "reviewer": null,
     "reviewerRole": null,
     "status": "automated-check-only",
-    "contentSha256": "9f446fe7430f9937df7590fde8934d1550efbf0a5997168e7d39a5c13f0bd3db",
+    "contentSha256": "49d6d6c93a78fe612dc5bac89632f9768196b24be40bdb68af12a1369d7f87a3",
     "affectedWizards": [
       "us-applicability"
     ]
@@ -4450,7 +4450,7 @@ export const SOURCE_MANIFEST = {
     "reviewer": null,
     "reviewerRole": null,
     "status": "automated-check-only",
-    "contentSha256": "0eb4405caf34d2b660d952f48364afa6536c9d2da4e87e69d5ad5e5e25ddd78d",
+    "contentSha256": "31b821fc197b10956d0af911d1d983cc0f6b690f6e65a964504a6d05f5c3b6da",
     "affectedWizards": [
       "us-applicability"
     ]
@@ -4562,7 +4562,7 @@ export const SOURCE_MANIFEST = {
     "reviewer": null,
     "reviewerRole": null,
     "status": "automated-check-only",
-    "contentSha256": "4cfb09ca2a88ea97ab6c5f04a62735ed160202bafa5b5d336debbd35ca187b79",
+    "contentSha256": "e6c922befecad262a540c271cebc9a17f4c4de6c4e7e073b23401915a45a8373",
     "affectedWizards": [
       "us-applicability"
     ]

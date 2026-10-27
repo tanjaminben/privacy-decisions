@@ -1113,7 +1113,7 @@ export const SOURCES = {
   "citation": "C.R.S. § 6-1-1304",
   "provenance": "https://olls.info/crs/crs2026-title-06.htm",
   "note": "Verified editorial summary, not a verbatim statutory extract. Primary text retrieved for the September 22, 2026 applicability candidate. Current 2026 codification includes biometric coverage effective July 1, 2025 and minors provisions effective October 1, 2025; these bypass general volume thresholds.",
-  "body": "<p>Does the controller conduct business in Colorado OR produce or deliver commercial products or services intentionally targeted to Colorado residents?</p>\n<p>During a calendar year, does it control or process personal data of at least 100,000 consumers; OR does it control or process at least 25,000 consumers’ personal data AND derive any revenue or receive any discount from selling personal data?</p>\n<p>Colorado residents acting individually or as a household; ordinary consumer counts exclude commercial and employment roles. Biometric and minors provisions require separate checks.</p>\n<p>Measuring period: 100,000 limb: during a calendar year. The 25,000-plus-sale limb does not separately state a lookback; do not silently substitute preceding calendar year.</p>"
+  "body": "<p>Does the controller conduct business in Colorado OR produce or deliver commercial products or services intentionally targeted to Colorado residents?</p>\n<p>During a calendar year, does it control or process personal data of at least 100,000 consumers; OR does it control or process at least 25,000 consumers’ personal data AND derive any revenue or receive any discount from selling personal data?</p>\n<p>Colorado residents acting individually or as a household; ordinary consumer counts exclude commercial and employment roles. Biometric and minors provisions require separate checks.</p>\n<p>Measuring period: 100,000-consumer threshold: during a calendar year. The 25,000-plus-sale limb does not separately state a lookback; do not silently substitute preceding calendar year.</p>"
  },
  "pwc-us-co-scope-exemptions": {
   "kind": "statute",
@@ -1164,28 +1164,28 @@ export const SOURCES = {
   "kind": "statute",
   "juris": "US-CT",
   "label": "Connecticut: consumer rights",
-  "citation": "Conn. Gen. Stat. §42-518(a)–(f), effective July 1, 2026",
+  "citation": "Conn. Gen. Stat. §42-518(a)–(f); subsection (a) amended by PA26-64 §13, effective October 1, 2026",
   "provenance": "https://www.cga.ct.gov/2026/sup/chap_743jj.htm",
-  "note": "Editorial summary and operational implications of the cited primary provisions, not a verbatim statutory extract. Candidate checked against primary material retrieved on September 22, 2026; independent legal-panel review and practitioner review are separate.",
-  "body": "<p>Alongside access, correction, deletion, portability and opt-outs, the July 2026 law adds access to inferences, third-party sale-recipient lists and specific profiling-review rights.</p>\n<p>Provide the consumer-specific sale-recipient list or, if not maintained, all sale recipients, subject to the trade-secret limit.</p>\n<p>For significant automated profiling, provide the feasible questioning, reasons and data-review rights. Housing decisions also have the specified correction and re-evaluation right.</p>\n<p>Respond within 45 days, with a reasonably necessary 45-day extension on timely notice; decide an internal appeal within 60 days.</p>"
+  "note": "Editorial summary checked against the 2026 statutory supplement and PA26-64 on October 26, 2026. Practitioner legal review is not recorded.",
+  "body": "<p>Rights include access to inferences, sale-recipient lists, and specified profiling review. Since October 1, 2026, deletion also covers publicly available information compiled into public consumer profiles or offered for sale, and inferences from that information.</p>\n<p>Provide the consumer-specific sale-recipient list or, if not maintained, all sale recipients, subject to the trade-secret limit.</p>\n<p>For significant automated profiling, provide the feasible questioning, reasons and data-review rights. Housing decisions also have the specified correction and re-evaluation right.</p>\n<p>Respond within 45 days, with a reasonably necessary 45-day extension on timely notice; decide an internal appeal within 60 days.</p>"
  },
  "pwc-us-ct-duties-sensitive": {
   "kind": "statute",
   "juris": "US-CT",
   "label": "Connecticut: sensitive data",
-  "citation": "Conn. Gen. Stat. §42-520(a)(1)(D), (H), effective July 1, 2026",
+  "citation": "Conn. Gen. Stat. §42-520(a)(1)(D), (H), (3), as amended by PA26-64 §14, effective October 1, 2026",
   "provenance": "https://www.cga.ct.gov/2026/sup/chap_743jj.htm",
-  "note": "Editorial summary and operational implications of the cited primary provisions, not a verbatim statutory extract. Candidate checked against primary material retrieved on September 22, 2026; independent legal-panel review and practitioner review are separate.",
-  "body": "<p>The July 2026 text requires both reasonable necessity for sensitive processing and consumer consent. Sensitive-data sale also requires consent.</p>\n<p>Check the expanded sensitive-data definition and document why the processing is reasonably necessary.</p>\n<p>Obtain valid consent, use COPPA-compliant treatment for known children, and implement the consent-revocation mechanism.</p>"
+  "note": "Editorial summary checked against the 2026 statutory supplement and PA26-64 on October 26, 2026. Practitioner legal review is not recorded.",
+  "body": "<p>Sensitive-data processing requires reasonable necessity and consent. Selling precise geolocation data is prohibited; consent does not override that prohibition. Other sensitive-data sales require consent.</p>\n<p>Check the expanded sensitive-data definition and document why the processing is reasonably necessary.</p>\n<p>Obtain valid consent, use COPPA-compliant treatment for known children, and implement the consent-revocation mechanism.</p>"
  },
  "pwc-us-ct-scope": {
   "kind": "statute",
   "juris": "US-CT",
   "label": "Connecticut: applicability",
-  "citation": "Conn. Gen. Stat. §§ 42-515 to 42-517 (effective July 1, 2026)",
+  "citation": "Conn. Gen. Stat. §§42-515–42-517; PA26-64 §12 (definitions effective October 1, 2026)",
   "provenance": "https://cga.ct.gov/2026/sup/chap_743jj.htm",
-  "note": "Verified editorial summary, not a verbatim statutory extract. Primary text retrieved for the September 22, 2026 applicability candidate. PA26-64 and PA26-100 contain changes taking effect October 1, 2026. They are future law at this September 22 checkpoint and require a refresh before that date.",
-  "body": "<p>Does the assessment involve personal data of Connecticut consumers?</p>\n<p>Does ANY current route hold: it conducts business in Connecticut OR targets products/services to Connecticut residents, AND controlled or processed at least 35,000 consumers’ personal data in the preceding calendar year (excluding payment-only data); OR it controls or processes a consumer’s sensitive data (excluding payment-only data); OR it offers consumers’ personal data for sale in trade or commerce?</p>\n<p>Connecticut residents in an individual or household context, excluding employment and commercial roles. The 35,000 limb and sensitive-data limb exclude processing solely to complete a payment transaction.</p>\n<p>Measuring period: 35,000 route: preceding calendar year. Sensitive-data and offering-for-sale routes have no minimum count or revenue-share test.</p>"
+  "note": "Editorial summary checked against primary law on October 26, 2026. The 35,000-consumer, sensitive-data, and offering-for-sale applicability routes remain in force. Apply the definitions effective October 1, 2026 under PA26-64 §12. PA26-100 §66 repealed PA26-64 §§11 and 16; the replacement surveillance-pricing provisions take effect July 1, 2027 under PA26-130 §11. This guide assesses the comprehensive privacy act, not the separate data-broker, genetic-testing, or surveillance-pricing regimes.",
+  "body": "<p>Sources: <a href=\"https://www.cga.ct.gov/2026/sup/chap_743jj.htm\">2026 statutory supplement</a>; <a href=\"https://www.cga.ct.gov/2026/ACT/PA/PDF/2026PA-00064-R00SB-00004-PA.PDF\">PA26-64 §§12–15</a>; <a href=\"https://www.cga.ct.gov/2026/ACT/PA/PDF/2026PA-00100-R00HB-05222-PA.PDF\">PA26-100 §66</a>; <a href=\"https://www.cga.ct.gov/2026/ACT/PA/PDF/2026PA-00130-R00HB-05563-PA.PDF\">PA26-130 §§11 and 19</a>.</p>\n<p>Does the assessment involve personal data of Connecticut consumers?</p>\n<p>Does ANY current route hold: it conducts business in Connecticut OR targets products/services to Connecticut residents, AND controlled or processed at least 35,000 consumers’ personal data in the preceding calendar year (excluding payment-only data); OR it controls or processes a consumer’s sensitive data (excluding payment-only data); OR it offers consumers’ personal data for sale in trade or commerce?</p>\n<p>Connecticut residents in an individual or household context, excluding employment and commercial roles. The 35,000 limb and sensitive-data limb exclude processing solely to complete a payment transaction.</p>\n<p>Publicly accessible information is not automatically excluded. The October 2026 definition excludes, among other things, public information combined with personal data and information a consumer restricted to a specific audience. See PA26-64 §12 for the full definitions.</p>\n<p>Measuring period: 35,000 route: preceding calendar year. Sensitive-data and offering-for-sale routes have no minimum count or revenue-share test.</p>"
  },
  "pwc-us-ct-scope-dot": {
   "kind": "statute",
@@ -1545,7 +1545,7 @@ export const SOURCES = {
   "citation": "KRS 367.3613",
   "provenance": "https://apps.legislature.ky.gov/law/Statutes/statute.aspx?id=56648",
   "note": "Verified editorial summary, not a verbatim statutory extract. Primary text retrieved for the September 22, 2026 applicability candidate. Use current KRS367.3613 (id56648). The chapter also displays July 1, 2027 versions of other provisions; those are not current at this checkpoint.",
-  "body": "<p>Does it conduct business in Kentucky OR produce products or services targeted to Kentucky residents?</p>\n<p>During a calendar year, does it control or process personal data of at least 100,000 consumers; OR at least 25,000 consumers AND derive strictly more than 50% of gross revenue from selling personal data?</p>\n<p>Kentucky residents acting in an individual context, excluding employment and commercial roles. No payment-only deduction in the 100,000 limb.</p>\n<p>Measuring period: During a calendar year.</p>"
+  "body": "<p>Does it conduct business in Kentucky OR produce products or services targeted to Kentucky residents?</p>\n<p>During a calendar year, does it control or process personal data of at least 100,000 consumers; OR at least 25,000 consumers AND derive strictly more than 50% of gross revenue from selling personal data?</p>\n<p>Kentucky residents acting in an individual context, excluding employment and commercial roles. No payment-only deduction in the 100,000-consumer threshold.</p>\n<p>Measuring period: During a calendar year.</p>"
  },
  "pwc-us-ky-scope-exemptions": {
   "kind": "statute",
@@ -1689,7 +1689,7 @@ export const SOURCES = {
   "citation": "Minn. Stat. § 325M.12",
   "provenance": "https://www.revisor.mn.gov/statutes/cite/325M.12",
   "note": "Verified editorial summary, not a verbatim statutory extract. Primary text retrieved for the September 22, 2026 applicability candidate. Postsecondary institutions regulated by the Office of Higher Education need not comply until July 31, 2029. Small businesses still face §325M.17 sensitive-data-sale consent duties.",
-  "body": "<p>Does the legal entity conduct business in Minnesota OR produce products or services targeted to Minnesota residents?</p>\n<p>Does it control or process at least 100,000 consumers’ personal data during a calendar year (excluding payment-only data); OR control or process at least 25,000 consumers’ personal data AND derive strictly more than 25% of gross revenue from selling personal data?</p>\n<p>Minnesota residents acting in an individual/household context, excluding commercial or employment roles. Deduct payment-only data from the 100,000 limb.</p>\n<p>Measuring period: 100,000 limb: during a calendar year. The 25,000-plus-sale limb does not separately state a measuring period.</p>"
+  "body": "<p>Does the legal entity conduct business in Minnesota OR produce products or services targeted to Minnesota residents?</p>\n<p>Does it control or process at least 100,000 consumers’ personal data during a calendar year (excluding payment-only data); OR control or process at least 25,000 consumers’ personal data AND derive strictly more than 25% of gross revenue from selling personal data?</p>\n<p>Minnesota residents acting in an individual/household context, excluding commercial or employment roles. Deduct payment-only data from the 100,000-consumer threshold.</p>\n<p>Measuring period: 100,000-consumer threshold: during a calendar year. The 25,000-plus-sale limb does not separately state a measuring period.</p>"
  },
  "pwc-us-mn-scope-exemptions": {
   "kind": "statute",
@@ -2013,7 +2013,7 @@ export const SOURCES = {
   "citation": "N.J.S.A. §§ 56:8-166.4, 56:8-166.5, 56:8-166.13",
   "provenance": "https://pub.njleg.state.nj.us/Bills/2022/PL23/266_.HTM",
   "note": "Verified editorial summary, not a verbatim statutory extract. Primary text retrieved for the September 22, 2026 applicability candidate. Enacted P.L.2023,c.266 took effect January 15, 2025. The revenue/discount limb has no minimum sale percentage.",
-  "body": "<p>Does the controller conduct business in New Jersey OR produce products or services targeted to New Jersey residents?</p>\n<p>During a calendar year, does it control or process personal data of at least 100,000 consumers (excluding payment-only data); OR at least 25,000 consumers AND derive any revenue or receive any discount from selling personal data?</p>\n<p>New Jersey residents acting only in an individual/household context, excluding commercial and employment roles. Deduct payment-only data from the 100,000 limb.</p>\n<p>Measuring period: During a calendar year.</p>"
+  "body": "<p>Does the controller conduct business in New Jersey OR produce products or services targeted to New Jersey residents?</p>\n<p>During a calendar year, does it control or process personal data of at least 100,000 consumers (excluding payment-only data); OR at least 25,000 consumers AND derive any revenue or receive any discount from selling personal data?</p>\n<p>New Jersey residents acting only in an individual/household context, excluding commercial and employment roles. Deduct payment-only data from the 100,000-consumer threshold.</p>\n<p>Measuring period: During a calendar year.</p>"
  },
  "pwc-us-nj-scope-exemptions": {
   "kind": "statute",
@@ -2076,7 +2076,7 @@ export const SOURCES = {
   "citation": "ORS 646A.570, 646A.572",
   "provenance": "https://www.oregonlegislature.gov/bills_laws/ors/ors646a.html",
   "note": "Verified editorial summary, not a verbatim statutory extract. Primary text retrieved for the September 22, 2026 applicability candidate. Nonprofits became covered July 1, 2025. Current §646A.572(1)(b) bypasses volume thresholds for motor-vehicle manufacturers and affiliates processing consumer vehicle-use data.",
-  "body": "<p>Does it conduct business in Oregon OR provide products or services to Oregon residents?</p>\n<p>During a calendar year, does it control or process personal data of at least 100,000 consumers (excluding payment-only data); OR at least 25,000 consumers while deriving at least 25% of annual gross revenue from selling personal data?</p>\n<p>Oregon residents acting individually or as a household, excluding commercial or employment roles. Deduct payment-only data from the 100,000 limb.</p>\n<p>Measuring period: During a calendar year; sale limb uses annual gross revenue.</p>"
+  "body": "<p>Does it conduct business in Oregon OR provide products or services to Oregon residents?</p>\n<p>During a calendar year, does it control or process personal data of at least 100,000 consumers (excluding payment-only data); OR at least 25,000 consumers while deriving at least 25% of annual gross revenue from selling personal data?</p>\n<p>Oregon residents acting individually or as a household, excluding commercial or employment roles. Deduct payment-only data from the 100,000-consumer threshold.</p>\n<p>Measuring period: During a calendar year; sale limb uses annual gross revenue.</p>"
  },
  "pwc-us-or-scope-exemptions": {
   "kind": "statute",
@@ -2346,7 +2346,7 @@ export const SOURCES = {
   "citation": "Utah Code § 13-61-102 (May 1, 2024 version, effective until January 1, 2027)",
   "provenance": "https://le.utah.gov/xcode/Title13/Chapter61/C13-61-S102_2024050120240501.pdf",
   "note": "Verified editorial summary, not a verbatim statutory extract. Primary text retrieved for the September 22, 2026 applicability candidate. The fetched PDF explicitly identifies January 1, 2027 as its supersession date. Refresh before using this assessment in 2027.",
-  "body": "<p>Does the controller or processor conduct business in Utah OR produce a product or service targeted to consumers who are Utah residents?</p>\n<p>Is annual revenue at least $25 million AND does at least one limb hold: it controls or processes at least 100,000 consumers’ personal data during a calendar year; OR it controls or processes at least 25,000 consumers’ personal data AND derives strictly more than 50% of gross revenue from selling personal data?</p>\n<p>Utah consumers acting individually or as a household, excluding commercial and employment roles. No payment-only deduction in the 100,000 limb.</p>\n<p>Measuring period: Revenue is annual; 100,000 limb is during a calendar year. The 25,000-plus-sale limb does not separately state a lookback.</p>"
+  "body": "<p>Does the controller or processor conduct business in Utah OR produce a product or service targeted to consumers who are Utah residents?</p>\n<p>Is annual revenue at least $25 million AND does at least one limb hold: it controls or processes at least 100,000 consumers’ personal data during a calendar year; OR it controls or processes at least 25,000 consumers’ personal data AND derives strictly more than 50% of gross revenue from selling personal data?</p>\n<p>Utah consumers acting individually or as a household, excluding commercial and employment roles. No payment-only deduction in the 100,000-consumer threshold.</p>\n<p>Measuring period: Revenue is annual; 100,000-consumer threshold is during a calendar year. The 25,000-plus-sale limb does not separately state a lookback.</p>"
  },
  "pwc-us-ut-scope-exemptions": {
   "kind": "statute",
@@ -2409,7 +2409,7 @@ export const SOURCES = {
   "citation": "Va. Code § 59.1-576",
   "provenance": "https://law.lis.virginia.gov/vacode/title59.1/chapter53/section59.1-576/",
   "note": "Verified editorial summary, not a verbatim statutory extract. Primary text retrieved for the September 22, 2026 applicability candidate. Current code retrieved September 22, 2026; no future applicability amendment applied.",
-  "body": "<p>Does it conduct business in Virginia OR produce products or services targeted to Virginia residents?</p>\n<p>Does it control or process at least 100,000 consumers’ personal data during a calendar year; OR control or process at least 25,000 consumers’ personal data AND derive strictly more than 50% of gross revenue from selling personal data?</p>\n<p>Virginia consumers acting individually or as a household, excluding employment and commercial roles. No payment-only deduction in the 100,000 limb.</p>\n<p>Measuring period: 100,000 limb: during a calendar year. The 25,000-plus-sale limb does not separately state a measuring period.</p>"
+  "body": "<p>Does it conduct business in Virginia OR produce products or services targeted to Virginia residents?</p>\n<p>Does it control or process at least 100,000 consumers’ personal data during a calendar year; OR control or process at least 25,000 consumers’ personal data AND derive strictly more than 50% of gross revenue from selling personal data?</p>\n<p>Virginia consumers acting individually or as a household, excluding employment and commercial roles. No payment-only deduction in the 100,000-consumer threshold.</p>\n<p>Measuring period: 100,000-consumer threshold: during a calendar year. The 25,000-plus-sale limb does not separately state a measuring period.</p>"
  },
  "pwc-us-va-scope-exemptions": {
   "kind": "statute",
@@ -3345,7 +3345,7 @@ export const WIZARDS = {
     "type": "outcome",
     "tier": "ok",
     "title": "Not a sale and not a share — service provider / contractor exception applies",
-    "summary": "Disclosure of PI to a properly contracted service provider (SP)/contractor for a business purpose is not a 'sale' under §1798.140(ad) and not a 'share' under §1798.140(ah). Make sure the contract is robust, the limitations are observed in practice, and the SP/contractor is genuinely operating on your behalf — not for its own ends.",
+    "summary": "Disclosure of PI to a properly contracted service provider (SP)/contractor for a business purpose is not a 'sale' under §1798.140(ad) and not a 'share' under §1798.140(ah). Check that the contract contains the required restrictions and that the service provider or contractor follows them in practice and acts on your behalf.",
     "actions": [
      "Confirm the SP/contractor agreement contains all four §1798.140(ag)(1)/(j)(1) prohibitions",
      "Consider negotiating contract rights to monitor/audit SP/contractor compliance — § 1798.140(ag)(1) permits the contract, subject to agreement with the service provider, to allow monitoring including audits at least once every 12 months (this is permissive contract language, not a statutory duty)",
@@ -7143,7 +7143,7 @@ export const WIZARDS = {
      "Run 'AI Act: What risk tier?' on the system — an in-house credit-scoring, recruitment or fraud-scoring build is exactly the profile that lands in Annex III.",
      "If high-risk: the FULL provider stack is yours — Section 2 requirements, QMS, conformity assessment, EU declaration, CE marking, Art. 49(1) registration — from 2 Dec 2027 (Annex III) / 2 Aug 2028 (Annex I), AND the Art. 26 deployer duties plus any Art. 27 FRIA trigger, since you also use it.",
      "If it talks to people or generates content: the Art. 50 provider duties (disclosure, machine-readable marking) apply from 2 Aug 2026 regardless of tier.",
-     "Watch the vendor boundary: heavily customising a vendor system can be the Art. 25(1) flip instead — the practical difference is the initial provider's cooperation duties (documentation, known limitations, technical access) that Art. 25(2) gives you; a true greenfield build has no one to lean on.",
+     "Watch the vendor boundary: heavily customizing a vendor system can be the Art. 25(1) flip instead — the practical difference is the initial provider's cooperation duties (documentation, known limitations, technical access) that Art. 25(2) gives you; a true greenfield build has no one to lean on.",
      "Building on someone else's general-purpose AI model? The downstream lane's items stack: demand the Art. 53(1)(b) documentation package from the model provider and paper the Art. 25(4) written agreement with the model supplier if the system is high-risk.",
      "Prohibitions and AI literacy already apply (Art. 5 since 2 Feb 2025; Art. 4 since 2 Feb 2025)."
     ],
@@ -7565,7 +7565,7 @@ export const WIZARDS = {
     "type": "outcome",
     "tier": "warn",
     "title": "Annex III area, but likely NOT high-risk — the provider documents it BEFORE market, and registers",
-    "summary": "Art. 6(3): despite the Annex III listing, the system is not high-risk if it poses no significant risk to health, safety or fundamental rights — including by not materially influencing decision outcomes — and your selected condition holds. This is the PROVIDER's call and paperwork: Art. 6(4) requires the provider to document the assessment BEFORE placing on the market or putting into service, and Art. 49(2) requires the provider to register the system in the EU database on that basis. A deployer cannot self-derogate a vendor's tool.",
+    "summary": "Art. 6(3): despite the Annex III listing, the system is not high-risk if it poses no significant risk to health, safety or fundamental rights — including by not materially influencing decision outcomes — and your selected condition holds. The provider must make and document this assessment. Art. 6(4) requires the provider to document the assessment BEFORE placing on the market or putting into service, and Art. 49(2) requires the provider to register the system in the EU database on that basis. A deployer cannot self-derogate a vendor's tool.",
     "actions": [
      "Providers: write the Art. 6(4) assessment now — the concrete condition relied on, why the system does not materially influence outcomes, and why no significant risk of harm arises; keep it ready for the national competent authority, which can demand it. Register under Art. 49(2) before market.",
      "Deployers: ask the vendor for its documented Art. 6(4) assessment and Art. 49(2) registration — if neither exists, treat the classification as unresolved.",
@@ -8552,7 +8552,7 @@ export const WIZARDS = {
    "co-threshold": {
     "type": "question",
     "q": "During a calendar year, does it control or process personal data of at least 100,000 consumers; OR does it control or process at least 25,000 consumers’ personal data AND derive any revenue or receive any discount from selling personal data?",
-    "help": "Colorado residents acting individually or as a household; ordinary consumer counts exclude commercial and employment roles. Biometric and minors provisions require separate checks. 100,000 limb: during a calendar year. The 25,000-plus-sale limb does not separately state a lookback; do not silently substitute preceding calendar year. Use this state's sale definition and its exceptions; advertising disclosure or a vendor contract is not automatically a statutory sale.",
+    "help": "Colorado residents acting individually or as a household; ordinary consumer counts exclude commercial and employment roles. Biometric and minors provisions require separate checks. 100,000-consumer threshold: during a calendar year. The 25,000-plus-sale limb does not separately state a lookback; do not silently substitute preceding calendar year. Use this state's sale definition and its exceptions; advertising disclosure or a vendor contract is not automatically a statutory sale.",
     "cites": [
      "pwc-us-co-scope"
     ],
@@ -8662,7 +8662,7 @@ export const WIZARDS = {
    "ct-nexus": {
     "type": "question",
     "q": "Does the assessment involve personal data of Connecticut consumers?",
-    "help": "A consumer is a Connecticut resident acting in an individual or household context. Since July 1, 2026, sensitive-data processing and offering consumer data for sale are separate scope routes without a minimum count; the business/targeting condition appears in the 35,000 route.",
+    "help": "A consumer is a Connecticut resident acting in an individual or household context. Since July 1, 2026, sensitive-data processing and offering consumer data for sale are separate scope routes without a minimum count; the business/targeting condition appears in the 35,000 route. Apply the October 1, 2026 definitions; publicly accessible information is not automatically excluded.",
     "cites": [
      "pwc-us-ct-scope"
     ],
@@ -9808,7 +9808,7 @@ export const WIZARDS = {
    "ky-nexus": {
     "type": "question",
     "q": "Does it conduct business in Kentucky OR produce products or services targeted to Kentucky residents?",
-    "help": "Kentucky residents acting in an individual context, excluding employment and commercial roles. No payment-only deduction in the 100,000 limb. Use the actual entity and processing in this assessment; a website being technically reachable is not by itself proof of the stated business or targeting test.",
+    "help": "Kentucky residents acting in an individual context, excluding employment and commercial roles. No payment-only deduction in the 100,000-consumer threshold. Use the actual entity and processing in this assessment; a website being technically reachable is not by itself proof of the stated business or targeting test.",
     "cites": [
      "pwc-us-ky-scope"
     ],
@@ -9931,7 +9931,7 @@ export const WIZARDS = {
    "ky-threshold": {
     "type": "question",
     "q": "During a calendar year, does it control or process personal data of at least 100,000 consumers; OR at least 25,000 consumers AND derive strictly more than 50% of gross revenue from selling personal data?",
-    "help": "Kentucky residents acting in an individual context, excluding employment and commercial roles. No payment-only deduction in the 100,000 limb. During a calendar year. Use this state's sale definition and its exceptions; advertising disclosure or a vendor contract is not automatically a statutory sale.",
+    "help": "Kentucky residents acting in an individual context, excluding employment and commercial roles. No payment-only deduction in the 100,000-consumer threshold. During a calendar year. Use this state's sale definition and its exceptions; advertising disclosure or a vendor contract is not automatically a statutory sale.",
     "cites": [
      "pwc-us-ky-scope"
     ],
@@ -10268,7 +10268,7 @@ export const WIZARDS = {
    "mn-nexus": {
     "type": "question",
     "q": "Does the legal entity conduct business in Minnesota OR produce products or services targeted to Minnesota residents?",
-    "help": "Minnesota residents acting in an individual/household context, excluding commercial or employment roles. Deduct payment-only data from the 100,000 limb. Use the actual entity and processing in this assessment; a website being technically reachable is not by itself proof of the stated business or targeting test.",
+    "help": "Minnesota residents acting in an individual/household context, excluding commercial or employment roles. Deduct payment-only data from the 100,000-consumer threshold. Use the actual entity and processing in this assessment; a website being technically reachable is not by itself proof of the stated business or targeting test.",
     "cites": [
      "pwc-us-mn-scope"
     ],
@@ -10391,7 +10391,7 @@ export const WIZARDS = {
    "mn-threshold": {
     "type": "question",
     "q": "Does it control or process at least 100,000 consumers’ personal data during a calendar year (excluding payment-only data); OR control or process at least 25,000 consumers’ personal data AND derive strictly more than 25% of gross revenue from selling personal data?",
-    "help": "Minnesota residents acting in an individual/household context, excluding commercial or employment roles. Deduct payment-only data from the 100,000 limb. 100,000 limb: during a calendar year. The 25,000-plus-sale limb does not separately state a measuring period. Use this state's sale definition and its exceptions; advertising disclosure or a vendor contract is not automatically a statutory sale.",
+    "help": "Minnesota residents acting in an individual/household context, excluding commercial or employment roles. Deduct payment-only data from the 100,000-consumer threshold. 100,000-consumer threshold: during a calendar year. The 25,000-plus-sale limb does not separately state a measuring period. Use this state's sale definition and its exceptions; advertising disclosure or a vendor contract is not automatically a statutory sale.",
     "cites": [
      "pwc-us-mn-scope"
     ],
@@ -11134,7 +11134,7 @@ export const WIZARDS = {
    "nj-nexus": {
     "type": "question",
     "q": "Does the controller conduct business in New Jersey OR produce products or services targeted to New Jersey residents?",
-    "help": "New Jersey residents acting only in an individual/household context, excluding commercial and employment roles. Deduct payment-only data from the 100,000 limb. Use the actual entity and processing in this assessment; a website being technically reachable is not by itself proof of the stated business or targeting test.",
+    "help": "New Jersey residents acting only in an individual/household context, excluding commercial and employment roles. Deduct payment-only data from the 100,000-consumer threshold. Use the actual entity and processing in this assessment; a website being technically reachable is not by itself proof of the stated business or targeting test.",
     "cites": [
      "pwc-us-nj-scope"
     ],
@@ -11257,7 +11257,7 @@ export const WIZARDS = {
    "nj-threshold": {
     "type": "question",
     "q": "During a calendar year, does it control or process personal data of at least 100,000 consumers (excluding payment-only data); OR at least 25,000 consumers AND derive any revenue or receive any discount from selling personal data?",
-    "help": "New Jersey residents acting only in an individual/household context, excluding commercial and employment roles. Deduct payment-only data from the 100,000 limb. During a calendar year. Use this state's sale definition and its exceptions; advertising disclosure or a vendor contract is not automatically a statutory sale.",
+    "help": "New Jersey residents acting only in an individual/household context, excluding commercial and employment roles. Deduct payment-only data from the 100,000-consumer threshold. During a calendar year. Use this state's sale definition and its exceptions; advertising disclosure or a vendor contract is not automatically a statutory sale.",
     "cites": [
      "pwc-us-nj-scope"
     ],
@@ -11364,7 +11364,7 @@ export const WIZARDS = {
    "or-nexus": {
     "type": "question",
     "q": "Does it conduct business in Oregon OR provide products or services to Oregon residents?",
-    "help": "Oregon residents acting individually or as a household, excluding commercial or employment roles. Deduct payment-only data from the 100,000 limb. Use the actual entity and processing in this assessment; a website being technically reachable is not by itself proof of the stated business or targeting test.",
+    "help": "Oregon residents acting individually or as a household, excluding commercial or employment roles. Deduct payment-only data from the 100,000-consumer threshold. Use the actual entity and processing in this assessment; a website being technically reachable is not by itself proof of the stated business or targeting test.",
     "cites": [
      "pwc-us-or-scope"
     ],
@@ -11487,7 +11487,7 @@ export const WIZARDS = {
    "or-threshold": {
     "type": "question",
     "q": "During a calendar year, does it control or process personal data of at least 100,000 consumers (excluding payment-only data); OR at least 25,000 consumers while deriving at least 25% of annual gross revenue from selling personal data?",
-    "help": "Oregon residents acting individually or as a household, excluding commercial or employment roles. Deduct payment-only data from the 100,000 limb. During a calendar year; sale limb uses annual gross revenue. Use this state's sale definition and its exceptions; advertising disclosure or a vendor contract is not automatically a statutory sale.",
+    "help": "Oregon residents acting individually or as a household, excluding commercial or employment roles. Deduct payment-only data from the 100,000-consumer threshold. During a calendar year; sale limb uses annual gross revenue. Use this state's sale definition and its exceptions; advertising disclosure or a vendor contract is not automatically a statutory sale.",
     "cites": [
      "pwc-us-or-scope"
     ],
@@ -12223,7 +12223,7 @@ export const WIZARDS = {
    "ut-nexus": {
     "type": "question",
     "q": "Does the controller or processor conduct business in Utah OR produce a product or service targeted to consumers who are Utah residents?",
-    "help": "Utah consumers acting individually or as a household, excluding commercial and employment roles. No payment-only deduction in the 100,000 limb. Use the actual entity and processing in this assessment; a website being technically reachable is not by itself proof of the stated business or targeting test.",
+    "help": "Utah consumers acting individually or as a household, excluding commercial and employment roles. No payment-only deduction in the 100,000-consumer threshold. Use the actual entity and processing in this assessment; a website being technically reachable is not by itself proof of the stated business or targeting test.",
     "cites": [
      "pwc-us-ut-scope"
     ],
@@ -12346,7 +12346,7 @@ export const WIZARDS = {
    "ut-threshold": {
     "type": "question",
     "q": "Is annual revenue at least $25 million AND does at least one limb hold: it controls or processes at least 100,000 consumers’ personal data during a calendar year; OR it controls or processes at least 25,000 consumers’ personal data AND derives strictly more than 50% of gross revenue from selling personal data?",
-    "help": "Utah consumers acting individually or as a household, excluding commercial and employment roles. No payment-only deduction in the 100,000 limb. Revenue is annual; 100,000 limb is during a calendar year. The 25,000-plus-sale limb does not separately state a lookback. Use this state's sale definition and its exceptions; advertising disclosure or a vendor contract is not automatically a statutory sale.",
+    "help": "Utah consumers acting individually or as a household, excluding commercial and employment roles. No payment-only deduction in the 100,000-consumer threshold. Revenue is annual; 100,000-consumer threshold is during a calendar year. The 25,000-plus-sale limb does not separately state a lookback. Use this state's sale definition and its exceptions; advertising disclosure or a vendor contract is not automatically a statutory sale.",
     "cites": [
      "pwc-us-ut-scope"
     ],
@@ -12453,7 +12453,7 @@ export const WIZARDS = {
    "va-nexus": {
     "type": "question",
     "q": "Does it conduct business in Virginia OR produce products or services targeted to Virginia residents?",
-    "help": "Virginia consumers acting individually or as a household, excluding employment and commercial roles. No payment-only deduction in the 100,000 limb. Use the actual entity and processing in this assessment; a website being technically reachable is not by itself proof of the stated business or targeting test.",
+    "help": "Virginia consumers acting individually or as a household, excluding employment and commercial roles. No payment-only deduction in the 100,000-consumer threshold. Use the actual entity and processing in this assessment; a website being technically reachable is not by itself proof of the stated business or targeting test.",
     "cites": [
      "pwc-us-va-scope"
     ],
@@ -12576,7 +12576,7 @@ export const WIZARDS = {
    "va-threshold": {
     "type": "question",
     "q": "Does it control or process at least 100,000 consumers’ personal data during a calendar year; OR control or process at least 25,000 consumers’ personal data AND derive strictly more than 50% of gross revenue from selling personal data?",
-    "help": "Virginia consumers acting individually or as a household, excluding employment and commercial roles. No payment-only deduction in the 100,000 limb. 100,000 limb: during a calendar year. The 25,000-plus-sale limb does not separately state a measuring period. Use this state's sale definition and its exceptions; advertising disclosure or a vendor contract is not automatically a statutory sale.",
+    "help": "Virginia consumers acting individually or as a household, excluding employment and commercial roles. No payment-only deduction in the 100,000-consumer threshold. 100,000-consumer threshold: during a calendar year. The 25,000-plus-sale limb does not separately state a measuring period. Use this state's sale definition and its exceptions; advertising disclosure or a vendor contract is not automatically a statutory sale.",
     "cites": [
      "pwc-us-va-scope"
     ],
@@ -14360,7 +14360,7 @@ export const WIZARDS = {
     "type": "outcome",
     "tier": "info",
     "title": "Connecticut: sensitive data",
-    "summary": "On your confirmed full-law coverage basis: The July 2026 text requires both reasonable necessity for sensitive processing and consumer consent. Sensitive-data sale also requires consent.",
+    "summary": "On your confirmed full-law coverage basis: Sensitive-data processing requires reasonable necessity and consent. Selling precise geolocation data is prohibited; consent does not override that prohibition. Other sensitive-data sales require consent.",
     "actions": [
      "Check the expanded sensitive-data definition and document why the processing is reasonably necessary.",
      "Obtain valid consent, use COPPA-compliant treatment for known children, and implement the consent-revocation mechanism."
@@ -14392,7 +14392,7 @@ export const WIZARDS = {
     "type": "outcome",
     "tier": "info",
     "title": "Connecticut: consumer rights",
-    "summary": "On your confirmed full-law coverage basis: Alongside access, correction, deletion, portability and opt-outs, the July 2026 law adds access to inferences, third-party sale-recipient lists and specific profiling-review rights.",
+    "summary": "On your confirmed full-law coverage basis: Rights include access to inferences, sale-recipient lists, and specified profiling review. Since October 1, 2026, deletion also covers publicly available information compiled into public consumer profiles or offered for sale, and inferences from that information.",
     "actions": [
      "Provide the consumer-specific sale-recipient list or, if not maintained, all sale recipients, subject to the trade-secret limit.",
      "For significant automated profiling, provide the feasible questioning, reasons and data-review rights. Housing decisions also have the specified correction and re-evaluation right.",
@@ -14427,9 +14427,9 @@ export const WIZARDS = {
     "title": "Connecticut: changes across the selected uses",
     "summary": "On your confirmed full-law coverage basis, these are the main differences in CTDPA. Conditions and future dates remain part of each item.",
     "actions": [
-     "Sensitive data: The July 2026 text requires both reasonable necessity for sensitive processing and consumer consent. Sensitive-data sale also requires consent.",
+     "Sensitive data: Sensitive-data processing requires reasonable necessity and consent. Selling precise geolocation data is prohibited; consent does not override that prohibition. Other sensitive-data sales require consent.",
      "Sale and targeted advertising: Sale/targeted advertising opt-outs and qualifying universal opt-out signals apply. The current text prohibits sale and targeted advertising for known or willfully disregarded consumers aged 13–17.",
-     "Consumer rights: Alongside access, correction, deletion, portability and opt-outs, the July 2026 law adds access to inferences, third-party sale-recipient lists and specific profiling-review rights.",
+     "Consumer rights: Rights include access to inferences, sale-recipient lists, and specified profiling review. Since October 1, 2026, deletion also covers publicly available information compiled into public consumer profiles or offered for sale, and inferences from that information.",
      "Risk assessments: In addition to data protection assessments for specified high-risk processing, significant-decision profiling has a separate impact-assessment requirement for activities created or generated on or after August 1, 2026.",
      "Cure and enforcement: The Attorney General enforces the act. Cure opportunities have been discretionary since January 1, 2025; current law does not guarantee the former 60-day window."
     ],
@@ -18415,4 +18415,4 @@ export const WIZARDS = {
  }
 };
 
-export const REGISTRY_SHA256 = "54aaa271e0ac14f514e35ec89579c1d6eba728bacde8d14baf48212b0af82f11";
+export const REGISTRY_SHA256 = "1c285a37291fcae34b46eea4d2c1ce01e45e76b4a40e236626d80ee89e3c84bc";

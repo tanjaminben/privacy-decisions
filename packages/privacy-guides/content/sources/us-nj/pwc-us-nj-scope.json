@@ -8,7 +8,7 @@
   "body": [
     "<p>Does the controller conduct business in New Jersey OR produce products or services targeted to New Jersey residents?</p>",
     "<p>During a calendar year, does it control or process personal data of at least 100,000 consumers (excluding payment-only data); OR at least 25,000 consumers AND derive any revenue or receive any discount from selling personal data?</p>",
-    "<p>New Jersey residents acting only in an individual/household context, excluding commercial and employment roles. Deduct payment-only data from the 100,000 limb.</p>",
+    "<p>New Jersey residents acting only in an individual/household context, excluding commercial and employment roles. Deduct payment-only data from the 100,000-consumer threshold.</p>",
     "<p>Measuring period: During a calendar year.</p>"
   ],
   "review": {

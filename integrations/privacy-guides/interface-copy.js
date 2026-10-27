@@ -1,6 +1,8 @@
 // Exact presentation-only replacements. A changed upstream anchor requires review.
 const replacements = {
   'App.svelte': [
+    ['<label class="sr-only" for="finder">What are you trying to decide?</label>', ''],
+    ['<input id="finder" type="search"', '<input id="finder" type="search" aria-labelledby="finder-heading"'],
     ['Guided privacy determinations with visible source and review status.', 'Work through a privacy question and read the explanation, next steps and sources.'],
     ['That determination link could not be opened. Choose a determination from the library.', 'That guide link could not be opened. Choose a guide below.'],
     ['Current answers cleared. The determination link still contains only the wizard ID.', 'Answers cleared.'],
