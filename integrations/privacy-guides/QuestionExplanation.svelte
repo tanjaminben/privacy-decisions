@@ -2,6 +2,7 @@
   import { WIZARDS, decisionLead } from '../../packages/privacy-guides/src/lib/engine/council.js';
   import { contextFor, tokenizeWithLinks } from './editorial-mentions.js';
   import { questionHelpBlocks } from './explanation-layout.js';
+  import { lawQuote } from './law-quotes.js';
 
   function helpId(wizardId, nodeId) {
     return `GuideQuestionW${wizardId.replace(/[^a-z0-9]/gi, '')}N${nodeId.replace(/[^a-z0-9]/gi, '')}`;
@@ -16,8 +17,13 @@
       const context = contextFor(wizardId, node), scope = new Set();
       if (!wizard.jurisdictionRoutes) tokenizeWithLinks(lead, context, scope);
       const tokens = tokenizeWithLinks(text, context, scope);
-      return { id: helpId(wizardId, nodeId), text, blocks: questionHelpBlocks(tokens, wizardId, nodeId) };
+      const laws = [...new Set(tokens.map(token => token.sourceId && lawQuote(token.sourceId, token.para)?.id).filter(Boolean))];
+      return { id: helpId(wizardId, nodeId), text, laws, blocks: questionHelpBlocks(tokens, wizardId, nodeId) };
     }).filter(entry => entry.text));
+
+  // The law panel lists what an open question cites, including its explanation, which is only
+  // in the page while it is expanded.
+  export const helpLawIds = new Map(entries.map(entry => [entry.id, entry.laws]));
 </script>
 
 <script>
@@ -58,7 +64,7 @@
     {/each}
   </section>
 {:else}
-  <div class="guide-question-help" bind:this={host}>
+  <div class="guide-question-help" data-help-id={helpId(wizardId, nodeId)} bind:this={host}>
     <a href={'#' + helpId(wizardId, nodeId)}>:Why this question?</a>
   </div>
 {/if}

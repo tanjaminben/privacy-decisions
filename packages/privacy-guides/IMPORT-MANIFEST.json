@@ -761,7 +761,8 @@
     {
       "path": "content/sources/us-co/pwc-us-co-scope.json",
       "bytes": 1531,
-      "importedSha256": "9429961db124c643887ac5a14cb3994912fd11eb84ab24b3a634d12359e9f677"
+      "importedSha256": "9429961db124c643887ac5a14cb3994912fd11eb84ab24b3a634d12359e9f677",
+      "supersedesSha256": "15e326ccb6ad736a83c662e89a89400d0ee6344f3fd2ed464a92dac554f761df"
     },
     {
       "path": "content/sources/us-ct/pwc-us-ct-duties-ads.json",
@@ -781,12 +782,14 @@
     {
       "path": "content/sources/us-ct/pwc-us-ct-duties-rights.json",
       "bytes": 1411,
-      "importedSha256": "7ad2918b314ddf214734877ad0be77ebbd3558da9f1753cd51cacc626ce5ee87"
+      "importedSha256": "7ad2918b314ddf214734877ad0be77ebbd3558da9f1753cd51cacc626ce5ee87",
+      "supersedesSha256": "23e51460081120207fd83617c56012ac472354a105d9136c08c736ef0399dff6"
     },
     {
       "path": "content/sources/us-ct/pwc-us-ct-duties-sensitive.json",
       "bytes": 1110,
-      "importedSha256": "ba7e21d5b9019a6823bf62786b929b5da4ec7dac16024e8a0bcea99bd4053aab"
+      "importedSha256": "ba7e21d5b9019a6823bf62786b929b5da4ec7dac16024e8a0bcea99bd4053aab",
+      "supersedesSha256": "704c4ea63f3c59dff478e2e9f27aa6a5bf3259b801d890eb201ca37a5c29f470"
     },
     {
       "path": "content/sources/us-ct/pwc-us-ct-scope-dot.json",
@@ -801,7 +804,8 @@
     {
       "path": "content/sources/us-ct/pwc-us-ct-scope.json",
       "bytes": 2599,
-      "importedSha256": "dc5e366f1704d23814085c338a2b885ed1839fcd93817085b068ef6873fa3336"
+      "importedSha256": "dc5e366f1704d23814085c338a2b885ed1839fcd93817085b068ef6873fa3336",
+      "supersedesSha256": "47803e72a3676da992da9ef1774380b32fd2d9734ae94bfc62cf48dd387b0719"
     },
     {
       "path": "content/sources/us-de/pwc-us-de-duties-ads.json",
@@ -1041,7 +1045,8 @@
     {
       "path": "content/sources/us-ky/pwc-us-ky-scope.json",
       "bytes": 1272,
-      "importedSha256": "f402218dbc8e32d2cb51f93b242b59e7c64383d5f44a4d6a73af4876a5f35a84"
+      "importedSha256": "f402218dbc8e32d2cb51f93b242b59e7c64383d5f44a4d6a73af4876a5f35a84",
+      "supersedesSha256": "4e82dfa2268ffa16c4e7eb4214c988642f3208a44ee4dfde636fcaf33ac4a830"
     },
     {
       "path": "content/sources/us-md/pwc-us-md-duties-2026-amendment.json",
@@ -1126,7 +1131,8 @@
     {
       "path": "content/sources/us-mn/pwc-us-mn-scope.json",
       "bytes": 1493,
-      "importedSha256": "aaef816c50e91384bc3c092ebd0dca36a835c68d25f0794d97e7e3b095aae8fd"
+      "importedSha256": "aaef816c50e91384bc3c092ebd0dca36a835c68d25f0794d97e7e3b095aae8fd",
+      "supersedesSha256": "c5fbe830fb7639e9f6ce117ca846e21f9f44c480edba03920cbce510a74f8045"
     },
     {
       "path": "content/sources/us-mt/pwc-us-mt-duties-ads.json",
@@ -1301,7 +1307,8 @@
     {
       "path": "content/sources/us-nj/pwc-us-nj-scope.json",
       "bytes": 1324,
-      "importedSha256": "7a5e79f4b4da9b5ec7fb86ce5aa5e0e621b78d75759fcd62d4623fce2032ffbf"
+      "importedSha256": "7a5e79f4b4da9b5ec7fb86ce5aa5e0e621b78d75759fcd62d4623fce2032ffbf",
+      "supersedesSha256": "9ac6fa97292c7b3cebb4b89f954411cd0abe0ebd778c6dfd157789ffe1b6513d"
     },
     {
       "path": "content/sources/us-ny/ny-shield-aa.json",
@@ -1351,7 +1358,8 @@
     {
       "path": "content/sources/us-or/pwc-us-or-scope.json",
       "bytes": 1365,
-      "importedSha256": "f56f281cb7e3ebfe5d30956bcbd024769cd65d67006f43502ab01a9f728ba953"
+      "importedSha256": "f56f281cb7e3ebfe5d30956bcbd024769cd65d67006f43502ab01a9f728ba953",
+      "supersedesSha256": "18bd1053b7a934b35aff8e91b7552009ed310622c1ecfa10dd75e0d65b939a12"
     },
     {
       "path": "content/sources/us-ri/pwc-us-ri-duties-ads.json",
@@ -1501,7 +1509,8 @@
     {
       "path": "content/sources/us-ut/pwc-us-ut-scope.json",
       "bytes": 1585,
-      "importedSha256": "020fcd706a24a6fe2fd70c25828469583b030127ab31bf5509519e456f34efee"
+      "importedSha256": "020fcd706a24a6fe2fd70c25828469583b030127ab31bf5509519e456f34efee",
+      "supersedesSha256": "c8802d9757d6e53026ed3e0c330be0289b28ad2218348675ff55837d4ec1b695"
     },
     {
       "path": "content/sources/us-va/pwc-us-va-duties-ads.json",
@@ -1536,32 +1545,38 @@
     {
       "path": "content/sources/us-va/pwc-us-va-scope.json",
       "bytes": 1367,
-      "importedSha256": "43b2a68b63af3d4664fbbb9a2562e6b5f8dc93acdd9c651db61f8b0c4f9ae652"
+      "importedSha256": "43b2a68b63af3d4664fbbb9a2562e6b5f8dc93acdd9c651db61f8b0c4f9ae652",
+      "supersedesSha256": "ecc0e2a78a1640f2864b14c174912afa7f1bea19957539bb87be59cc3be5e4ae"
     },
     {
       "path": "content/wizards/adm.json",
-      "bytes": 19805,
-      "importedSha256": "a719f4d9b9ebaf37856255045bf6e83fc812990fee4c0d69b57d813e21a611bb"
+      "bytes": 21106,
+      "importedSha256": "fad3c23d7f12d8a5a7dbfcedf6ac7d760f8e5d96fc59d3b190eb01602807d502",
+      "supersedesSha256": "a719f4d9b9ebaf37856255045bf6e83fc812990fee4c0d69b57d813e21a611bb"
     },
     {
       "path": "content/wizards/ai-risk.json",
       "bytes": 38781,
-      "importedSha256": "a539a8135905d64c015d9e7866cfb35167f2c9a55535a96e7416a228ebb4c986"
+      "importedSha256": "a539a8135905d64c015d9e7866cfb35167f2c9a55535a96e7416a228ebb4c986",
+      "supersedesSha256": "f0bfb003cb24878636ffc507cfad69641265306fc0f41c0b130e2fafe7947b78"
     },
     {
       "path": "content/wizards/ai-role.json",
       "bytes": 40368,
-      "importedSha256": "05f66bba25446e8d9420d5eb6f4da3d23615dc896fd7dc11d2a6ba6507686b49"
+      "importedSha256": "05f66bba25446e8d9420d5eb6f4da3d23615dc896fd7dc11d2a6ba6507686b49",
+      "supersedesSha256": "ed9348e85918aafe427fe6d55670a82c17c21c882b3ee21970b73646f40bfa5d"
     },
     {
       "path": "content/wizards/breach.json",
-      "bytes": 37483,
-      "importedSha256": "af49834a9fcc09904c830ba682195a7c166c18075bcdcc23869f112f439fb450"
+      "bytes": 40783,
+      "importedSha256": "92f9135240d6d244e1dec01c70e9456c690ec2c17ecaa9c5649697be30915b2b",
+      "supersedesSha256": "af49834a9fcc09904c830ba682195a7c166c18075bcdcc23869f112f439fb450"
     },
     {
       "path": "content/wizards/children.json",
-      "bytes": 19571,
-      "importedSha256": "610ace3d80793fd131901a5708e6942d7eb3207456150e0aea68f8f55ad9e47b"
+      "bytes": 19018,
+      "importedSha256": "95a9bbff6c4b9bf563ea5e0c3f1f320d4338fa57ca9acad559c7eb132245dbee",
+      "supersedesSha256": "610ace3d80793fd131901a5708e6942d7eb3207456150e0aea68f8f55ad9e47b"
     },
     {
       "path": "content/wizards/cookies.json",
@@ -1570,8 +1585,9 @@
     },
     {
       "path": "content/wizards/dpia.json",
-      "bytes": 11488,
-      "importedSha256": "32e86046bc1812383563549ee206a27aae828dc2ec025e2bfb975d06890f6dec"
+      "bytes": 12499,
+      "importedSha256": "958dd409b523467a8cd9da77fe41b164a25f8ea96f61d50261510f3693bdc886",
+      "supersedesSha256": "32e86046bc1812383563549ee206a27aae828dc2ec025e2bfb975d06890f6dec"
     },
     {
       "path": "content/wizards/dpo.json",
@@ -1585,13 +1601,15 @@
     },
     {
       "path": "content/wizards/legal-basis.json",
-      "bytes": 15840,
-      "importedSha256": "f9c5217fd63a9debf9931e2cfb07358f5c9b7cf460110dd6515fc21c6c8414dc"
+      "bytes": 16751,
+      "importedSha256": "1aee6561f8aac517b38859f59721b2eebe8c415ed0a703191e4ec8167d1dd626",
+      "supersedesSha256": "f9c5217fd63a9debf9931e2cfb07358f5c9b7cf460110dd6515fc21c6c8414dc"
     },
     {
       "path": "content/wizards/role.json",
-      "bytes": 15455,
-      "importedSha256": "cbf255315a5fd34bcd5c351c6dc81eafb089701b99c212788d38e219826af3d4"
+      "bytes": 15996,
+      "importedSha256": "4755105e6b9bf0f0435b7e9b41b9e01ef4401cb08d58e748be6b7361584331be",
+      "supersedesSha256": "cbf255315a5fd34bcd5c351c6dc81eafb089701b99c212788d38e219826af3d4"
     },
     {
       "path": "content/wizards/ropa.json",
@@ -1600,8 +1618,9 @@
     },
     {
       "path": "content/wizards/sale-share.json",
-      "bytes": 17558,
-      "importedSha256": "e8b42ed4cd26836eba4f27117452fcd97bf4ba3320b7c520b47cbcd37ecddde3"
+      "bytes": 18007,
+      "importedSha256": "fd5a9093c0dd21582f71bafb113d2139d32fc487fb6071714dd2e2c41d58cd68",
+      "supersedesSha256": "4400ec4b0b357d6547b1edb86d173d64f6df8f0c3244236bba9ea9eb2a28ebff"
     },
     {
       "path": "content/wizards/severity.json",
@@ -1610,8 +1629,9 @@
     },
     {
       "path": "content/wizards/special-category.json",
-      "bytes": 17459,
-      "importedSha256": "5196185b9d5cafec0754ee95198b0075c8547985ecc23597937cd65dee2e99a5"
+      "bytes": 20881,
+      "importedSha256": "d1390f8dc81c7c2167c1c7fdc7374c782f3b160e72e5d3153c7cc44e121ac677",
+      "supersedesSha256": "5196185b9d5cafec0754ee95198b0075c8547985ecc23597937cd65dee2e99a5"
     },
     {
       "path": "content/wizards/transfer.json",
@@ -1621,12 +1641,14 @@
     {
       "path": "content/wizards/us-applicability.json",
       "bytes": 233924,
-      "importedSha256": "e7e3f6f7888ba7d874378508987a82f1c53503bf09bfffd06d7573c891b6930f"
+      "importedSha256": "e7e3f6f7888ba7d874378508987a82f1c53503bf09bfffd06d7573c891b6930f",
+      "supersedesSha256": "6400c5a397de93aff4dde42d4e32b70b4f1764fbceb0e1f326be5b39cbe33119"
     },
     {
       "path": "content/wizards/us-divergence.json",
       "bytes": 216416,
-      "importedSha256": "8a1ea32d02246784ba0a76f53df28fb901f1f93d63aeda45887e62970ff85769"
+      "importedSha256": "8a1ea32d02246784ba0a76f53df28fb901f1f93d63aeda45887e62970ff85769",
+      "supersedesSha256": "b838ca8fd48865ceadbc602fc6fdf342b157c3aa83b2eca00df4d054a104ed2d"
     },
     {
       "path": "index.html",
@@ -1695,8 +1717,9 @@
     },
     {
       "path": "src/lib/data/manifest.generated.js",
-      "bytes": 168229,
-      "importedSha256": "73f5a2f6e674c278ddf3cd84a6d1095fe3c4bc6da8a3b132c1b6e44bc4b8e15b"
+      "bytes": 168250,
+      "importedSha256": "cdeef95c401b00c1afe12c7bec91f47843674c3bef3fc0e32dfb3ff8616a706b",
+      "supersedesSha256": "98c394c367af6444bdbeb422ebd95d3f098eb60e929c5b278a9ed37ad78b202e"
     },
     {
       "path": "src/lib/data/mentions.js",
@@ -1710,8 +1733,9 @@
     },
     {
       "path": "src/lib/data/registry.generated.js",
-      "bytes": 1302198,
-      "importedSha256": "7a20a832e931f17cb620e745ef0ef30a365d01425c8aa8b134e2b9d2b79dea3f"
+      "bytes": 1311977,
+      "importedSha256": "3895e02577468bab264007a58a73bf94408687c30d8857d37093c91c5df3e6d4",
+      "supersedesSha256": "f53a823a7f4f876af7115217912d379c6b9aa3153cec66d096c04625e7e00b40"
     },
     {
       "path": "src/lib/data/related.js",
@@ -1800,8 +1824,9 @@
     },
     {
       "path": "tests/unit/outcome-guidance.test.js",
-      "bytes": 4839,
-      "importedSha256": "34d445830f167b42361ce046820efd9402001ab946cc514cdaa43c1c622cc4bd"
+      "bytes": 5005,
+      "importedSha256": "ff6cf2994c6923df7b707b7bde49215af64e44c102b1b24d771691c1b565a263",
+      "supersedesSha256": "34d445830f167b42361ce046820efd9402001ab946cc514cdaa43c1c622cc4bd"
     },
     {
       "path": "tests/unit/registry.test.js",
@@ -1825,95 +1850,50 @@
     }
   ],
   "supportFiles": [],
-  "localChanges": {
-    "status": "Uncommitted local candidate; original source revision is the base only",
-    "reviewId": "ben-tan-prose-20261026-33459e7e",
-    "changes": [
-      {
-        "path": "content/sources/us-co/pwc-us-co-scope.json",
-        "baseSha256": "15e326ccb6ad736a83c662e89a89400d0ee6344f3fd2ed464a92dac554f761df",
-        "localSha256": "9429961db124c643887ac5a14cb3994912fd11eb84ab24b3a634d12359e9f677"
-      },
-      {
-        "path": "content/sources/us-ct/pwc-us-ct-duties-rights.json",
-        "baseSha256": "23e51460081120207fd83617c56012ac472354a105d9136c08c736ef0399dff6",
-        "localSha256": "7ad2918b314ddf214734877ad0be77ebbd3558da9f1753cd51cacc626ce5ee87"
-      },
-      {
-        "path": "content/sources/us-ct/pwc-us-ct-duties-sensitive.json",
-        "baseSha256": "704c4ea63f3c59dff478e2e9f27aa6a5bf3259b801d890eb201ca37a5c29f470",
-        "localSha256": "ba7e21d5b9019a6823bf62786b929b5da4ec7dac16024e8a0bcea99bd4053aab"
-      },
-      {
-        "path": "content/sources/us-ct/pwc-us-ct-scope.json",
-        "baseSha256": "47803e72a3676da992da9ef1774380b32fd2d9734ae94bfc62cf48dd387b0719",
-        "localSha256": "dc5e366f1704d23814085c338a2b885ed1839fcd93817085b068ef6873fa3336"
-      },
-      {
-        "path": "content/sources/us-ky/pwc-us-ky-scope.json",
-        "baseSha256": "4e82dfa2268ffa16c4e7eb4214c988642f3208a44ee4dfde636fcaf33ac4a830",
-        "localSha256": "f402218dbc8e32d2cb51f93b242b59e7c64383d5f44a4d6a73af4876a5f35a84"
-      },
-      {
-        "path": "content/sources/us-mn/pwc-us-mn-scope.json",
-        "baseSha256": "c5fbe830fb7639e9f6ce117ca846e21f9f44c480edba03920cbce510a74f8045",
-        "localSha256": "aaef816c50e91384bc3c092ebd0dca36a835c68d25f0794d97e7e3b095aae8fd"
-      },
-      {
-        "path": "content/sources/us-nj/pwc-us-nj-scope.json",
-        "baseSha256": "9ac6fa97292c7b3cebb4b89f954411cd0abe0ebd778c6dfd157789ffe1b6513d",
-        "localSha256": "7a5e79f4b4da9b5ec7fb86ce5aa5e0e621b78d75759fcd62d4623fce2032ffbf"
-      },
-      {
-        "path": "content/sources/us-or/pwc-us-or-scope.json",
-        "baseSha256": "18bd1053b7a934b35aff8e91b7552009ed310622c1ecfa10dd75e0d65b939a12",
-        "localSha256": "f56f281cb7e3ebfe5d30956bcbd024769cd65d67006f43502ab01a9f728ba953"
-      },
-      {
-        "path": "content/sources/us-ut/pwc-us-ut-scope.json",
-        "baseSha256": "c8802d9757d6e53026ed3e0c330be0289b28ad2218348675ff55837d4ec1b695",
-        "localSha256": "020fcd706a24a6fe2fd70c25828469583b030127ab31bf5509519e456f34efee"
-      },
-      {
-        "path": "content/sources/us-va/pwc-us-va-scope.json",
-        "baseSha256": "ecc0e2a78a1640f2864b14c174912afa7f1bea19957539bb87be59cc3be5e4ae",
-        "localSha256": "43b2a68b63af3d4664fbbb9a2562e6b5f8dc93acdd9c651db61f8b0c4f9ae652"
-      },
-      {
-        "path": "content/wizards/ai-risk.json",
-        "baseSha256": "f0bfb003cb24878636ffc507cfad69641265306fc0f41c0b130e2fafe7947b78",
-        "localSha256": "a539a8135905d64c015d9e7866cfb35167f2c9a55535a96e7416a228ebb4c986"
-      },
-      {
-        "path": "content/wizards/ai-role.json",
-        "baseSha256": "ed9348e85918aafe427fe6d55670a82c17c21c882b3ee21970b73646f40bfa5d",
-        "localSha256": "05f66bba25446e8d9420d5eb6f4da3d23615dc896fd7dc11d2a6ba6507686b49"
-      },
-      {
-        "path": "content/wizards/sale-share.json",
-        "baseSha256": "9a13f3518f5b623b72328e7d39303b0e05c7d01a2e530a28c1cc4ec4897250cd",
-        "localSha256": "e8b42ed4cd26836eba4f27117452fcd97bf4ba3320b7c520b47cbcd37ecddde3"
-      },
-      {
-        "path": "content/wizards/us-applicability.json",
-        "baseSha256": "6400c5a397de93aff4dde42d4e32b70b4f1764fbceb0e1f326be5b39cbe33119",
-        "localSha256": "e7e3f6f7888ba7d874378508987a82f1c53503bf09bfffd06d7573c891b6930f"
-      },
-      {
-        "path": "content/wizards/us-divergence.json",
-        "baseSha256": "b838ca8fd48865ceadbc602fc6fdf342b157c3aa83b2eca00df4d054a104ed2d",
-        "localSha256": "8a1ea32d02246784ba0a76f53df28fb901f1f93d63aeda45887e62970ff85769"
-      },
-      {
-        "path": "src/lib/data/manifest.generated.js",
-        "baseSha256": "c085c838b17f1c0f0da568928c34ac4fd54ad46ed823b15804fa871836600e7c",
-        "localSha256": "73f5a2f6e674c278ddf3cd84a6d1095fe3c4bc6da8a3b132c1b6e44bc4b8e15b"
-      },
-      {
-        "path": "src/lib/data/registry.generated.js",
-        "baseSha256": "c95ecd6523af692bdadf8f60dd9411b9ad5ff7c5880f0953477097d663276355",
-        "localSha256": "7a20a832e931f17cb620e745ef0ef30a365d01425c8aa8b134e2b9d2b79dea3f"
-      }
-    ]
-  }
+  "revisions": [
+    {
+      "date": "2026-10-26",
+      "branch": "phase0-correctness",
+      "kind": "reviewed-routing-correction",
+      "note": "Package unfrozen at the owner's direction for Phase 0 routing fixes from docs/review/2026-10-26-adversarial-review.md. Decision graphs changed: special-category (all ten Article 9(2) conditions reachable; new outcomes o-9-2-c, o-9-2-d), legal-basis (new start q-special; o-art-9-route removed), dpia (q-sa-list split so the risk-factor count is asked once), adm (Both runs a UK question then the EU path), children (UK Children's code path continues to the age-13 question; o-uk-aadc folded into option actions), breach (new start q-holder and outcome o-holder-notify for data held for others; NY good-faith employee access moved into the NY branch), sale-share (o-internal replaced by o-third-other), role (vendor standard-service option). One test updated for the new breach start. Each changed file keeps its previous hash in supersedesSha256. Legal text checked against primary sources on 2026-10-26; not practitioner-reviewed.",
+      "files": [
+        "content/wizards/adm.json",
+        "content/wizards/breach.json",
+        "content/wizards/children.json",
+        "content/wizards/dpia.json",
+        "content/wizards/legal-basis.json",
+        "content/wizards/role.json",
+        "content/wizards/sale-share.json",
+        "content/wizards/special-category.json",
+        "src/lib/data/manifest.generated.js",
+        "src/lib/data/registry.generated.js",
+        "tests/unit/outcome-guidance.test.js"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "kind": "approved-prose-and-primary-source-corrections",
+      "reviewId": "ben-tan-prose-20261026-33459e7e",
+      "note": "R026-R031 approved text and Connecticut source corrections, merged with the released routing and cited-law panel. Automated primary-source verification; no practitioner review claimed.",
+      "files": [
+        "content/sources/us-co/pwc-us-co-scope.json",
+        "content/sources/us-ct/pwc-us-ct-duties-rights.json",
+        "content/sources/us-ct/pwc-us-ct-duties-sensitive.json",
+        "content/sources/us-ct/pwc-us-ct-scope.json",
+        "content/sources/us-ky/pwc-us-ky-scope.json",
+        "content/sources/us-mn/pwc-us-mn-scope.json",
+        "content/sources/us-nj/pwc-us-nj-scope.json",
+        "content/sources/us-or/pwc-us-or-scope.json",
+        "content/sources/us-ut/pwc-us-ut-scope.json",
+        "content/sources/us-va/pwc-us-va-scope.json",
+        "content/wizards/ai-risk.json",
+        "content/wizards/ai-role.json",
+        "content/wizards/sale-share.json",
+        "content/wizards/us-applicability.json",
+        "content/wizards/us-divergence.json",
+        "src/lib/data/manifest.generated.js",
+        "src/lib/data/registry.generated.js"
+      ]
+    }
+  ]
 }

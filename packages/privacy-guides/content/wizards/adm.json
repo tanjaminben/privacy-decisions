@@ -117,12 +117,9 @@
         },
         {
           "label": "Both — EU and UK operations",
-          "goto": "q-22-2",
+          "goto": "q-both-uk-scd",
           "resultNotes": [
-            "This result covers the EU path. The UK branch remains a separate determination."
-          ],
-          "resultActions": [
-            "Re-run this wizard for the UK branch."
+            "This result covers both regimes: the outcome is the EU analysis, and the actions also list the UK duties from your UK answer."
           ]
         }
       ]
@@ -143,6 +140,36 @@
         {
           "label": "No — no special category data involved",
           "goto": "o-uk-22c"
+        }
+      ]
+    },
+    "q-both-uk-scd": {
+      "type": "question",
+      "q": "UK part: is the significant decision based, entirely or partly, on special category data?",
+      "help": "Answer for the UK operations first. The next question covers the EU exceptions; your result will combine both.",
+      "cites": [
+        "uk-gdpr-art-22a-d"
+      ],
+      "opts": [
+        {
+          "label": "Yes — special category data is used in reaching the decision",
+          "goto": "q-22-2",
+          "cites": [
+            "uk-gdpr-art-22a-d"
+          ],
+          "resultActions": [
+            "UK: the decision uses special category data, so the Article 22B restrictions apply: broadly, explicit consent, or a contract or legal-authorization route combined with the substantial-public-interest condition. Implement the Article 22C safeguards in every case."
+          ]
+        },
+        {
+          "label": "No — no special category data involved",
+          "goto": "q-22-2",
+          "cites": [
+            "uk-gdpr-art-22a-d"
+          ],
+          "resultActions": [
+            "UK: without special category data, the decision can rely on an Article 6 legal ground with the Article 22C safeguards: information about the decision, a way to make representations, human intervention and a way to contest it."
+          ]
         }
       ]
     },

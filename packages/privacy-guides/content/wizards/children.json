@@ -138,37 +138,32 @@
       "opts": [
         {
           "label": "Yes — likely accessed by under-18s",
-          "goto": "o-uk-aadc"
+          "goto": "q-uk-age",
+          "cites": [
+            "ico-aadc",
+            "uk-dpa2018-s123",
+            "uk-duaa-2025",
+            "gdpr-art-35"
+          ],
+          "resultNotes": [
+            "The Children’s code is a statutory code of practice under Data Protection Act 2018 section 123. The Information Commissioner’s Office and the courts must take it into account, and the Information Commissioner’s Office treats conformance as evidence of compliance for children’s data."
+          ],
+          "resultActions": [
+            "Run a Child Rights Impact Assessment (CRIA) — ICO recommends; effectively part of your data protection impact assessment (DPIA)",
+            "Set defaults to high privacy",
+            "Switch geolocation off by default",
+            "No targeted advertising to children",
+            "Disable profile-based recommendation amplification; do not use nudge techniques that lead children to weaken their privacy protections",
+            "Give children short, clear explanations they can understand at their age.",
+            "Verify ages or apply the standards to all users",
+            "Work through ICO's published guidance for each of the 15 standards",
+            "Data (Use and Access) Act 2025 section 81, in force since 5 February 2026, adds children’s higher protection matters to data protection by design for online services likely to be accessed by children."
+          ]
         },
         {
           "label": "No — not likely to be accessed by under-18s",
           "goto": "q-uk-age"
         }
-      ]
-    },
-    "o-uk-aadc": {
-      "type": "outcome",
-      "tier": "warn",
-      "title": "ICO Children's code: conformance expected — statutory code the ICO must take into account",
-      "summary": "The Children's code (AADC) is a statutory code of practice issued under DPA 2018 s.123. Its 15 standards are not themselves directly binding rules, but the ICO and the courts must take the code into account. The ICO treats conformance as evidence of UK GDPR compliance for children's processing — and non-conformance as evidence against it. The ICO has investigated and acted against major platforms (TikTok, Snap). The Data (Use and Access) Act 2025 (DUAA 2025) has since placed children's higher-protection needs on a statutory footing for services likely to be accessed by children.",
-      "actions": [
-        "Run a Child Rights Impact Assessment (CRIA) — ICO recommends; effectively part of your data protection impact assessment (DPIA)",
-        "Set defaults to high privacy",
-        "Switch geolocation off by default",
-        "No targeted advertising to children",
-        "Disable profile-based recommendation amplification; do not use nudge techniques that lead children to weaken their privacy protections",
-        "Provide bite-sized, clear, age-appropriate transparency",
-        "Verify ages or apply the standards to all users",
-        "Consent-age check: if you rely on consent for an ISS offered directly to a child, the UK digital-consent age is 13 (DPA 2018 s.9, unchanged by DUAA 2025) — parental consent is required below 13 only",
-        "DUAA 2025: the children's higher-protection duty for likely-to-be-accessed services now sits in statute — verify commencement regulations and current ICO guidance",
-        "Work through ICO's published guidance for each of the 15 standards"
-      ],
-      "cites": [
-        "ico-aadc",
-        "uk-dpa2018-s123",
-        "uk-dpa-2018-s9",
-        "uk-duaa-2025",
-        "gdpr-art-35"
       ]
     },
     "q-uk-age": {

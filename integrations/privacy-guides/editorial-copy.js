@@ -155,6 +155,7 @@ export function plainLegalCopy(value) {
     .replace(/\bGuidance guidance on/g,'Guidance on').replace(/\bguidance guidance on/g,'guidance on')
     .replace(/(guidance on [^()]+ \(WP\d+\)) guidance/g,'$1')
     .replace(/(^|[.!?]\s+)guidance on/g,'$1Guidance on')
+    .replace(/(^|[.!?]\s+)(sections?|regulation|paragraph)(?= \d)/g,(_,start,word)=>start+word[0].toUpperCase()+word.slice(1))
     .replace(/\s+([,.;:])/g,'$1').replace(/,\s*,/g,',')
     .replace(/\uE000(\d+)\uE001/g,(_,i)=>urls[Number(i)]);
   return text;

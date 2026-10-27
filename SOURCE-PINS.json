@@ -10,13 +10,23 @@
     },
     {
       "path": "docs/qa/privacy-guides-20261020/editorial-final-pins.json",
-      "sha256": "e5286700b690f7f6fdafc8f9d68a8229404740de6eaa5a63ed12192925e7e619",
-      "bytes": 5150
+      "sha256": "9d4d25ec9d022317c325bacb98da7c42aefc34b672ce20a2826c568db7775c0e",
+      "bytes": 5516
+    },
+    {
+      "path": "integrations/privacy-guides/LawPanel.svelte",
+      "sha256": "2e62cb49a5c0c048d504580c4a52a7eb9d6a88081ead11176384a9526282cb30",
+      "bytes": 3710
+    },
+    {
+      "path": "integrations/privacy-guides/LawToggle.svelte",
+      "sha256": "93ff8d20ccfbdd5c6fea9e01322e76b122651bb86219cd25bdf62ef3ee321d90",
+      "bytes": 483
     },
     {
       "path": "integrations/privacy-guides/Mentions.svelte",
-      "sha256": "086a3ca918aa99976163d352138c99875b0a9359d700f160fec2b8603ebe6429",
-      "bytes": 879
+      "sha256": "461b53808a3504aa4cfa3271cbe228c10ac4820b2354fcd66900aec8883ff2f6",
+      "bytes": 1526
     },
     {
       "path": "integrations/privacy-guides/OfficialSourceLinks.svelte",
@@ -25,8 +35,8 @@
     },
     {
       "path": "integrations/privacy-guides/QuestionExplanation.svelte",
-      "sha256": "bd206e4d52e5b76e6fbe1003cefb472625a426aa98f63e56410fd7f37e6e5a14",
-      "bytes": 2856
+      "sha256": "dc79a03d2c7f9198d41ca9606d9dd62078c25345325141f6f7505f1e5e29f3bd",
+      "bytes": 3296
     },
     {
       "path": "integrations/privacy-guides/copy-result.js",
@@ -35,8 +45,8 @@
     },
     {
       "path": "integrations/privacy-guides/editorial-copy.js",
-      "sha256": "5e615b3a21f600acb485a0a69bc8734eb4176fc071b134486c3d4b6e81d35725",
-      "bytes": 14796
+      "sha256": "0cdc5cb2883ff5189312baab300c4d58ec787f0f774ec0a2cdb8d6bb8968909e",
+      "bytes": 14923
     },
     {
       "path": "integrations/privacy-guides/editorial-mentions.js",
@@ -50,8 +60,8 @@
     },
     {
       "path": "integrations/privacy-guides/editorial-overrides.json",
-      "sha256": "19e09a7104fcc7edb8f120f5673285ae73113935118dafd50b3e85ff7cee6805",
-      "bytes": 275127
+      "sha256": "4bb7e82b89046e8215f5058934bf625f7966a6eef9fe5cf49c9097cc69700736",
+      "bytes": 295707
     },
     {
       "path": "integrations/privacy-guides/entry.js",
@@ -69,9 +79,29 @@
       "bytes": 4992
     },
     {
+      "path": "integrations/privacy-guides/law-panel.js",
+      "sha256": "524bfeb19d813857d3e67911bb62cfdb6f93cf1b60ae53766f4728447999e0f5",
+      "bytes": 1551
+    },
+    {
+      "path": "integrations/privacy-guides/law-quotes.js",
+      "sha256": "deae0d3b2cc181854d764b6c92678db986593a6c00a98f7d0e85144ca0253e69",
+      "bytes": 2834
+    },
+    {
+      "path": "integrations/privacy-guides/law-quotes.json",
+      "sha256": "19f81ce02ba80acc39a9c6e530ab47b23d04ad720846b937727b8f683a94d158",
+      "bytes": 35504
+    },
+    {
+      "path": "integrations/privacy-guides/law-quotes.test.mjs",
+      "sha256": "dd732a5cc39e25db71c2f86f3ec4b6ffc0b9b4ff88c04ba0e0bacd168fddf3d9",
+      "bytes": 2505
+    },
+    {
       "path": "integrations/privacy-guides/portfolio.css",
-      "sha256": "344371127fd8c411cd601170a720f35dc1bfba28dee3805d5682e4e49d4a7728",
-      "bytes": 6780
+      "sha256": "c97a1baad0aabadc7dc4b54a52b4ba2badf41e9f798f7b80d6793e6adbd804f6",
+      "bytes": 9420
     },
     {
       "path": "integrations/privacy-guides/presentation-registry.js",
@@ -100,8 +130,8 @@
     },
     {
       "path": "packages/privacy-guides/IMPORT-MANIFEST.json",
-      "sha256": "9ed755444d21823ae241c0c200ca1be9a1bac0161754626ac77269f517c346c8",
-      "bytes": 69361
+      "sha256": "70a31fb403a90e8d407390c817b2364f0f6b3b00d6319054e39f50f584206577",
+      "bytes": 72010
     },
     {
       "path": "packages/privacy-guides/LICENSE",
@@ -1635,8 +1665,8 @@
     },
     {
       "path": "packages/privacy-guides/content/wizards/adm.json",
-      "sha256": "a719f4d9b9ebaf37856255045bf6e83fc812990fee4c0d69b57d813e21a611bb",
-      "bytes": 19805
+      "sha256": "fad3c23d7f12d8a5a7dbfcedf6ac7d760f8e5d96fc59d3b190eb01602807d502",
+      "bytes": 21106
     },
     {
       "path": "packages/privacy-guides/content/wizards/ai-risk.json",
@@ -1650,13 +1680,13 @@
     },
     {
       "path": "packages/privacy-guides/content/wizards/breach.json",
-      "sha256": "af49834a9fcc09904c830ba682195a7c166c18075bcdcc23869f112f439fb450",
-      "bytes": 37483
+      "sha256": "92f9135240d6d244e1dec01c70e9456c690ec2c17ecaa9c5649697be30915b2b",
+      "bytes": 40783
     },
     {
       "path": "packages/privacy-guides/content/wizards/children.json",
-      "sha256": "610ace3d80793fd131901a5708e6942d7eb3207456150e0aea68f8f55ad9e47b",
-      "bytes": 19571
+      "sha256": "95a9bbff6c4b9bf563ea5e0c3f1f320d4338fa57ca9acad559c7eb132245dbee",
+      "bytes": 19018
     },
     {
       "path": "packages/privacy-guides/content/wizards/cookies.json",
@@ -1665,8 +1695,8 @@
     },
     {
       "path": "packages/privacy-guides/content/wizards/dpia.json",
-      "sha256": "32e86046bc1812383563549ee206a27aae828dc2ec025e2bfb975d06890f6dec",
-      "bytes": 11488
+      "sha256": "958dd409b523467a8cd9da77fe41b164a25f8ea96f61d50261510f3693bdc886",
+      "bytes": 12499
     },
     {
       "path": "packages/privacy-guides/content/wizards/dpo.json",
@@ -1680,13 +1710,13 @@
     },
     {
       "path": "packages/privacy-guides/content/wizards/legal-basis.json",
-      "sha256": "f9c5217fd63a9debf9931e2cfb07358f5c9b7cf460110dd6515fc21c6c8414dc",
-      "bytes": 15840
+      "sha256": "1aee6561f8aac517b38859f59721b2eebe8c415ed0a703191e4ec8167d1dd626",
+      "bytes": 16751
     },
     {
       "path": "packages/privacy-guides/content/wizards/role.json",
-      "sha256": "cbf255315a5fd34bcd5c351c6dc81eafb089701b99c212788d38e219826af3d4",
-      "bytes": 15455
+      "sha256": "4755105e6b9bf0f0435b7e9b41b9e01ef4401cb08d58e748be6b7361584331be",
+      "bytes": 15996
     },
     {
       "path": "packages/privacy-guides/content/wizards/ropa.json",
@@ -1695,8 +1725,8 @@
     },
     {
       "path": "packages/privacy-guides/content/wizards/sale-share.json",
-      "sha256": "9a13f3518f5b623b72328e7d39303b0e05c7d01a2e530a28c1cc4ec4897250cd",
-      "bytes": 17567
+      "sha256": "4400ec4b0b357d6547b1edb86d173d64f6df8f0c3244236bba9ea9eb2a28ebff",
+      "bytes": 18016
     },
     {
       "path": "packages/privacy-guides/content/wizards/severity.json",
@@ -1705,8 +1735,8 @@
     },
     {
       "path": "packages/privacy-guides/content/wizards/special-category.json",
-      "sha256": "5196185b9d5cafec0754ee95198b0075c8547985ecc23597937cd65dee2e99a5",
-      "bytes": 17459
+      "sha256": "d1390f8dc81c7c2167c1c7fdc7374c782f3b160e72e5d3153c7cc44e121ac677",
+      "bytes": 20881
     },
     {
       "path": "packages/privacy-guides/content/wizards/transfer.json",
@@ -1800,8 +1830,8 @@
     },
     {
       "path": "packages/privacy-guides/src/lib/data/manifest.generated.js",
-      "sha256": "c085c838b17f1c0f0da568928c34ac4fd54ad46ed823b15804fa871836600e7c",
-      "bytes": 168229
+      "sha256": "98c394c367af6444bdbeb422ebd95d3f098eb60e929c5b278a9ed37ad78b202e",
+      "bytes": 168250
     },
     {
       "path": "packages/privacy-guides/src/lib/data/mentions.js",
@@ -1815,8 +1845,8 @@
     },
     {
       "path": "packages/privacy-guides/src/lib/data/registry.generated.js",
-      "sha256": "c95ecd6523af692bdadf8f60dd9411b9ad5ff7c5880f0953477097d663276355",
-      "bytes": 1300519
+      "sha256": "f53a823a7f4f876af7115217912d379c6b9aa3153cec66d096c04625e7e00b40",
+      "bytes": 1310298
     },
     {
       "path": "packages/privacy-guides/src/lib/data/related.js",
@@ -1890,8 +1920,8 @@
     },
     {
       "path": "packages/privacy-guides/tests/unit/outcome-guidance.test.js",
-      "sha256": "34d445830f167b42361ce046820efd9402001ab946cc514cdaa43c1c622cc4bd",
-      "bytes": 4839
+      "sha256": "ff6cf2994c6923df7b707b7bde49215af64e44c102b1b24d771691c1b565a263",
+      "bytes": 5005
     },
     {
       "path": "packages/privacy-guides/tests/unit/registry.test.js",
@@ -1915,8 +1945,8 @@
     },
     {
       "path": "scripts/prepare-privacy-guides.mjs",
-      "sha256": "0ba7032775b5e9acb89fada9836d3b2923c780a1da3ba652dd87c8ef2bc8b60e",
-      "bytes": 11905
+      "sha256": "1a41283f45effc3b4e7bccd63e03696a29b8a5d7f44fd73ee068fa11ddec86f3",
+      "bytes": 13570
     },
     {
       "path": "site/assets/bending-machine-tile.svg",

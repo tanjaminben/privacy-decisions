@@ -164,8 +164,8 @@
           "goto": "o-mna"
         },
         {
-          "label": "None of the above — internal-only use",
-          "goto": "o-internal"
+          "label": "None of these — no payment or other value, and not for advertising across businesses",
+          "goto": "o-third-other"
         }
       ]
     },
@@ -256,6 +256,20 @@
         "ccpa-1798-140"
       ]
     },
+    "o-third-other": {
+      "type": "outcome",
+      "tier": "warn",
+      "title": "Not a sale or sharing on these facts; check for hidden value",
+      "summary": "A sale requires money or other valuable consideration (section 1798.140(ad)(1)), and sharing requires disclosure for cross-context behavioral advertising (section 1798.140(ah)(1)). A disclosure to a third party with neither is not a sale or sharing. Check carefully whether anything of value flows back to you, such as services, discounts or data.",
+      "actions": [
+        "Record why no money or other value is exchanged and why the data is not used for cross-context behavioral advertising.",
+        "Confirm the recipient’s use matches your notice at collection and the purpose limits in section 1798.100(c).",
+        "Reassess if the arrangement changes, for example if the recipient starts paying, provides something in return or uses the data for advertising."
+      ],
+      "cites": [
+        "ccpa-1798-140"
+      ]
+    },
     "o-affiliate": {
       "type": "outcome",
       "tier": "info",
@@ -265,19 +279,6 @@
         "Confirm all three (d)(2) elements: control (e.g. >50% voting ownership or controlling influence), common branding (shared name/servicemark/trademark recognizable to consumers), and that the business shares consumers' PI with the affiliate",
         "Safest course: put a § 1798.140(ag)/(j)-compliant SP/contractor contract between the affiliates, or run the third-party sale/share analysis on the inter-affiliate flow rather than assuming it is intra-business",
         "If common branding (or any other (d)(2) element) is missing, treat the affiliate as a third party and run the third-party flow analysis"
-      ],
-      "cites": [
-        "ccpa-1798-140"
-      ]
-    },
-    "o-internal": {
-      "type": "outcome",
-      "tier": "ok",
-      "title": "Not a sale or share — internal use only",
-      "summary": "Internal use of PI within a single business doesn't implicate § 1798.120. Confirm the use is consistent with the notice at collection and § 1798.100(c) data minimization / purpose limitation.",
-      "actions": [
-        "Confirm purpose compatibility with notice at collection",
-        "Watch for 'further processing' for new purposes — may need new disclosure or consent under § 1798.100(c)"
       ],
       "cites": [
         "ccpa-1798-140"

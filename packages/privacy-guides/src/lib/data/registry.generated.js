@@ -2589,8 +2589,62 @@ export const WIZARDS = {
    "US-NY",
    "US-IL"
   ],
-  "start": "q-incident",
+  "start": "q-holder",
   "nodes": {
+   "q-holder": {
+    "type": "question",
+    "q": "Whose data is affected: yours, or data you hold for another organization?",
+    "help": "An organization that holds or processes data for someone else (a processor, service provider or vendor) must tell the data owner quickly. The owner then decides on notice to regulators and individuals. GDPR Article 33(2), California Civil Code section 1798.82(b), New York General Business Law section 899-aa(3) and Illinois Personal Information Protection Act section 10(b) each set this duty.",
+    "cites": [
+     "gdpr-art-33",
+     "ca-1798-82",
+     "ny-shield-aa",
+     "il-pipa-10"
+    ],
+    "opts": [
+     {
+      "label": "Ours — we decided to collect it for our own purposes",
+      "goto": "q-incident"
+     },
+     {
+      "label": "A customer’s or client’s — we hold or process it for them under a contract",
+      "goto": "o-holder-notify"
+     },
+     {
+      "label": "Both — some affected data is ours and some we hold for customers",
+      "goto": "q-incident",
+      "cites": [
+       "gdpr-art-33",
+       "ca-1798-82",
+       "ny-shield-aa",
+       "il-pipa-10"
+      ],
+      "resultActions": [
+       "For the customer data you hold, tell each affected customer immediately: GDPR Article 33(2) (without undue delay), California Civil Code section 1798.82(b) and Illinois Personal Information Protection Act section 10(b) (immediately following discovery), and New York General Business Law section 899-aa(3) (immediately, and within 30 days at the latest)."
+      ]
+     }
+    ]
+   },
+   "o-holder-notify": {
+    "type": "outcome",
+    "tier": "required",
+    "title": "Tell the data owner immediately; it decides on wider notice",
+    "summary": "When you hold or process personal data for another organization, your first duty is to tell that organization. GDPR Article 33(2): without undue delay after becoming aware. California Civil Code section 1798.82(b) and Illinois Personal Information Protection Act section 10(b): immediately following discovery, where the information was, or is reasonably believed to have been, acquired by an unauthorized person. New York General Business Law section 899-aa(3): immediately, and within 30 days of discovery at the latest, where private information was, or is reasonably believed to have been, accessed or acquired without valid authorization. These duties do not wait for a risk assessment.",
+    "actions": [
+     "Tell each affected customer what you know now, and send further details as they emerge.",
+     "Check your contract or data processing agreement for a shorter deadline, required contents and reporting channel.",
+     "Cooperate with the owner’s investigation; Illinois section 10(b) requires it.",
+     "Record when you discovered the incident and when you notified each owner.",
+     "If any affected data is yours, also run this guide for that data as its owner."
+    ],
+    "cites": [
+     "gdpr-art-33",
+     "ca-1798-82",
+     "ny-shield-aa",
+     "il-pipa-10",
+     "guide-edpb-9-2022-breach"
+    ]
+   },
    "q-incident": {
     "type": "question",
     "q": "Is this a personal-data breach?",
@@ -2612,10 +2666,6 @@ export const WIZARDS = {
      {
       "label": "No — this is a system outage, no personal data affected",
       "goto": "o-no-breach"
-     },
-     {
-      "label": "An employee with authorized access disclosed it internally by accident, and nothing was misused",
-      "goto": "o-internal-good-faith"
      }
     ]
    },
@@ -2625,9 +2675,9 @@ export const WIZARDS = {
     "title": "Likely an internal good-faith access — but document it",
     "summary": "GDPR Art. 4(12) still includes 'unauthorised disclosure of, or access to' personal data, so an employee accessing data beyond their role is still a breach. NY §899-aa explicitly carves out good-faith access by an authorized employee where information isn't misused. If the access stayed within the employee's role and nothing was misused, the EU analysis will usually land at 'unlikely to result in a risk', and New York's carve-out applies — but you must still document the analysis in both cases.",
     "actions": [
-     "Record the facts, scope, and reasoning under GDPR Art. 33(5) — required whether or not you notify.",
-     "If NY private information was exposed to >500 NY residents, send the written 'no misuse' determination to the NY AG within 10 days (§899-aa(2)(a)).",
-     "Retain the determination for at least 5 years (NY)."
+     "Record the facts: who accessed what, why, and the evidence that nothing was used or disclosed further.",
+     "If the access went beyond the employee’s role, or the information was used or disclosed further, treat it as a breach and choose another answer.",
+     "Keep the record with your incident log. If EU or UK data is affected, GDPR Article 33(5) also requires documenting the breach."
     ],
     "cites": [
      "gdpr-art-4",
@@ -3060,6 +3110,10 @@ export const WIZARDS = {
      {
       "label": "No — unauthorized access or likely harm",
       "goto": "o-ny-notify"
+     },
+     {
+      "label": "An employee or agent accessed it in good faith for business purposes, and it was not used or further disclosed",
+      "goto": "o-internal-good-faith"
      }
     ]
    },
@@ -3351,8 +3405,8 @@ export const WIZARDS = {
       "goto": "o-mna"
      },
      {
-      "label": "None of the above — internal-only use",
-      "goto": "o-internal"
+      "label": "None of these — no payment or other value, and not for advertising across businesses",
+      "goto": "o-third-other"
      }
     ]
    },
@@ -3443,6 +3497,20 @@ export const WIZARDS = {
      "ccpa-1798-140"
     ]
    },
+   "o-third-other": {
+    "type": "outcome",
+    "tier": "warn",
+    "title": "Not a sale or sharing on these facts; check for hidden value",
+    "summary": "A sale requires money or other valuable consideration (section 1798.140(ad)(1)), and sharing requires disclosure for cross-context behavioral advertising (section 1798.140(ah)(1)). A disclosure to a third party with neither is not a sale or sharing. Check carefully whether anything of value flows back to you, such as services, discounts or data.",
+    "actions": [
+     "Record why no money or other value is exchanged and why the data is not used for cross-context behavioral advertising.",
+     "Confirm the recipient’s use matches your notice at collection and the purpose limits in section 1798.100(c).",
+     "Reassess if the arrangement changes, for example if the recipient starts paying, provides something in return or uses the data for advertising."
+    ],
+    "cites": [
+     "ccpa-1798-140"
+    ]
+   },
    "o-affiliate": {
     "type": "outcome",
     "tier": "info",
@@ -3452,19 +3520,6 @@ export const WIZARDS = {
      "Confirm all three (d)(2) elements: control (e.g. >50% voting ownership or controlling influence), common branding (shared name/servicemark/trademark recognizable to consumers), and that the business shares consumers' PI with the affiliate",
      "Safest course: put a § 1798.140(ag)/(j)-compliant SP/contractor contract between the affiliates, or run the third-party sale/share analysis on the inter-affiliate flow rather than assuming it is intra-business",
      "If common branding (or any other (d)(2) element) is missing, treat the affiliate as a third party and run the third-party flow analysis"
-    ],
-    "cites": [
-     "ccpa-1798-140"
-    ]
-   },
-   "o-internal": {
-    "type": "outcome",
-    "tier": "ok",
-    "title": "Not a sale or share — internal use only",
-    "summary": "Internal use of PI within a single business doesn't implicate § 1798.120. Confirm the use is consistent with the notice at collection and § 1798.100(c) data minimization / purpose limitation.",
-    "actions": [
-     "Confirm purpose compatibility with notice at collection",
-     "Watch for 'further processing' for new purposes — may need new disclosure or consent under § 1798.100(c)"
     ],
     "cites": [
      "ccpa-1798-140"
@@ -3570,7 +3625,7 @@ export const WIZARDS = {
      },
      {
       "label": "None apply",
-      "goto": "q-sa-list"
+      "goto": "q-sa-list-none"
      }
     ]
    },
@@ -3589,11 +3644,27 @@ export const WIZARDS = {
       "goto": "o-dpia-required"
      },
      {
-      "label": "No — and exactly one WP248 criterion applied",
+      "label": "No — the activity is not on the list",
       "goto": "o-dpia-recommended"
+     }
+    ]
+   },
+   "q-sa-list-none": {
+    "type": "question",
+    "q": "Is the activity on the supervisory authority's Art. 35(4) mandatory-DPIA list (in the UK, the ICO's 'examples of processing likely to result in high risk' list)?",
+    "help": "SAs publish Art. 35(4) lists of operations that always require a DPIA. Several entries apply to a single activity type regardless of how many WP248 criteria are met — e.g. the ICO's list includes data matching / combining datasets and the targeting of children or other vulnerable individuals as standalone triggers, and several EU SA lists (CNIL, DSK members) have comparable items. The lists change — check the current local SA list and the ICO's DPIA guidance before relying on this answer.",
+    "cites": [
+     "gdpr-art-35",
+     "uk-gdpr-art-35",
+     "guide-ico-dpia"
+    ],
+    "opts": [
+     {
+      "label": "Yes — the activity appears on the applicable mandatory list",
+      "goto": "o-dpia-required"
      },
      {
-      "label": "No — and no WP248 criteria applied",
+      "label": "No — the activity is not on the list",
       "goto": "o-dpia-not-required"
      }
     ]
@@ -3691,8 +3762,45 @@ export const WIZARDS = {
    "EU",
    "UK"
   ],
-  "start": "q-purpose",
+  "start": "q-special",
   "nodes": {
+   "q-special": {
+    "type": "question",
+    "q": "Does the activity use special category data?",
+    "help": "Special category data means health, genetic data, biometric data used to identify people, racial or ethnic origin, political opinions, religious or philosophical beliefs, trade union membership, and sex life or sexual orientation (Article 9(1)). It also covers data from which those facts can be inferred. Using it needs both an Article 6 legal ground, which this guide finds, and an Article 9(2) condition, which the sensitive personal data guide finds.",
+    "cites": [
+     "gdpr-art-9",
+     "gdpr-art-6",
+     "case-ot-c184-20"
+    ],
+    "opts": [
+     {
+      "label": "Yes — it uses or reveals special category data",
+      "goto": "q-purpose",
+      "cites": [
+       "gdpr-art-9"
+      ],
+      "resultActions": [
+       "Use the sensitive personal data guide to identify an Article 9(2) condition. Article 9 does not replace Article 6: you need both.",
+       "Document both the Article 6 legal ground and the Article 9 condition in the record of processing activities and the Article 13/14 notice."
+      ]
+     },
+     {
+      "label": "No — ordinary personal data only",
+      "goto": "q-purpose"
+     },
+     {
+      "label": "Not sure",
+      "goto": "q-purpose",
+      "cites": [
+       "case-ot-c184-20"
+      ],
+      "resultActions": [
+       "Ask the data owner whether any field reveals, or allows someone to infer, health, sexuality, religion, politics or another Article 9 category; inferred data counts (OT, C-184/20). If it does, also use the sensitive personal data guide."
+      ]
+     }
+    ]
+   },
    "q-purpose": {
     "type": "question",
     "q": "What's the primary driver of the processing?",
@@ -3720,10 +3828,6 @@ export const WIZARDS = {
      {
       "label": "Marketing/analytics/profiling/non-essential — we want to do it for our own reasons",
       "goto": "q-li-or-consent"
-     },
-     {
-      "label": "Special category data (Art. 9) involved",
-      "goto": "o-art-9-route"
      }
     ]
    },
@@ -3890,21 +3994,6 @@ export const WIZARDS = {
      "case-cnil-google-cookies",
      "uk-dpa-2018-s9",
      "uk-pecr-reg-6"
-    ]
-   },
-   "o-art-9-route": {
-    "type": "outcome",
-    "tier": "warn",
-    "title": "Special category data — pick both an Art. 6 basis and an Art. 9 condition",
-    "summary": "Art. 9 doesn't replace Art. 6; you need both an Art. 6 basis and an Art. 9(2) exception simultaneously. The default Art. 9(1) prohibition lifts only under one of the 9(2)(a)–(j) exceptions.",
-    "actions": [
-     "Run the Special Category Data wizard to identify an Art. 9(2) exception",
-     "Then come back here to lock in the parallel Art. 6 basis",
-     "Document both bases in the Art. 30 record of processing activities (ROPA) and the Art. 13/14 notice"
-    ],
-    "cites": [
-     "gdpr-art-6",
-     "gdpr-art-9"
     ]
    }
   },
@@ -4111,6 +4200,18 @@ export const WIZARDS = {
       "goto": "o-9-2-a"
      },
      {
+      "label": "Employment, social security or social protection law obligations or rights — Art. 9(2)(b)",
+      "goto": "o-9-2-b"
+     },
+     {
+      "label": "Protecting someone’s vital interests when the person cannot consent — Art. 9(2)(c)",
+      "goto": "o-9-2-c"
+     },
+     {
+      "label": "A not-for-profit body with a political, philosophical, religious or trade union aim, using its members’ data — Art. 9(2)(d)",
+      "goto": "o-9-2-d"
+     },
+     {
       "label": "Data manifestly made public by the subject — Art. 9(2)(e)",
       "goto": "o-9-2-e"
      },
@@ -4121,6 +4222,18 @@ export const WIZARDS = {
      {
       "label": "Substantial public interest under Union/MS law — Art. 9(2)(g)",
       "goto": "o-9-2-g"
+     },
+     {
+      "label": "Health or social care, preventive or occupational medicine, under a professional secrecy duty — Art. 9(2)(h)",
+      "goto": "o-9-2-h"
+     },
+     {
+      "label": "Public health, such as serious cross-border health threats — Art. 9(2)(i)",
+      "goto": "o-9-2-i"
+     },
+     {
+      "label": "Archiving in the public interest, scientific or historical research, or statistics, with Art. 89(1) safeguards — Art. 9(2)(j)",
+      "goto": "o-9-2-j"
      },
      {
       "label": "None of the above",
@@ -4143,6 +4256,42 @@ export const WIZARDS = {
     "cites": [
      "gdpr-art-9",
      "gdpr-art-6"
+    ]
+   },
+   "o-9-2-c": {
+    "type": "outcome",
+    "tier": "warn",
+    "title": "Article 9(2)(c): vital interests when the person cannot consent",
+    "summary": "Article 9(2)(c) applies only where the processing is necessary to protect the vital interests of the person or of another individual, and the person is physically or legally incapable of giving consent. It is meant for emergencies, such as giving medical information to responders when the person is unconscious. If the person can consent, this condition is not available.",
+    "actions": [
+     "Record the emergency and why the person could not consent.",
+     "Rely on this condition only while the emergency lasts; then use another condition or stop.",
+     "Identify the separate Article 6 legal ground, usually Article 6(1)(d).",
+     "UK: the same condition applies directly under UK GDPR Article 9(2)(c); no Data Protection Act 2018 Schedule 1 condition is needed."
+    ],
+    "cites": [
+     "gdpr-art-9",
+     "gdpr-art-6",
+     "uk-dpa-2018-s10-sch1"
+    ]
+   },
+   "o-9-2-d": {
+    "type": "outcome",
+    "tier": "warn",
+    "title": "Article 9(2)(d): a not-for-profit body using its members’ data",
+    "summary": "Article 9(2)(d) lets a foundation, association or other not-for-profit body with a political, philosophical, religious or trade union aim use special category data in the course of its legitimate activities, with appropriate safeguards. The data must relate only to members, former members or people in regular contact with the body in connection with its purposes, and must not be disclosed outside the body without those people’s consent.",
+    "actions": [
+     "Confirm the body is not-for-profit and has a political, philosophical, religious or trade union aim.",
+     "Limit the processing to members, former members and people in regular contact with the body for its purposes.",
+     "Get the people’s consent before disclosing the data outside the body.",
+     "Document the safeguards you apply.",
+     "Identify the separate Article 6 legal ground.",
+     "UK: the same condition applies directly under UK GDPR Article 9(2)(d); no Data Protection Act 2018 Schedule 1 condition is needed."
+    ],
+    "cites": [
+     "gdpr-art-9",
+     "gdpr-art-6",
+     "uk-dpa-2018-s10-sch1"
     ]
    },
    "o-9-2-e": {
@@ -4638,6 +4787,16 @@ export const WIZARDS = {
       "goto": "o-joint",
       "resultNotes": [
        "You determine purposes; deciding essential means is itself controller-level influence (EDPB 07/2020). Two parties each exerting controller-level influence over the same processing points to joint controllership — not a controller-processor relationship."
+      ]
+     },
+     {
+      "label": "A vendor’s standard service sets these, and the vendor uses the data only on our behalf",
+      "goto": "o-controller",
+      "cites": [
+       "guide-edpb-07-2020-controller"
+      ],
+      "resultNotes": [
+       "Accepting a vendor’s standard terms still makes you the controller; the vendor is your processor if it uses the data only on your behalf (European Data Protection Board Guidelines 07/2020, paragraph 30). Put an Article 28 contract in place."
       ]
      }
     ]
@@ -5613,37 +5772,32 @@ export const WIZARDS = {
     "opts": [
      {
       "label": "Yes — likely accessed by under-18s",
-      "goto": "o-uk-aadc"
+      "goto": "q-uk-age",
+      "cites": [
+       "ico-aadc",
+       "uk-dpa2018-s123",
+       "uk-duaa-2025",
+       "gdpr-art-35"
+      ],
+      "resultNotes": [
+       "The Children’s code is a statutory code of practice under Data Protection Act 2018 section 123. The Information Commissioner’s Office and the courts must take it into account, and the Information Commissioner’s Office treats conformance as evidence of compliance for children’s data."
+      ],
+      "resultActions": [
+       "Run a Child Rights Impact Assessment (CRIA) — ICO recommends; effectively part of your data protection impact assessment (DPIA)",
+       "Set defaults to high privacy",
+       "Switch geolocation off by default",
+       "No targeted advertising to children",
+       "Disable profile-based recommendation amplification; do not use nudge techniques that lead children to weaken their privacy protections",
+       "Give children short, clear explanations they can understand at their age.",
+       "Verify ages or apply the standards to all users",
+       "Work through ICO's published guidance for each of the 15 standards",
+       "Data (Use and Access) Act 2025 section 81, in force since 5 February 2026, adds children’s higher protection matters to data protection by design for online services likely to be accessed by children."
+      ]
      },
      {
       "label": "No — not likely to be accessed by under-18s",
       "goto": "q-uk-age"
      }
-    ]
-   },
-   "o-uk-aadc": {
-    "type": "outcome",
-    "tier": "warn",
-    "title": "ICO Children's code: conformance expected — statutory code the ICO must take into account",
-    "summary": "The Children's code (AADC) is a statutory code of practice issued under DPA 2018 s.123. Its 15 standards are not themselves directly binding rules, but the ICO and the courts must take the code into account. The ICO treats conformance as evidence of UK GDPR compliance for children's processing — and non-conformance as evidence against it. The ICO has investigated and acted against major platforms (TikTok, Snap). The Data (Use and Access) Act 2025 (DUAA 2025) has since placed children's higher-protection needs on a statutory footing for services likely to be accessed by children.",
-    "actions": [
-     "Run a Child Rights Impact Assessment (CRIA) — ICO recommends; effectively part of your data protection impact assessment (DPIA)",
-     "Set defaults to high privacy",
-     "Switch geolocation off by default",
-     "No targeted advertising to children",
-     "Disable profile-based recommendation amplification; do not use nudge techniques that lead children to weaken their privacy protections",
-     "Provide bite-sized, clear, age-appropriate transparency",
-     "Verify ages or apply the standards to all users",
-     "Consent-age check: if you rely on consent for an ISS offered directly to a child, the UK digital-consent age is 13 (DPA 2018 s.9, unchanged by DUAA 2025) — parental consent is required below 13 only",
-     "DUAA 2025: the children's higher-protection duty for likely-to-be-accessed services now sits in statute — verify commencement regulations and current ICO guidance",
-     "Work through ICO's published guidance for each of the 15 standards"
-    ],
-    "cites": [
-     "ico-aadc",
-     "uk-dpa2018-s123",
-     "uk-dpa-2018-s9",
-     "uk-duaa-2025",
-     "gdpr-art-35"
     ]
    },
    "q-uk-age": {
@@ -6234,12 +6388,9 @@ export const WIZARDS = {
      },
      {
       "label": "Both — EU and UK operations",
-      "goto": "q-22-2",
+      "goto": "q-both-uk-scd",
       "resultNotes": [
-       "This result covers the EU path. The UK branch remains a separate determination."
-      ],
-      "resultActions": [
-       "Re-run this wizard for the UK branch."
+       "This result covers both regimes: the outcome is the EU analysis, and the actions also list the UK duties from your UK answer."
       ]
      }
     ]
@@ -6260,6 +6411,36 @@ export const WIZARDS = {
      {
       "label": "No — no special category data involved",
       "goto": "o-uk-22c"
+     }
+    ]
+   },
+   "q-both-uk-scd": {
+    "type": "question",
+    "q": "UK part: is the significant decision based, entirely or partly, on special category data?",
+    "help": "Answer for the UK operations first. The next question covers the EU exceptions; your result will combine both.",
+    "cites": [
+     "uk-gdpr-art-22a-d"
+    ],
+    "opts": [
+     {
+      "label": "Yes — special category data is used in reaching the decision",
+      "goto": "q-22-2",
+      "cites": [
+       "uk-gdpr-art-22a-d"
+      ],
+      "resultActions": [
+       "UK: the decision uses special category data, so the Article 22B restrictions apply: broadly, explicit consent, or a contract or legal-authorization route combined with the substantial-public-interest condition. Implement the Article 22C safeguards in every case."
+      ]
+     },
+     {
+      "label": "No — no special category data involved",
+      "goto": "q-22-2",
+      "cites": [
+       "uk-gdpr-art-22a-d"
+      ],
+      "resultActions": [
+       "UK: without special category data, the decision can rely on an Article 6 legal ground with the Article 22C safeguards: information about the decision, a way to make representations, human intervention and a way to contest it."
+      ]
      }
     ]
    },
@@ -18234,4 +18415,4 @@ export const WIZARDS = {
  }
 };
 
-export const REGISTRY_SHA256 = "33a8667562f121852645fd2230b525c3efa6b4ce10da45d7f63f53b9ca6f246f";
+export const REGISTRY_SHA256 = "1c285a37291fcae34b46eea4d2c1ce01e45e76b4a40e236626d80ee89e3c84bc";

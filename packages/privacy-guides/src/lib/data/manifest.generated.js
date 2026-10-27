@@ -2,7 +2,7 @@
 // Enabled means a published aid, not practitioner review.
 
 export const MANIFEST_VERSION = "af-pwc-vnext-2026-09-22";
-export const MANIFEST_SHA256 = "e6efdb9f2e57ef8b0c5ac3e56f74af8472d1d947e993831fc7b880ae0a4f3956";
+export const MANIFEST_SHA256 = "aa4650404e0aeb1f0940a09e53f1d387cee72fdbbca843d96d81530cc486ec5b";
 export const SOURCE_MANIFEST = {
   "bdsg-38": {
     "id": "bdsg-38",
@@ -199,6 +199,7 @@ export const SOURCE_MANIFEST = {
     "status": "automated-check-only",
     "contentSha256": "022b39189d0f279e0e7ab8ca1b5bbe442e8b7789e559a82005ced7395bddf6fe",
     "affectedWizards": [
+      "legal-basis",
       "special-category"
     ]
   },
