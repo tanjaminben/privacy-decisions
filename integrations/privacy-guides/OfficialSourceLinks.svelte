@@ -6,5 +6,5 @@
 </script>
 
 <span class="official-source-links">{#each links as link}
-  <a class="official-link" href={link.url} target="_blank" rel="noopener noreferrer">{link.label} ↗</a>
+  <a class="official-link" href={link.url} target="_blank" rel="noopener noreferrer">{link.label} <span class="source-link-destination">(new tab) ↗</span></a>
 {/each}</span>

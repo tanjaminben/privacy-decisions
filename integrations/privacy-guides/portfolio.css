@@ -89,6 +89,19 @@
 #privacy-guides-app .action-checklist .action-check-text { font-size: 18px; line-height: 1.5; }
 #privacy-guides-app .authority-list .authority-label { font-size: 16px; line-height: 1.4; }
 #privacy-guides-app .authority-list .field-label, #privacy-guides-app .action-checklist .field-label { font-size: 14px; }
+#privacy-guides-app .source-disclosure > summary { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 16px; min-height: 44px; padding: 10px 0; border-radius: 4px; list-style: none; cursor: pointer; }
+#privacy-guides-app .source-disclosure > summary::-webkit-details-marker { display: none; }
+#privacy-guides-app .source-disclosure-title { flex: 1 1 16rem; min-width: 0; font-size: 17px; line-height: 1.4; font-weight: 700; overflow-wrap: anywhere; }
+#privacy-guides-app .source-disclosure-action { display: inline-flex; flex: 0 1 auto; align-items: center; justify-content: space-between; gap: 10px; min-height: 44px; padding: 8px 12px; box-sizing: border-box; border: 1px solid var(--line); border-radius: 6px; background: var(--paper); color: var(--ink); font-size: 16px; line-height: 1.4; font-weight: 600; }
+#privacy-guides-app .source-disclosure-action svg { flex: 0 0 20px; }
+#privacy-guides-app .source-disclosure[open] > summary .source-disclosure-action svg { transform: rotate(180deg); }
+#privacy-guides-app .source-disclosure > summary:hover .source-disclosure-action { background: var(--amber-soft); border-color: var(--ink); }
+#privacy-guides-app .source-disclosure > summary:focus-visible { outline: 3px solid var(--ui-focus, #15252b); outline-offset: 4px; }
+#privacy-guides-app .source-disclosure-body { padding: 4px 0 16px; }
+#privacy-guides-app .source-disclosure-body > .authority-body { padding: 0; }
+#privacy-guides-app .source-disclosure-body .authority-body + .authority-body { margin-top: 20px; padding-top: 16px; border-top: 1px solid var(--line-soft); }
+#privacy-guides-app .source-disclosure-body a { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+#privacy-guides-app .source-link-destination { white-space: nowrap; }
 @media (max-width: 760px) {
   #privacy-guides-app .intro-steps { grid-template-columns: 1fr; }
   #privacy-guides-app .intro-steps > div { padding: 12px 16px; }
