@@ -6,7 +6,7 @@
   "description": "Ben Tan’s Privacy Decision Guides: preserved decision source and reviewed presentation copy.",
   "scripts": {
     "setup": "npm ci --prefix packages/privacy-guides",
-    "test": "node docs/qa/privacy-guides-20261020/editorial-check.mjs && node --test integrations/privacy-guides/source-links.test.mjs integrations/privacy-guides/law-quotes.test.mjs && npm test --prefix packages/privacy-guides",
+    "test": "node docs/qa/privacy-guides-20261020/editorial-check.mjs && node --test integrations/privacy-guides/source-links.test.mjs integrations/privacy-guides/law-quotes.test.mjs integrations/privacy-guides/source-display.test.mjs && npm test --prefix packages/privacy-guides",
     "build": "node scripts/build-site.mjs",
     "check": "npm test && npm run build && node scripts/verify-site.mjs",
     "start": "node server.mjs"

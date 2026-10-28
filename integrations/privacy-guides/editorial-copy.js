@@ -1,6 +1,7 @@
 // Presentation copy only. IDs, branches, source records and numeric rules stay
 // in the preserved source registry. Reviewed exceptions live beside this file.
 import overrides from './editorial-overrides.json' with {type:'json'};
+import { sourceNote } from './source-note.js';
 
 const terms = [
   ['DPIAs', 'data protection impact assessments'], ['DPIA', 'data protection impact assessment'],
@@ -171,7 +172,10 @@ export function editorialWizard(id,source) {
       if(!allowed)return value;
       const key=path.join('.');
       pending.delete(key);
-      return plainLegalCopy(changes[key] ?? value);
+      return plainLegalCopy(changes[key] ?? value).replace(
+        'The source review recorded that it had not been adopted as of mid-2026;',
+        'As of mid-2026, it had not been adopted;'
+      );
     }
     if(Array.isArray(value))return value.map((item,index)=>visit(item,[...path,index],allowed));
     if(value&&typeof value==='object')return Object.fromEntries(Object.entries(value).map(([key,item])=>[key,visit(item,[...path,key],COPY_FIELDS.has(key))]));
@@ -189,6 +193,6 @@ export function editorialSources(source) {
     const codes=[];
     const label=plainLegalCopy(item.label.replace(/\bWP\d+\b/g,code=>`\uE100${codes.push(code)-1}\uE101`))
       .replace(/\uE100(\d+)\uE101/g,(_,i)=>codes[Number(i)]);
-    return [id,{...item,label,...(item.note?{note:plainLegalCopy(item.note)}:{})}];
+    return [id,{...item,label,...(item.note?{note:plainLegalCopy(sourceNote(item.note))}:{})}];
   }));
 }

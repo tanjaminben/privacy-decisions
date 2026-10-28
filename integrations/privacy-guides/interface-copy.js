@@ -23,11 +23,8 @@ const replacements = {
     ['Unavailable · source status stop', 'Source unavailable'],
     ['This path cannot run from the current manifest.', 'This guide needs an updated source.'],
     ['At least one relied-on source is draft, missing, or superseded. Choose another determination while the source record is corrected.', 'A source is missing, still a draft or out of date. Choose another guide while it is updated.'],
-    ['Legacy automated-check note:', 'Earlier source-check note:'],
     ['Choose another determination', 'Choose another guide'],
     ['heading="What you must do"', 'heading="Next steps"'],
-    ['Legal sources reviewed through ${reviewState.reviewedThrough}. Verify the cited official text before filing.', 'Legal review recorded through ${reviewState.reviewedThrough}.'],
-    ["Automated source check${checkedDate ? `, sources last checked ${checkedDate}` : ''}. Verify the cited official text before filing.", "Sources checked by software${checkedDate ? ` on ${checkedDate}` : ''}. No legal review recorded."],
     ['>Next determination<', '>Related guides<'],
     ['>Authority<', '>Sources<'],
     ['{item.source.citation}', '{plainLegalCopy(item.source.citation)}']
@@ -37,15 +34,12 @@ const replacements = {
     ['aria-label="State privacy determination"', 'aria-label="State privacy guides"'],
     ['>Set the scope<', '>Choose states<'],
     ['These paths cover the comprehensive state privacy laws currently in effect. A result does not rule out sector, breach, biometric or other privacy laws.', 'These guides cover the 20 state privacy laws listed below. Other rules may also apply, including laws about data breaches, biometrics and particular industries.'],
-    ['Authority for this step', 'Sources for this question'],
     ['{SOURCES[id].citation}', '{plainLegalCopy(SOURCES[id].citation)}'],
     ['aria-label="Next determination"', 'aria-label="Related guides"'],
     ['>Next determination<', '>Related guides<']
   ],
   'ActionChecklist.svelte': [["heading = 'What to do next'", "heading = 'Next steps'"]],
   'engine/council.js': [
-    ["'Automated check only'", "'Checked by software'"],
-    ["'Practitioner reviewed'", "'Legal review recorded'"],
     ["'Superseded — do not rely'", "'Out of date — do not use'"]
   ],
   'engine/jurisdictions.js': [

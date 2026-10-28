@@ -1,12 +1,12 @@
 import {
-  outcomeForState, sourceIdsForState, verifiedDate, wizardReviewState
+  outcomeForState, sourceIdsForState, wizardReviewState
 } from '../../packages/privacy-guides/src/lib/engine/council.js';
 import { WIZARDS, SOURCES } from './presentation-registry.js';
 import { MOTION } from './editorial-motion.js';
 import { sourceLinks } from './source-links.js';
 
 // A short, plain-text note from the same result shown on the page.
-// Keep source checks and unknown facts with the answer; omit file metadata and source dumps.
+// Keep source links and unknown facts with the answer; omit file metadata and source dumps.
 function resultLines({ wizardId, history, outcomeId }) {
   const wizard = WIZARDS[wizardId];
   const outcome = wizard && outcomeForState(wizard, history, outcomeId);
@@ -26,7 +26,7 @@ function resultLines({ wizardId, history, outcomeId }) {
     && (!note.scope || jurisdictions.has(note.scope)));
   if (changes.length) {
     lines.push('', 'What may change');
-    for (const note of changes) lines.push(`• ${note.text}`, `  Checked ${note.checked}: ${note.source.url}`);
+    for (const note of changes) lines.push(`• ${note.text}`, `  Source: ${note.source.url}`);
   }
   lines.push('', 'Your answers');
   for (const fact of history) {
@@ -38,11 +38,6 @@ function resultLines({ wizardId, history, outcomeId }) {
     const source = SOURCES[id];
     if (source) lines.push(`• ${source.label}`, ...sourceLinks(id, source).map(link => `  ${link.url}`));
   }
-  const checked = verifiedDate(wizard);
-  if (checked) lines.push('', `Sources checked: ${checked}`);
-  lines.push(review.practitionerReviewed
-    ? `Legal review${review.reviewedThrough ? ` through ${review.reviewedThrough}` : ' recorded'}.`
-    : 'Sources checked by software. No legal review recorded.');
   return lines;
 }
 

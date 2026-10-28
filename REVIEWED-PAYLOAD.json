@@ -4,13 +4,13 @@
   "files": [
     {
       "path": "tools/privacy-guides/runtime/app.js",
-      "sha256": "7dfcb6e2f7bed9694932b97c4997e8fa7775e7a6ebe596ae7edf1d74ae91d5fd",
-      "bytes": 1799382
+      "sha256": "7264657d0a7d8f8b33314772816306b419f3ee56d827f9de2c69c906746e7b70",
+      "bytes": 1800817
     },
     {
       "path": "tools/privacy-guides/runtime/app.css",
-      "sha256": "53c20edee051c8c90e5c22c275f76eafd63d18d8d47374552a1480320e079fbe",
-      "bytes": 73261
+      "sha256": "56b45bfbbbde5c5d5c0faa224b0e52c9716a5743453d4e9fe18a9e0b84cb40fa",
+      "bytes": 75092
     },
     {
       "path": "tools/privacy-guides/runtime/LICENSE.txt",

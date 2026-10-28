@@ -30,8 +30,8 @@
     },
     {
       "path": "integrations/privacy-guides/OfficialSourceLinks.svelte",
-      "sha256": "9ff88bf4b2acc815d6958eb2d2973ef98e48284294acf2888939e050d41678d6",
-      "bytes": 326
+      "sha256": "5cc23e84c8ca3eaca3f78bfc677afb13265de5f5fa1ee370d4d2f6c937bc1d0a",
+      "bytes": 381
     },
     {
       "path": "integrations/privacy-guides/QuestionExplanation.svelte",
@@ -39,14 +39,19 @@
       "bytes": 3296
     },
     {
+      "path": "integrations/privacy-guides/SourceDisclosure.svelte",
+      "sha256": "487866be4ff109d4a21a4483e78d66a14c8d2b67083726d928ef13b6dbaa7cf5",
+      "bytes": 703
+    },
+    {
       "path": "integrations/privacy-guides/copy-result.js",
-      "sha256": "1129ae905ac786da4c24011d338f99d03f414a307b02f9fc70e4b95d78240390",
-      "bytes": 3035
+      "sha256": "ec8e10571ba538826421241db1a1994687dca39ce5dfcc2b7ab2efafe666e181",
+      "bytes": 2695
     },
     {
       "path": "integrations/privacy-guides/editorial-copy.js",
-      "sha256": "0cdc5cb2883ff5189312baab300c4d58ec787f0f774ec0a2cdb8d6bb8968909e",
-      "bytes": 14923
+      "sha256": "1f298c366b412ed87f45fc3f008503a0146b82e056be6fca570eef4deb94ee72",
+      "bytes": 15133
     },
     {
       "path": "integrations/privacy-guides/editorial-mentions.js",
@@ -75,8 +80,8 @@
     },
     {
       "path": "integrations/privacy-guides/interface-copy.js",
-      "sha256": "81428fea468c23c789b6bc1f097b7234f16c302ee9852d701820f0e42573fbe1",
-      "bytes": 5191
+      "sha256": "6ff906ca9267efd3d7bd8cc5eb53b8c38957cceda06711b21643f680bcb9bce3",
+      "bytes": 4521
     },
     {
       "path": "integrations/privacy-guides/law-panel.js",
@@ -100,13 +105,18 @@
     },
     {
       "path": "integrations/privacy-guides/portfolio.css",
-      "sha256": "c97a1baad0aabadc7dc4b54a52b4ba2badf41e9f798f7b80d6793e6adbd804f6",
-      "bytes": 9420
+      "sha256": "6b9b146aede1195189b8b2f22f827e8330aac1506734c33adf46ac946fb670af",
+      "bytes": 11251
     },
     {
       "path": "integrations/privacy-guides/presentation-registry.js",
       "sha256": "bd673831daf1aa75ef6a737d615618835d5c3c9b13f78810709dc5c2c830ac37",
       "bytes": 402
+    },
+    {
+      "path": "integrations/privacy-guides/source-display.test.mjs",
+      "sha256": "a3150edf7ad46e3ee6cd36668aed0c7d98d64f636db1efbcac8282cce7a9dcf0",
+      "bytes": 1853
     },
     {
       "path": "integrations/privacy-guides/source-links.js",
@@ -117,6 +127,16 @@
       "path": "integrations/privacy-guides/source-links.test.mjs",
       "sha256": "e5560d2a23b5e07fcc09cf825ddacdfd164dd381852de2ac1dc8f45bd6240393",
       "bytes": 2146
+    },
+    {
+      "path": "integrations/privacy-guides/source-note.js",
+      "sha256": "d58e1145bf710a9431e246d2c803f3ecdb59397f695014890ad82bc7de4a22b7",
+      "bytes": 2242
+    },
+    {
+      "path": "package.json",
+      "sha256": "72072c62c0f691d2a027f32a4a17f9e7344dc8ecb3b51d5221663c562984f82a",
+      "bytes": 762
     },
     {
       "path": "packages/privacy-guides/.gitattributes",
@@ -1945,8 +1965,8 @@
     },
     {
       "path": "scripts/prepare-privacy-guides.mjs",
-      "sha256": "1a41283f45effc3b4e7bccd63e03696a29b8a5d7f44fd73ee068fa11ddec86f3",
-      "bytes": 13570
+      "sha256": "a2d169661dd751a4a1cd6469a411a2d6edec5220678845855d09c14907fe2f0e",
+      "bytes": 15989
     },
     {
       "path": "site/assets/bending-machine-tile.svg",
